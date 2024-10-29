@@ -7,12 +7,19 @@ MSS = 1400  # Maximum Segment Size for each packet
 WINDOW_SIZE = 5  # Number of packets in flight
 DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
 FILE_PATH = "sample_file.txt"  # Path to the file to be sent
-TIMEOUT = 1.0  # Timeout duration in seconds
+INITIAL_TIMEOUT = 1.0  # Initial timeout in seconds
+
+# Variables for RTT calculation and RTO (adaptive timeout) based on RFC 6298
+SRTT = None  # Smoothed RTT
+RTTVAR = None  # RTT variance
+RTO = INITIAL_TIMEOUT  # Retransmission timeout
 
 def send_file(server_ip, server_port, enable_fast_recovery):
     """
     Send a predefined file to the client, ensuring reliability over UDP.
     """
+    global SRTT, RTTVAR, RTO
+
     # Initialize UDP socket
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     server_socket.bind((server_ip, server_port))
@@ -36,11 +43,11 @@ def send_file(server_ip, server_port, enable_fast_recovery):
         # Handle initial connection
         if not client_address:
             try:
-                server_socket.settimeout(None)  # Blocking mode
                 message, addr = server_socket.recvfrom(1024)
                 if message.startswith(b"START"):
                     client_address = addr
                     print(f"Connection established with client {client_address}.")
+                    server_socket.sendto(b"ACK_START", client_address)
             except socket.timeout:
                 continue
 
@@ -56,16 +63,15 @@ def send_file(server_ip, server_port, enable_fast_recovery):
                 print(f"Sent packet {seq_num}.")
             seq_num += 1
 
-        # Set timeout for receiving ACKs
-        server_socket.settimeout(TIMEOUT)
-
         try:
             ack_packet, _ = server_socket.recvfrom(1024)
             ack_seq_num = get_ack_num(ack_packet)
 
+            # Handle new ACKs and update RTT
             if ack_seq_num > last_ack_received:
                 print(f"Received cumulative ACK for packet {ack_seq_num}.")
                 last_ack_received = ack_seq_num
+                update_rtt(ack_seq_num, unacked_packets)  # Update RTT and calculate new RTO
 
                 # Slide the window forward and remove acknowledged packets
                 for s_num in list(unacked_packets):
@@ -139,6 +145,26 @@ def fast_recovery(server_socket, client_address, ack_num, unacked_packets):
         server_socket.sendto(packet, client_address)
         unacked_packets[ack_num] = (packet, time.time())
         print(f"Fast Recovery: Resent packet {ack_num}.")
+
+def update_rtt(ack_seq_num, unacked_packets):
+    """
+    Update RTT and RTO based on RFC 6298 when receiving an ACK.
+    """
+    global SRTT, RTTVAR, RTO
+    sent_time = unacked_packets[ack_seq_num][1]
+    sample_rtt = time.time() - sent_time
+
+    if SRTT is None:  # First RTT measurement
+        SRTT = sample_rtt
+        RTTVAR = sample_rtt / 2
+        RTO = SRTT + max(0.1, 4 * RTTVAR)
+    else:
+        RTTVAR = (1 - 0.25) * RTTVAR + 0.25 * abs(SRTT - sample_rtt)
+        SRTT = (1 - 0.125) * SRTT + 0.125 * sample_rtt
+        RTO = SRTT + max(0.1, 4 * RTTVAR)
+    
+    # Ensure RTO is no less than 1 second as per RFC 6298
+    RTO = max(1.0, RTO)
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description='Reliable file transfer server over UDP.')

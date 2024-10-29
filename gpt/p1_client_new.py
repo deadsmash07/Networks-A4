@@ -11,16 +11,28 @@ def receive_file(server_ip, server_port):
     """
     # Initialize UDP socket
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    client_socket.settimeout(2)  # Set timeout for server response 2 Seconds
+    client_socket.settimeout(2)  # Set timeout for server response (2 seconds)
 
     server_address = (server_ip, server_port)
     expected_seq_num = 0
     output_file_path = "received_file.txt"  # Default file name
     buffer = {}  # Buffer for out-of-order packets
 
-    # Send initial connection request to server
-    client_socket.sendto(b"START", server_address) # CAN GET LOST!!!
-    print("Sent START request to server.")
+    # Loop to ensure reliable connection establishment with the server
+    while True:
+        try:
+            # Send initial connection request to server
+            client_socket.sendto(b"START", server_address)
+            print("Sent START request to server.")
+            
+            # Wait for a response from the server to confirm connection
+            message, _ = client_socket.recvfrom(1024)
+            if message.startswith(b"ACK_START"):
+                print("Connection established with server.")
+                break
+        except socket.timeout:
+            # Resend the START request if no response received
+            print("No response from server, resending START request.")
 
     with open(output_file_path, 'wb') as file:
         while True:
