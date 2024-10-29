@@ -1,6 +1,16 @@
 import socket
 import time
 import argparse
+import json
+"""Checklist:
+1. Make packet class (done)
+2. Update json format (done)
+3. Retransmit the only packet for which time out has occured when 3 acks are not recieverd 
+4. update RTT values based on packet which is last acked (dont include retransmitted packets)
+5. Update RTO based on RTT values
+
+"""
+
 
 # Constants
 MSS = 1400  # Maximum Segment Size for each packet
@@ -8,11 +18,51 @@ WINDOW_SIZE = 5  # Number of packets in flight
 DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
 FILE_PATH = "sample_file.txt"  # Path to the file to be sent
 INITIAL_TIMEOUT = 1.0  # Initial timeout in seconds
+ALPHA=0.125
+BETA=0.25
 
 # Variables for RTT calculation and RTO (adaptive timeout) based on RFC 6298
 SRTT = None  # Smoothed RTT
 RTTVAR = None  # RTT variance
 RTO = INITIAL_TIMEOUT  # Retransmission timeout
+
+class Packet:
+    """
+    Represents a packet with sequence number, data, data length, 
+    time sent, and retransmission status.
+    """
+    def __init__(self, seq_num, data, time_sent=None, is_retransmission=False):
+        self.seq_num = seq_num
+        self.data = data
+        self.data_len = len(data)
+        self.time_sent = time_sent or time.time()
+        self.is_retransmission = is_retransmission
+
+    def to_bytes(self):
+        """
+        Serialize packet to JSON format for transmission.
+        """
+        packet_dict = {
+            "seq_num": self.seq_num,
+            "data": self.data.decode(),
+            "data_len": self.data_len,
+            "time_sent": self.time_sent,
+            "is_retransmission": self.is_retransmission
+        }
+        return json.dumps(packet_dict).encode()
+
+    @staticmethod
+    def from_bytes(packet_bytes):
+        """
+        Deserialize packet from JSON format.
+        """
+        packet_dict = json.loads(packet_bytes.decode())
+        return Packet(
+            packet_dict["seq_num"],
+            packet_dict["data"].encode(),
+            packet_dict["time_sent"],
+            packet_dict["is_retransmission"]
+        )
 
 def send_file(server_ip, server_port, enable_fast_recovery):
     """
@@ -57,9 +107,9 @@ def send_file(server_ip, server_port, enable_fast_recovery):
                 start = seq_num * MSS
                 end = start + MSS
                 chunk = data[start:end]
-                packet = create_packet(seq_num, chunk)
-                server_socket.sendto(packet, client_address)
-                unacked_packets[seq_num] = (packet, time.time())
+                packet = Packet(seq_num, chunk)  # Create a Packet instance
+                server_socket.sendto(packet.to_bytes(), client_address)
+                unacked_packets[seq_num] = packet
                 print(f"Sent packet {seq_num}.")
             seq_num += 1
 
@@ -72,6 +122,9 @@ def send_file(server_ip, server_port, enable_fast_recovery):
                 print(f"Received cumulative ACK for packet {ack_seq_num}.")
                 last_ack_received = ack_seq_num
                 update_rtt(ack_seq_num, unacked_packets)  # Update RTT and calculate new RTO
+
+                # Use the updated RTO as the timeout value
+                server_socket.settimeout(RTO)
 
                 # Slide the window forward and remove acknowledged packets
                 for s_num in list(unacked_packets):
@@ -106,13 +159,6 @@ def send_file(server_ip, server_port, enable_fast_recovery):
             print("All packets sent and acknowledged. Sent END signal.")
             break
 
-def create_packet(seq_num, data):
-    """
-    Create a packet with the sequence number and data.
-    """
-    packet = f"{seq_num}|".encode() + data
-    return packet
-
 def get_ack_num(ack_packet):
     """
     Extract the acknowledgment number from the ACK packet.
@@ -131,9 +177,10 @@ def retransmit_unacked_packets(server_socket, client_address, unacked_packets):
     """
     Retransmit all unacknowledged packets.
     """
-    for seq_num, (packet, timestamp) in unacked_packets.items():
-        server_socket.sendto(packet, client_address)
-        unacked_packets[seq_num] = (packet, time.time())
+    for seq_num, packet in unacked_packets.items():
+        packet.is_retransmission = True  # Mark as retransmission
+        server_socket.sendto(packet.to_bytes(), client_address)
+        packet.time_sent = time.time()  # Update the time sent
         print(f"Retransmitted packet {seq_num}.")
 
 def fast_recovery(server_socket, client_address, ack_num, unacked_packets):
@@ -141,9 +188,10 @@ def fast_recovery(server_socket, client_address, ack_num, unacked_packets):
     Retransmit the earliest unacknowledged packet (fast recovery).
     """
     if ack_num in unacked_packets:
-        packet, _ = unacked_packets[ack_num]
-        server_socket.sendto(packet, client_address)
-        unacked_packets[ack_num] = (packet, time.time())
+        packet = unacked_packets[ack_num]
+        packet.is_retransmission = True  # Mark as retransmission
+        server_socket.sendto(packet.to_bytes(), client_address)
+        packet.time_sent = time.time()  # Update the time sent
         print(f"Fast Recovery: Resent packet {ack_num}.")
 
 def update_rtt(ack_seq_num, unacked_packets):
@@ -151,20 +199,28 @@ def update_rtt(ack_seq_num, unacked_packets):
     Update RTT and RTO based on RFC 6298 when receiving an ACK.
     """
     global SRTT, RTTVAR, RTO
-    sent_time = unacked_packets[ack_seq_num][1]
-    sample_rtt = time.time() - sent_time
+    packet = unacked_packets[ack_seq_num]
+    
+    # Calculate the measured RTT
+    sample_rtt = time.time() - packet.time_sent
 
-    if SRTT is None:  # First RTT measurement
+    # Initial measurement for SRTT and RTTVAR
+    if SRTT is None:
         SRTT = sample_rtt
         RTTVAR = sample_rtt / 2
-        RTO = SRTT + max(0.1, 4 * RTTVAR)
+        RTO = SRTT + max(0.1, 4 * RTTVAR)  # 0.1 represents clock granularity G
+
     else:
-        RTTVAR = (1 - 0.25) * RTTVAR + 0.25 * abs(SRTT - sample_rtt)
-        SRTT = (1 - 0.125) * SRTT + 0.125 * sample_rtt
+        # Update RTTVAR and SRTT using the ALPHA and BETA parameters
+        RTTVAR = (1 - BETA) * RTTVAR + BETA * abs(SRTT - sample_rtt)
+        SRTT = (1 - ALPHA) * SRTT + ALPHA * sample_rtt
         RTO = SRTT + max(0.1, 4 * RTTVAR)
-    
-    # Ensure RTO is no less than 1 second as per RFC 6298
+
+    # Enforce minimum RTO of 1 second
     RTO = max(1.0, RTO)
+
+    print(f"Updated RTT values: SRTT={SRTT:.3f}, RTTVAR={RTTVAR:.3f}, RTO={RTO:.3f}")
+
 
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description='Reliable file transfer server over UDP.')

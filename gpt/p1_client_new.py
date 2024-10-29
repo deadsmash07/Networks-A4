@@ -80,7 +80,7 @@ def receive_file(server_ip, server_port):
 
 def parse_packet(packet):
     """
-    Parse the packet to extract the sequence number and data.
+    Parse the packet to extract the sequence number and data, we have to fix this according to json format
     """
     try:
         # Split the packet by the delimiter '|'
