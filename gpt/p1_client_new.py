@@ -11,7 +11,7 @@ def receive_file(server_ip, server_port):
     """
     # Initialize UDP socket
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    client_socket.settimeout(2)  # Set timeout for server response
+    client_socket.settimeout(2)  # Set timeout for server response 2 Seconds
 
     server_address = (server_ip, server_port)
     expected_seq_num = 0
@@ -19,7 +19,7 @@ def receive_file(server_ip, server_port):
     buffer = {}  # Buffer for out-of-order packets
 
     # Send initial connection request to server
-    client_socket.sendto(b"START", server_address)
+    client_socket.sendto(b"START", server_address) # CAN GET LOST!!!
     print("Sent START request to server.")
 
     with open(output_file_path, 'wb') as file:
