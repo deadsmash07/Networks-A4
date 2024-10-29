@@ -24,6 +24,7 @@ class TCPCongestionControl:
         self.timeout_interval = INITIAL_TIMEOUT
 
     def handle_timeout(self, seq_no):
+        """Handles timeout events by reducing the congestion window and updating timeout interval."""
         self.ssthresh = max(self.cwnd // 2, 2 * MSS)
         self.cwnd = MSS
         self.in_fast_recovery = False
@@ -35,13 +36,20 @@ class TCPCongestionControl:
             packet_times[seq_no] = {"sent_time": time.time(), "retransmission_count": 1}
 
     def handle_new_ack(self, ack_num, sample_rtt, seq_no):
+        """Updates RTT and adjusts cwnd based on new cumulative ACKs."""
         if self.in_fast_recovery:
             self.cwnd = self.ssthresh
             self.in_fast_recovery = False
+
+        # Update congestion window for new ACKs only (retransmissions not included)
         if self.cwnd < self.ssthresh:
+            # Slow start phase
             self.cwnd += MSS
         else:
+            # Congestion avoidance phase
             self.cwnd += (MSS * MSS) / self.cwnd
+
+        # RTT and timeout updates
         self.update_rtt(sample_rtt)
         self.dup_ack_count = 0
         self.last_ack = ack_num
@@ -49,6 +57,7 @@ class TCPCongestionControl:
             packet_times[seq_no]["ack_time"] = time.time()
 
     def handle_duplicate_ack(self, enable_fast_recovery, seq_no):
+        """Handles duplicate ACKs and triggers fast retransmission if necessary."""
         self.dup_ack_count += 1
         if enable_fast_recovery and self.dup_ack_count == DUP_ACK_THRESHOLD:
             self.ssthresh = max(self.cwnd // 2, 2 * MSS)
@@ -62,6 +71,7 @@ class TCPCongestionControl:
             self.cwnd += MSS
 
     def update_rtt(self, sample_rtt):
+        """Calculates and updates the timeout interval based on the sample RTT."""
         if self.estimated_rtt is None:
             self.estimated_rtt = sample_rtt
             self.dev_rtt = sample_rtt / 2
@@ -76,6 +86,7 @@ def send_file(server_ip, server_port, enable_fast_recovery):
     cc = TCPCongestionControl()
 
     def send_data_to_client(packet_data, client_address):
+        """Helper function to send data packets and log transmission time."""
         server_socket.sendto(packet_data, client_address)
         packet = json.loads(packet_data)
         seq_no = packet["seq_num"]
@@ -116,7 +127,7 @@ def send_file(server_ip, server_port, enable_fast_recovery):
                     packet_dict = {
                         "seq_num": seq_num,
                         "data_len": len(chunk),
-                        "data": chunk.decode('latin1')  # Decode to handle binary data as JSON-friendly string
+                        "data": chunk.decode('latin1')
                     }
                     packet_data = json.dumps(packet_dict).encode('utf-8')
                     send_data_to_client(packet_data, client_address)
