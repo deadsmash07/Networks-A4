@@ -1,0 +1,1975 @@
+Chat history
+ChatGPT
+ChatGPT
+GPT
+CS Tutor
+GPT
+Hot Mods
+Paragraph Polishing Expert
+GPT
+Codeforces Coach
+Today
+
+    UDP File Transfer Reliability
+
+    UDP File Transfer Reliability
+    Neural Network for Bird Classification
+    Min Cut Computation Method
+    Min-Cut Max-Flow Theorem
+    Node Capacitated Maximum Flow
+
+Yesterday
+
+    Floyd Warshall Applications
+    Neural Network Parameters Overview
+    Variational Inference Explained
+    Industry Supply in Microeconomics
+    Nobel Prize Economics 2024
+    Logistic Regression vs SVM
+    Logistic Regression and SVM Analysis
+    Using TNER with IOB Data
+    Transport Layer Overview
+    TCP Connection Management Concepts
+    UDP Reliability Mechanisms
+
+Previous 7 Days
+
+    TCP over UDP Concepts
+    Undirected to Directed Flow
+    Count Paths in DAG
+    Maximum Flow Iterations Example
+    Pseudo Polynomial Algorithms Explained
+    Delete Time Machine Snapshots
+    Rational Capacities in Ford-Fulkerson
+    OpenCL Presentation Summary
+    Minimum Cut in Image Segmentation
+    Ford Fulkerson Time Complexity
+    Redirecting Output in Mininet
+
+Add Team workspaceCollaborate on a Team plan
+Memory Full
+You said:
+Chat history
+ChatGPT
+ChatGPT
+GPT
+CS Tutor
+GPT
+Hot Mods
+Paragraph Polishing Expert
+GPT
+Codeforces Coach
+Today
+
+    UDP File Transfer Reliability
+
+    Neural Network for Bird Classification
+    Min Cut Computation Method
+    Min-Cut Max-Flow Theorem
+    Node Capacitated Maximum Flow
+
+Yesterday
+
+    Floyd Warshall Applications
+    Neural Network Parameters Overview
+    Variational Inference Explained
+    Industry Supply in Microeconomics
+    Nobel Prize Economics 2024
+    Logistic Regression vs SVM
+    Logistic Regression and SVM Analysis
+    Using TNER with IOB Data
+    Transport Layer Overview
+    TCP Connection Management Concepts
+    UDP Reliability Mechanisms
+
+Previous 7 Days
+
+    TCP over UDP Concepts
+    Undirected to Directed Flow
+    Count Paths in DAG
+    Maximum Flow Iterations Example
+    Pseudo Polynomial Algorithms Explained
+    Delete Time Machine Snapshots
+    Rational Capacities in Ford-Fulkerson
+    OpenCL Presentation Summary
+    Minimum Cut in Image Segmentation
+    Ford Fulkerson Time Complexity
+    Redirecting Output in Mininet
+    NLP LLM
+
+Add Team workspaceCollaborate on a Team plan
+Memory Full
+You said:
+Assignment4.pdf
+PDF
+Understand the assignment. 
+Below are the 5 files I have 
+p1_client.py 
+
+import socket
+import argparse
+
+# Constants
+MSS = 1400  # Maximum Segment Size
+
+def receive_file(server_ip, server_port):
+    """
+    Receive the file from the server with reliability, handling packet loss
+    and reordering.
+    """
+    # Initialize UDP socket
+    
+    ## Add logic for handling packet loss while establishing connection
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    client_socket.settimeout(2)  # Set timeout for server response
+
+    server_address = (server_ip, server_port)
+    expected_seq_num = 0
+    output_file_path = "received_file.txt"  # Default file name
+
+    with open(output_file_path, 'wb') as file:
+        while True:
+            try:
+                # Send initial connection request to server
+                client_socket.sendto(b"START", server_address)
+
+                # Receive the packet
+                packet, _ = client_socket.recvfrom(MSS + 100)  # Allow room for headers
+                
+                # Logic to handle end of file
+
+                if end_signal from server:
+                    print("Received END signal from server, file transfer complete")
+                    break
+                
+                seq_num, data = parse_packet(packet)
+
+                # If the packet is in order, write it to the file
+                if seq_num == expected_seq_num:
+                    file.write(data)
+                    print(f"Received packet {seq_num}, writing to file")
+                    
+                    # Update expected seq number and send cumulative ACK for the received packet
+                    send_ack(client_socket, server_address, seq_num)
+                elif seq_num < expected_seq_num:
+                    # Duplicate or old packet, send ACK again
+                    send_ack(client_socket, server_address, seq_num)
+                else:
+                    # packet arrived out of order
+                    # handle_pkt()
+            except socket.timeout:
+                print("Timeout waiting for data")
+                
+
+def parse_packet(packet):
+    """
+    Parse the packet to extract the sequence number and data.
+    """
+    seq_num, data = packet.split(b'|', 1)
+    return int(seq_num), data
+
+def send_ack(client_socket, server_address, seq_num):
+    """
+    Send a cumulative acknowledgment for the received packet.
+    """
+    ack_packet = f"{seq_num}|ACK".encode()
+    client_socket.sendto(ack_packet, server_address)
+    print(f"Sent cumulative ACK for packet {seq_num}")
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+
+args = parser.parse_args()
+
+# Run the client
+receive_file(args.server_ip, args.server_port)
+
+
+
+p1_exp.py
+
+from mininet.topo import Topo
+from mininet.net import Mininet
+from mininet.link import TCLink
+from mininet.node import RemoteController
+from mininet.cli import CLI
+from mininet.log import setLogLevel
+import time, re, os
+import sys
+import hashlib
+
+class CustomTopo(Topo):
+    def build(self, loss, delay):
+        # Add two hosts
+        h1 = self.addHost('h1')
+        h2 = self.addHost('h2')
+
+        # Add a single switch
+        s1 = self.addSwitch('s1')
+
+        # Add links
+        # Link between h1 and s1 with the specified packet loss
+        self.addLink(h1, s1, loss=loss, delay=f'{delay}ms')
+
+        # Link between h2 and s1 with no packet loss
+        self.addLink(h2, s1, loss=0)
+
+
+def compute_md5(file_path):
+    """Compute the MD5 hash of a file."""
+    hasher = hashlib.md5()
+    try:
+        with open(file_path, 'rb') as file:
+            # Read the file in chunks to avoid using too much memory for large files
+            while chunk := file.read(8192):
+                hasher.update(chunk)
+        return hasher.hexdigest()
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+        return None
+
+def run(expname):
+    # Set the log level to info to see detailed output
+    setLogLevel('info')
+    
+    # IP and port of the remote controller
+    controller_ip = '127.0.0.1'  # Change to the controller's IP address if not local
+    controller_port = 6653       # Default OpenFlow controller port
+    
+    # Output file 
+    output_file = f'reliability_{expname}.csv'
+    f_out = open(output_file, 'w')
+    f_out.write("loss,delay,fast_recovery,md5_hash,ttc\n")
+
+
+    SERVER_IP = "10.0.0.1"
+    SERVER_PORT = 6555
+            
+    NUM_ITERATIONS = 5 
+    OUTFILE = 'received_file.txt'
+    delay_list, loss_list = [], []
+    if expname == "loss":
+        loss_list = [x*0.5 for x in range (0, 11)]
+        delay_list = [20]
+    elif expname == "delay":
+        delay_list = [x for x in range(0, 201, 20)]
+        loss_list = [1]
+    print(loss_list, delay_list)
+    
+    # Loop to create the topology 10 times with varying loss (1% to 10%)
+    for LOSS in loss_list:
+        for DELAY in delay_list:
+            for FAST_RECOVERY in [True, False]:
+                for i in range(0, NUM_ITERATIONS):
+                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}")
+
+                    # Create the custom topology with the specified loss
+                    topo = CustomTopo(loss=LOSS, delay=DELAY)
+
+                    # Initialize the network with the custom topology and TCLink for link configuration
+                    net = Mininet(topo=topo, link=TCLink, controller=None)
+                    # Add the remote controller to the network
+                    remote_controller = RemoteController('c0', ip=controller_ip, port=controller_port)
+                    net.addController(remote_controller)
+
+                    # Start the network
+                    net.start()
+
+                    # Get references to h1 and h2
+                    h1 = net.get('h1')
+                    h2 = net.get('h2')
+
+                    start_time = time.time()
+                    
+                    h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} &")
+                    result = h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}")
+                    end_time = time.time()
+                    ttc = end_time-start_time
+                    md5_hash = compute_md5('received_file.txt')
+                    # write the result to a file 
+                    f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
+                            
+
+                    # Stop the network
+                    net.stop()
+
+                    # Wait a moment before starting the next iteration
+                    time.sleep(1)
+
+    print("\n--- Completed all tests ---")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python experiment.py <expname>")
+    else:
+        expname = sys.argv[1].lower()
+        run(expname)
+
+
+p1_server.py
+
+import socket
+import time
+import argparse
+
+# Constants
+MSS = 1400  # Maximum Segment Size for each packet
+WINDOW_SIZE =   # Number of packets in flight
+DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
+FILE_PATH = ""
+timeout = 1.0  # Initialize timeout to some value but update it as ACK packets arrive
+def send_file(server_ip, server_port, enable_fast_recovery):
+    """
+    Send a predefined file to the client, ensuring reliability over UDP.
+    """
+    # Initialize UDP socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((server_ip, server_port))
+
+    print(f"Server listening on {server_ip}:{server_port}")
+
+    # Wait for client to initiate connection
+    client_address = None
+    file_path = FILE_PATH  # Predefined file name
+
+    with open(file_path, 'rb') as file:
+        seq_num = 0
+        window_base = 0
+        unacked_packets = {}
+        duplicate_ack_count = 0
+        last_ack_received = -1
+
+
+        while True:
+            while <COND>: ## Use window-based sending
+                chunk = file.read(MSS)
+                if not chunk:
+                    # End of file
+                    # Send end signal to the client 
+                    break
+
+                # Create and send the packet
+                packet = create_packet(seq_num, chunk)
+                if client_address:
+                    server_socket.sendto(packet, client_address)
+                else:
+                    print("Waiting for client connection...")
+                    data, client_address = server_socket.recvfrom(1024)
+                    print(f"Connection established with client {client_address}")
+                
+
+                ## 
+                unacked_packets[seq_num] = (packet, time.time())  # Track sent packets
+                print(f"Sent packet {seq_num}")
+                seq_num += 1
+
+            # Wait for ACKs and retransmit if needed
+            try:
+            	## Handle ACKs, Timeout, Fast retransmit
+                server_socket.settimeout(TIMEOUT)
+                ack_packet, _ = server_socket.recvfrom(1024)
+                ack_seq_num = get_seq_no_from_ack_pkt()
+
+                if ack_seq_num > last_ack_received:
+                    print(f"Received cumulative ACK for packet {ack_seq_num}")
+                    last_ack_received = ack_seq_num
+                    # Slide the window forward
+                    
+                    # Remove acknowledged packets from the buffer 
+                    
+                else:
+                    # Duplicate ACK received
+                    
+                    print(f"Received duplicate ACK for packet {ack_seq_num}, count={duplicate_ack_count}")
+
+                    if enable_fast_recovery and duplicate_ack_count >= DUP_ACK_THRESHOLD:
+                        print("Entering fast recovery mode")
+                        fast_recovery(<inputs>)
+
+            except socket.timeout:
+                # Timeout handling: retransmit all unacknowledged packets
+                print("Timeout occurred, retransmitting unacknowledged packets")
+                retransmit_unacked_packets(server_socket, client_address, unacked_packets)
+
+            # Check if we are done sending the file
+            if not chunk and len(unacked_packets) == 0:
+                print("File transfer complete")
+                break
+
+def create_packet(seq_num, data):
+    """
+    Create a packet with the sequence number and data.
+    """
+    
+
+def retransmit_unacked_packets(server_socket, client_address, unacked_packets):
+    """
+    Retransmit all unacknowledged packets.
+    """
+    
+
+def fast_recovery(server_socket, client_address, unacked_packets):
+    """
+    Retransmit the earliest unacknowledged packet (fast recovery).
+    """
+    
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file transfer server over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+parser.add_argument('fast recovery', type=int, help='Enable fast recovery')
+
+args = parser.parse_args()
+
+# Run the server
+send_file(args.server_ip, args.server_port, args.fast_recovery)
+
+
+Explain to me what I need to do in order to implement the first part of the assignment
+ChatGPT said:
+ChatGPT
+
+To implement the first part of the assignment on "Reliability" in a UDP-based file transfer protocol, you need to focus on ensuring reliable data transmission over an unreliable protocol. Here’s how to approach each reliability mechanism specified:
+1. Acknowledgments (ACKs)
+
+    Objective: Use ACKs to confirm the receipt of packets by the client, letting the server know when data has arrived.
+    Steps:
+        The client should send a cumulative ACK to the server after receiving each packet in the correct order.
+        Add a send_ack function in p1_client.py to send an ACK containing the next expected sequence number.
+        On the server side (p1_server.py), adjust the code to process ACKs by updating the window base if the ACK is for a new sequence number.
+
+2. Retransmissions
+
+    Objective: Ensure that packets lost in transmission or arriving out of order are resent.
+    Steps:
+        In p1_server.py, create a retransmission mechanism using a timeout to resend unacknowledged packets.
+        Use a duplicate ACK count to trigger retransmissions when three duplicate ACKs are received (this helps detect packet loss).
+        When three duplicate ACKs are received, resend the expected packet instead of waiting for the timeout.
+
+3. Fast Recovery
+
+    Objective: Improve efficiency by quickly retransmitting lost packets when duplicate ACKs suggest a packet loss.
+    Steps:
+        In p1_server.py, track the number of duplicate ACKs for each sequence number.
+        When three duplicate ACKs are received, call a fast_recovery function to resend the earliest unacknowledged packet immediately.
+        Implement fast_recovery to reduce the need for full retransmission, minimizing delays and improving performance under packet loss conditions.
+
+4. Packet Numbering
+
+    Objective: Number packets sequentially to ensure the client reconstructs the file in the correct order.
+    Steps:
+        Each packet sent by the server should have a sequence number.
+        Use create_packet in p1_server.py to attach a sequence number to each packet.
+        In p1_client.py, modify parse_packet to extract and interpret the sequence number, ensuring the client writes packets in the correct order.
+
+5. Timeout Mechanism
+
+    Objective: Retransmit packets if ACKs are not received within a specified timeout, preventing indefinite waits.
+    Steps:
+        Implement a timeout-based retransmission in p1_server.py.
+        Calculate the timeout dynamically (you may choose a simple approach like a fixed value or use an estimated timeout if instructed).
+        Ensure that unacknowledged packets are resent if the server doesn’t receive an ACK within the timeout.
+
+Additional Notes
+
+    Packet Format: Follow the assignment’s guidance on using JSON to serialize packets, including sequence numbers, data length, and data content.
+    Testing: You will test the reliability mechanisms by running the file transfer in Mininet under different loss and delay settings to empirically measure improvements with fast recovery.
+
+Summary
+
+    Modify p1_client.py to:
+        Send cumulative ACKs.
+        Handle out-of-order packets and retransmissions by acknowledging correctly received packets.
+
+    Modify p1_server.py to:
+        Implement fast recovery and retransmissions on duplicate ACKs.
+        Use a timeout mechanism to detect and resend lost packets.
+        Maintain a sliding window to control the flow of packets.
+
+This will set up the basic reliability requirements for file transfer over UDP. Once this is working, you can proceed to Part 2, where you’ll implement congestion control mechanisms.
+
+
+ChatGPT can make mistakes. Check important info.
+
+With the above context give me the new code for the 3 files and what changes you have made to them
+ChatGPT
+
+Certainly! Below are the updated versions of the three files (p1_client.py, p1_server.py, and p1_exp.py) incorporating the reliability mechanisms for UDP-based file transfer as per your assignment requirements. I have highlighted and explained the key changes made to each file to implement acknowledgments (ACKs), retransmissions, fast recovery, packet numbering, and timeout mechanisms.
+1. p1_client.py
+Key Changes:
+
+    Cumulative ACKs: The client now sends cumulative ACKs indicating the next expected sequence number.
+    Handling Out-of-Order Packets: The client buffers out-of-order packets and ensures they are written to the file in the correct order.
+    End Signal Handling: The client properly handles the end-of-file signal from the server.
+
+Updated Code:
+
+python
+
+import socket
+import argparse
+import json
+
+# Constants
+MSS = 1400  # Maximum Segment Size
+
+def receive_file(server_ip, server_port):
+    """
+    Receive the file from the server with reliability, handling packet loss
+    and reordering.
+    """
+    # Initialize UDP socket
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    client_socket.settimeout(2)  # Set timeout for server response
+
+    server_address = (server_ip, server_port)
+    expected_seq_num = 0
+    received_packets = {}
+    output_file_path = "received_file.txt"  # Default file name
+
+    # Send initial connection request to server
+    client_socket.sendto(json.dumps({"type": "START"}).encode(), server_address)
+    print("Sent START request to server.")
+
+    with open(output_file_path, 'wb') as file:
+        while True:
+            try:
+                # Receive the packet
+                packet_data, _ = client_socket.recvfrom(MSS + 100)  # Allow room for headers
+                packet = json.loads(packet_data.decode())
+
+                # Handle end of file
+                if packet.get("type") == "END":
+                    print("Received END signal from server, file transfer complete.")
+                    break
+
+                seq_num = packet.get("seq_num")
+                data = packet.get("data").encode()
+
+                # If the packet is the expected one, write it and send ACK
+                if seq_num == expected_seq_num:
+                    file.write(data)
+                    print(f"Received packet {seq_num}, writing to file.")
+                    expected_seq_num += 1
+
+                    # Check if any buffered packets can now be written
+                    while expected_seq_num in received_packets:
+                        file.write(received_packets.pop(expected_seq_num))
+                        print(f"Writing buffered packet {expected_seq_num}.")
+                        expected_seq_num += 1
+
+                    # Send cumulative ACK
+                    send_ack(client_socket, server_address, expected_seq_num)
+                elif seq_num > expected_seq_num:
+                    # Buffer out-of-order packet
+                    if seq_num not in received_packets:
+                        received_packets[seq_num] = data
+                        print(f"Received out-of-order packet {seq_num}, buffering.")
+                    # Send ACK for the last in-order packet
+                    send_ack(client_socket, server_address, expected_seq_num)
+                else:
+                    # Duplicate or old packet, resend ACK
+                    print(f"Received duplicate/old packet {seq_num}, resending ACK for {expected_seq_num}.")
+                    send_ack(client_socket, server_address, expected_seq_num)
+            except socket.timeout:
+                print("Timeout waiting for data, resending ACK.")
+                send_ack(client_socket, server_address, expected_seq_num)
+
+def send_ack(client_socket, server_address, ack_num):
+    """
+    Send a cumulative acknowledgment for the received packet.
+    """
+    ack_packet = json.dumps({"type": "ACK", "ack_num": ack_num}).encode()
+    client_socket.sendto(ack_packet, server_address)
+    print(f"Sent cumulative ACK for packet {ack_num}.")
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+
+args = parser.parse_args()
+
+# Run the client
+receive_file(args.server_ip, args.server_port)
+
+2. p1_server.py
+Key Changes:
+
+    Packet Numbering: Each packet is assigned a unique sequence number.
+    Sliding Window Protocol: Implements a sliding window to control the flow of packets.
+    Retransmission Mechanism: Retransmits unacknowledged packets upon timeout or receiving duplicate ACKs.
+    Fast Recovery: Implements fast recovery by retransmitting the earliest unacknowledged packet after receiving a threshold of duplicate ACKs.
+    Timeout Handling: Uses a timeout mechanism to detect lost packets and trigger retransmissions.
+
+Updated Code:
+
+python
+
+import socket
+import time
+import argparse
+import json
+import threading
+
+# Constants
+MSS = 1400  # Maximum Segment Size for each packet
+WINDOW_SIZE = 5  # Number of packets in flight
+DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
+TIMEOUT = 1.0  # Timeout duration in seconds
+FILE_PATH = "sample_file.txt"  # Path to the file to be sent
+
+def send_file(server_ip, server_port, enable_fast_recovery):
+    """
+    Send a predefined file to the client, ensuring reliability over UDP.
+    """
+    # Initialize UDP socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((server_ip, server_port))
+
+    print(f"Server listening on {server_ip}:{server_port}")
+
+    client_address = None
+    seq_num = 0
+    window_base = 0
+    unacked_packets = {}
+    timers = {}
+    duplicate_ack_counts = {}
+    fast_recovery_mode = False
+
+    def timeout_handler(s_num):
+        """
+        Handle packet timeout by retransmitting the packet.
+        """
+        nonlocal window_base
+        print(f"Timeout for packet {s_num}, retransmitting.")
+        server_socket.sendto(unacked_packets[s_num], client_address)
+        timers[s_num] = time.time()
+
+    with open(FILE_PATH, 'rb') as file:
+        data = file.read()
+        total_packets = (len(data) + MSS - 1) // MSS
+
+        while window_base < total_packets:
+            # Send packets within the window
+            while seq_num < window_base + WINDOW_SIZE and seq_num < total_packets:
+                if seq_num not in unacked_packets:
+                    start = seq_num * MSS
+                    end = start + MSS
+                    chunk = data[start:end]
+                    packet = create_packet(seq_num, chunk)
+                    server_socket.sendto(packet, client_address) if client_address else None
+                    unacked_packets[seq_num] = packet
+                    timers[seq_num] = time.time()
+                    print(f"Sent packet {seq_num}.")
+                seq_num += 1
+
+            try:
+                server_socket.settimeout(TIMEOUT)
+                ack_data, addr = server_socket.recvfrom(1024)
+                ack_packet = json.loads(ack_data.decode())
+
+                if ack_packet.get("type") == "START":
+                    client_address = addr
+                    print(f"Connection established with client {client_address}.")
+                    # Start sending packets
+                    while seq_num < window_base + WINDOW_SIZE and seq_num < total_packets:
+                        if seq_num not in unacked_packets:
+                            start = seq_num * MSS
+                            end = start + MSS
+                            chunk = data[start:end]
+                            packet = create_packet(seq_num, chunk)
+                            server_socket.sendto(packet, client_address)
+                            unacked_packets[seq_num] = packet
+                            timers[seq_num] = time.time()
+                            print(f"Sent packet {seq_num}.")
+                        seq_num += 1
+
+                elif ack_packet.get("type") == "ACK":
+                    ack_num = ack_packet.get("ack_num")
+                    print(f"Received ACK for packet {ack_num}.")
+
+                    if ack_num > window_base:
+                        # Slide the window forward
+                        for s_num in range(window_base, ack_num):
+                            if s_num in unacked_packets:
+                                del unacked_packets[s_num]
+                                del timers[s_num]
+                            if s_num in duplicate_ack_counts:
+                                del duplicate_ack_counts[s_num]
+                        window_base = ack_num
+                        print(f"Window moved to {window_base}.")
+
+                        # Reset duplicate ACK counts
+                        duplicate_ack_counts = {}
+
+                        fast_recovery_mode = False
+
+                    else:
+                        # Duplicate ACK received
+                        duplicate_ack_counts[ack_num] = duplicate_ack_counts.get(ack_num, 0) + 1
+                        print(f"Duplicate ACK count for {ack_num}: {duplicate_ack_counts[ack_num]}.")
+
+                        if enable_fast_recovery and duplicate_ack_counts[ack_num] == DUP_ACK_THRESHOLD:
+                            print(f"Threshold reached for duplicate ACKs for packet {ack_num}, initiating fast recovery.")
+                            # Retransmit the missing packet
+                            if ack_num in unacked_packets:
+                                server_socket.sendto(unacked_packets[ack_num], client_address)
+                                print(f"Fast Recovery: Resent packet {ack_num}.")
+                                timers[ack_num] = time.time()
+                            fast_recovery_mode = True
+
+            except socket.timeout:
+                # Handle timeouts for all unacknowledged packets
+                current_time = time.time()
+                for s_num in list(unacked_packets.keys()):
+                    if current_time - timers[s_num] > TIMEOUT:
+                        print(f"Timeout for packet {s_num}, retransmitting.")
+                        server_socket.sendto(unacked_packets[s_num], client_address)
+                        timers[s_num] = time.time()
+
+        # After all packets are acknowledged, send END signal
+        end_packet = json.dumps({"type": "END"}).encode()
+        server_socket.sendto(end_packet, client_address)
+        print("All packets sent and acknowledged. Sent END signal.")
+
+def create_packet(seq_num, data):
+    """
+    Create a packet with the sequence number and data.
+    """
+    packet = json.dumps({
+        "type": "DATA",
+        "seq_num": seq_num,
+        "data": data.decode()
+    }).encode()
+    return packet
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file transfer server over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+parser.add_argument('fast_recovery', type=int, choices=[0,1], help='Enable fast recovery (1) or disable (0)')
+
+args = parser.parse_args()
+
+# Run the server
+send_file(args.server_ip, args.server_port, bool(args.fast_recovery))
+
+3. p1_exp.py
+Key Changes:
+
+    Compatibility with Updated Server and Client: Ensures that the experiment script correctly initiates the server and client with the necessary parameters.
+    Parameter Adjustments: Adjusts the parameters passed to the server and client scripts to accommodate the new reliability mechanisms.
+
+Updated Code:
+
+python
+
+from mininet.topo import Topo
+from mininet.net import Mininet
+from mininet.link import TCLink
+from mininet.node import RemoteController
+from mininet.cli import CLI
+from mininet.log import setLogLevel
+import time, re, os
+import sys
+import hashlib
+
+class CustomTopo(Topo):
+    def build(self, loss, delay):
+        # Add two hosts
+        h1 = self.addHost('h1')
+        h2 = self.addHost('h2')
+
+        # Add a single switch
+        s1 = self.addSwitch('s1')
+
+        # Add links
+        # Link between h1 and s1 with the specified packet loss and delay
+        self.addLink(h1, s1, loss=loss, delay=f'{delay}ms')
+
+        # Link between h2 and s1 with no packet loss
+        self.addLink(h2, s1, loss=0)
+
+def compute_md5(file_path):
+    """Compute the MD5 hash of a file."""
+    hasher = hashlib.md5()
+    try:
+        with open(file_path, 'rb') as file:
+            # Read the file in chunks to avoid using too much memory for large files
+            while chunk := file.read(8192):
+                hasher.update(chunk)
+        return hasher.hexdigest()
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+        return None
+
+def run(expname):
+    # Set the log level to info to see detailed output
+    setLogLevel('info')
+    
+    # IP and port of the remote controller
+    controller_ip = '127.0.0.1'  # Change to the controller's IP address if not local
+    controller_port = 6653       # Default OpenFlow controller port
+    
+    # Output file 
+    output_file = f'reliability_{expname}.csv'
+    f_out = open(output_file, 'w')
+    f_out.write("loss,delay,fast_recovery,md5_hash,ttc\n")
+
+    SERVER_IP = "10.0.0.1"
+    SERVER_PORT = 6555
+            
+    NUM_ITERATIONS = 5 
+    delay_list, loss_list = [], []
+    if expname == "loss":
+        loss_list = [x*0.5 for x in range (0, 11)]  # 0% to 5% loss
+        delay_list = [20]
+    elif expname == "delay":
+        delay_list = [x for x in range(0, 201, 20)]  # 0ms to 200ms delay
+        loss_list = [1]  # 1% loss
+
+    print(loss_list, delay_list)
+    
+    # Loop to create the topology with varying loss and delay
+    for LOSS in loss_list:
+        for DELAY in delay_list:
+            for FAST_RECOVERY in [1, 0]:  # 1 for True, 0 for False
+                for i in range(NUM_ITERATIONS):
+                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {bool(FAST_RECOVERY)} ---")
+
+                    # Create the custom topology with the specified loss and delay
+                    topo = CustomTopo(loss=LOSS, delay=DELAY)
+
+                    # Initialize the network with the custom topology and TCLink for link configuration
+                    net = Mininet(topo=topo, link=TCLink, controller=None)
+                    
+                    # Add the remote controller to the network
+                    remote_controller = RemoteController('c0', ip=controller_ip, port=controller_port)
+                    net.addController(remote_controller)
+
+                    # Start the network
+                    net.start()
+
+                    # Get references to h1 and h2
+                    h1 = net.get('h1')
+                    h2 = net.get('h2')
+
+                    # Start the server on h1
+                    server_cmd = f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY}"
+                    h1.cmd(f"{server_cmd} &")
+                    print(f"Started server on h1 with command: {server_cmd}")
+
+                    time.sleep(1)  # Give the server time to start
+
+                    # Start the client on h2 and measure the time
+                    start_time = time.time()
+                    client_cmd = f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}"
+                    h2.cmd(client_cmd)
+                    end_time = time.time()
+                    ttc = end_time - start_time
+
+                    # Compute MD5 hash of the received file
+                    md5_hash = compute_md5('received_file.txt')
+
+                    # Write the result to the output file 
+                    f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
+                    print(f"Test {i+1}/{NUM_ITERATIONS} completed with MD5: {md5_hash} and TTC: {ttc:.2f}s.")
+
+                    # Stop the network
+                    net.stop()
+
+                    # Remove the received file for the next iteration
+                    if os.path.exists('received_file.txt'):
+                        os.remove('received_file.txt')
+
+                    # Wait a moment before starting the next iteration
+                    time.sleep(1)
+
+    f_out.close()
+    print("\n--- Completed all tests ---")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python experiment.py <expname>")
+    else:
+        expname = sys.argv[1].lower()
+        run(expname)
+
+Summary of Changes
+p1_client.py:
+
+    ACK Mechanism: Implemented cumulative ACKs using JSON packets to inform the server of the next expected sequence number.
+    Packet Parsing: Updated to parse JSON-formatted packets containing sequence numbers and data.
+    Out-of-Order Handling: Buffered out-of-order packets and wrote them in the correct order when possible.
+    Timeout Handling: Resent ACKs upon timeout to prompt the server to retransmit lost packets.
+
+p1_server.py:
+
+    Packet Numbering: Each data packet includes a sequence number for tracking.
+    Sliding Window Protocol: Controlled the flow of packets using a sliding window approach to manage multiple in-flight packets.
+    Retransmissions: Implemented retransmission of packets upon timeout or when duplicate ACKs indicate packet loss.
+    Fast Recovery: Added a fast recovery mechanism that triggers retransmission after receiving a predefined number of duplicate ACKs.
+    JSON Packet Structure: Utilized JSON for packet serialization, ensuring structured communication between client and server.
+
+p1_exp.py:
+
+    Integration with Updated Scripts: Adjusted the experiment script to work seamlessly with the updated server and client scripts.
+    Dynamic Parameters: Allowed varying packet loss and delay settings to test the reliability mechanisms under different network conditions.
+    Result Logging: Recorded the MD5 hash and time-to-completion (TTC) for each test iteration to evaluate the effectiveness of the reliability mechanisms.
+
+Additional Notes
+
+    JSON Serialization: Using JSON for packet formatting ensures clarity and ease of parsing, especially when dealing with structured data like sequence numbers and ACKs.
+
+    Threading (Optional Enhancement): For improved performance and to handle multiple clients, consider implementing threading or asynchronous I/O in the server to manage multiple connections simultaneously.
+
+    Error Handling: Ensure that both client and server have robust error handling to manage unexpected scenarios, such as abrupt disconnections or malformed packets.
+
+    Testing: After implementing these changes, thoroughly test the file transfer under various simulated network conditions (e.g., high packet loss, high latency) to validate the reliability mechanisms.
+
+    Security Considerations: For production-grade applications, consider adding security features such as encryption and authentication to protect data integrity and privacy.
+
+By implementing these changes, your UDP-based file transfer protocol should achieve the desired reliability, effectively handling packet loss, ensuring ordered delivery, and maintaining efficient data transmission through mechanisms like fast recovery.
+You said:
+Below are the starter codes given to me 
+
+p1_client.py
+import socket
+import argparse
+
+# Constants
+MSS = 1400  # Maximum Segment Size
+
+def receive_file(server_ip, server_port):
+    """
+    Receive the file from the server with reliability, handling packet loss
+    and reordering.
+    """
+    # Initialize UDP socket
+    
+    ## Add logic for handling packet loss while establishing connection
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    client_socket.settimeout(2)  # Set timeout for server response
+
+    server_address = (server_ip, server_port)
+    expected_seq_num = 0
+    output_file_path = "received_file.txt"  # Default file name
+
+    with open(output_file_path, 'wb') as file:
+        while True:
+            try:
+                # Send initial connection request to server
+                client_socket.sendto(b"START", server_address)
+
+                # Receive the packet
+                packet, _ = client_socket.recvfrom(MSS + 100)  # Allow room for headers
+                
+                # Logic to handle end of file
+
+                if end_signal from server:
+                    print("Received END signal from server, file transfer complete")
+                    break
+                
+                seq_num, data = parse_packet(packet)
+
+                # If the packet is in order, write it to the file
+                if seq_num == expected_seq_num:
+                    file.write(data)
+                    print(f"Received packet {seq_num}, writing to file")
+                    
+                    # Update expected seq number and send cumulative ACK for the received packet
+                    send_ack(client_socket, server_address, seq_num)
+                elif seq_num < expected_seq_num:
+                    # Duplicate or old packet, send ACK again
+                    send_ack(client_socket, server_address, seq_num)
+                else:
+                    # packet arrived out of order
+                    # handle_pkt()
+            except socket.timeout:
+                print("Timeout waiting for data")
+                
+
+def parse_packet(packet):
+    """
+    Parse the packet to extract the sequence number and data.
+    """
+    seq_num, data = packet.split(b'|', 1)
+    return int(seq_num), data
+
+def send_ack(client_socket, server_address, seq_num):
+    """
+    Send a cumulative acknowledgment for the received packet.
+    """
+    ack_packet = f"{seq_num}|ACK".encode()
+    client_socket.sendto(ack_packet, server_address)
+    print(f"Sent cumulative ACK for packet {seq_num}")
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+
+args = parser.parse_args()
+
+# Run the client
+receive_file(args.server_ip, args.server_port)
+
+
+p1_server.py
+import socket
+import time
+import argparse
+
+# Constants
+MSS = 1400  # Maximum Segment Size for each packet
+WINDOW_SIZE =   # Number of packets in flight
+DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
+FILE_PATH = ""
+timeout = 1.0  # Initialize timeout to some value but update it as ACK packets arrive
+def send_file(server_ip, server_port, enable_fast_recovery):
+    """
+    Send a predefined file to the client, ensuring reliability over UDP.
+    """
+    # Initialize UDP socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((server_ip, server_port))
+
+    print(f"Server listening on {server_ip}:{server_port}")
+
+    # Wait for client to initiate connection
+    client_address = None
+    file_path = FILE_PATH  # Predefined file name
+
+    with open(file_path, 'rb') as file:
+        seq_num = 0
+        window_base = 0
+        unacked_packets = {}
+        duplicate_ack_count = 0
+        last_ack_received = -1
+
+
+        while True:
+            while <COND>: ## Use window-based sending
+                chunk = file.read(MSS)
+                if not chunk:
+                    # End of file
+                    # Send end signal to the client 
+                    break
+
+                # Create and send the packet
+                packet = create_packet(seq_num, chunk)
+                if client_address:
+                    server_socket.sendto(packet, client_address)
+                else:
+                    print("Waiting for client connection...")
+                    data, client_address = server_socket.recvfrom(1024)
+                    print(f"Connection established with client {client_address}")
+                
+
+                ## 
+                unacked_packets[seq_num] = (packet, time.time())  # Track sent packets
+                print(f"Sent packet {seq_num}")
+                seq_num += 1
+
+            # Wait for ACKs and retransmit if needed
+            try:
+            	## Handle ACKs, Timeout, Fast retransmit
+                server_socket.settimeout(TIMEOUT)
+                ack_packet, _ = server_socket.recvfrom(1024)
+                ack_seq_num = get_seq_no_from_ack_pkt()
+
+                if ack_seq_num > last_ack_received:
+                    print(f"Received cumulative ACK for packet {ack_seq_num}")
+                    last_ack_received = ack_seq_num
+                    # Slide the window forward
+                    
+                    # Remove acknowledged packets from the buffer 
+                    
+                else:
+                    # Duplicate ACK received
+                    
+                    print(f"Received duplicate ACK for packet {ack_seq_num}, count={duplicate_ack_count}")
+
+                    if enable_fast_recovery and duplicate_ack_count >= DUP_ACK_THRESHOLD:
+                        print("Entering fast recovery mode")
+                        fast_recovery(<inputs>)
+
+            except socket.timeout:
+                # Timeout handling: retransmit all unacknowledged packets
+                print("Timeout occurred, retransmitting unacknowledged packets")
+                retransmit_unacked_packets(server_socket, client_address, unacked_packets)
+
+            # Check if we are done sending the file
+            if not chunk and len(unacked_packets) == 0:
+                print("File transfer complete")
+                break
+
+def create_packet(seq_num, data):
+    """
+    Create a packet with the sequence number and data.
+    """
+    
+
+def retransmit_unacked_packets(server_socket, client_address, unacked_packets):
+    """
+    Retransmit all unacknowledged packets.
+    """
+    
+
+def fast_recovery(server_socket, client_address, unacked_packets):
+    """
+    Retransmit the earliest unacknowledged packet (fast recovery).
+    """
+    
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file transfer server over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+parser.add_argument('fast recovery', type=int, help='Enable fast recovery')
+
+args = parser.parse_args()
+
+# Run the server
+send_file(args.server_ip, args.server_port, args.fast_recovery)
+
+
+p1_exp.py
+
+from mininet.topo import Topo
+from mininet.net import Mininet
+from mininet.link import TCLink
+from mininet.node import RemoteController
+from mininet.cli import CLI
+from mininet.log import setLogLevel
+import time, re, os
+import sys
+import hashlib
+
+class CustomTopo(Topo):
+    def build(self, loss, delay):
+        # Add two hosts
+        h1 = self.addHost('h1')
+        h2 = self.addHost('h2')
+
+        # Add a single switch
+        s1 = self.addSwitch('s1')
+
+        # Add links
+        # Link between h1 and s1 with the specified packet loss
+        self.addLink(h1, s1, loss=loss, delay=f'{delay}ms')
+
+        # Link between h2 and s1 with no packet loss
+        self.addLink(h2, s1, loss=0)
+
+
+def compute_md5(file_path):
+    """Compute the MD5 hash of a file."""
+    hasher = hashlib.md5()
+    try:
+        with open(file_path, 'rb') as file:
+            # Read the file in chunks to avoid using too much memory for large files
+            while chunk := file.read(8192):
+                hasher.update(chunk)
+        return hasher.hexdigest()
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+        return None
+
+def run(expname):
+    # Set the log level to info to see detailed output
+    setLogLevel('info')
+    
+    # IP and port of the remote controller
+    controller_ip = '127.0.0.1'  # Change to the controller's IP address if not local
+    controller_port = 6653       # Default OpenFlow controller port
+    
+    # Output file 
+    output_file = f'reliability_{expname}.csv'
+    f_out = open(output_file, 'w')
+    f_out.write("loss,delay,fast_recovery,md5_hash,ttc\n")
+
+
+    SERVER_IP = "10.0.0.1"
+    SERVER_PORT = 6555
+            
+    NUM_ITERATIONS = 5 
+    OUTFILE = 'received_file.txt'
+    delay_list, loss_list = [], []
+    if expname == "loss":
+        loss_list = [x*0.5 for x in range (0, 11)]
+        delay_list = [20]
+    elif expname == "delay":
+        delay_list = [x for x in range(0, 201, 20)]
+        loss_list = [1]
+    print(loss_list, delay_list)
+    
+    # Loop to create the topology 10 times with varying loss (1% to 10%)
+    for LOSS in loss_list:
+        for DELAY in delay_list:
+            for FAST_RECOVERY in [True, False]:
+                for i in range(0, NUM_ITERATIONS):
+                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}")
+
+                    # Create the custom topology with the specified loss
+                    topo = CustomTopo(loss=LOSS, delay=DELAY)
+
+                    # Initialize the network with the custom topology and TCLink for link configuration
+                    net = Mininet(topo=topo, link=TCLink, controller=None)
+                    # Add the remote controller to the network
+                    remote_controller = RemoteController('c0', ip=controller_ip, port=controller_port)
+                    net.addController(remote_controller)
+
+                    # Start the network
+                    net.start()
+
+                    # Get references to h1 and h2
+                    h1 = net.get('h1')
+                    h2 = net.get('h2')
+
+                    start_time = time.time()
+                    
+                    h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} &")
+                    result = h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}")
+                    end_time = time.time()
+                    ttc = end_time-start_time
+                    md5_hash = compute_md5('received_file.txt')
+                    # write the result to a file 
+                    f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
+                            
+
+                    # Stop the network
+                    net.stop()
+
+                    # Wait a moment before starting the next iteration
+                    time.sleep(1)
+
+    print("\n--- Completed all tests ---")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python experiment.py <expname>")
+    else:
+        expname = sys.argv[1].lower()
+        run(expname)
+ChatGPT
+
+Certainly! Below are the updated versions of your starter code for p1_client.py, p1_server.py, and p1_exp.py. These updates incorporate the necessary reliability mechanisms for UDP-based file transfer, including acknowledgments (ACKs), retransmissions, fast recovery, packet numbering, and timeout handling.
+1. p1_client.py
+Updated Code:
+
+python
+
+import socket
+import argparse
+
+# Constants
+MSS = 1400  # Maximum Segment Size
+
+def receive_file(server_ip, server_port):
+    """
+    Receive the file from the server with reliability, handling packet loss
+    and reordering.
+    """
+    # Initialize UDP socket
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    client_socket.settimeout(2)  # Set timeout for server response
+
+    server_address = (server_ip, server_port)
+    expected_seq_num = 0
+    output_file_path = "received_file.txt"  # Default file name
+    buffer = {}  # Buffer for out-of-order packets
+
+    # Send initial connection request to server
+    client_socket.sendto(b"START", server_address)
+    print("Sent START request to server.")
+
+    with open(output_file_path, 'wb') as file:
+        while True:
+            try:
+                # Receive the packet
+                packet, _ = client_socket.recvfrom(MSS + 100)  # Allow room for headers
+                
+                # Check for END signal
+                if packet.startswith(b"END"):
+                    print("Received END signal from server, file transfer complete.")
+                    break
+
+                # Parse the packet
+                seq_num, data = parse_packet(packet)
+
+                # If the packet is the expected one, write it to the file
+                if seq_num == expected_seq_num:
+                    file.write(data)
+                    print(f"Received packet {seq_num}, writing to file.")
+                    expected_seq_num += 1
+
+                    # Check if any buffered packets can now be written
+                    while expected_seq_num in buffer:
+                        file.write(buffer.pop(expected_seq_num))
+                        print(f"Writing buffered packet {expected_seq_num}.")
+                        expected_seq_num += 1
+
+                    # Send cumulative ACK for the next expected sequence number
+                    send_ack(client_socket, server_address, expected_seq_num)
+                elif seq_num > expected_seq_num:
+                    # Buffer out-of-order packet
+                    if seq_num not in buffer:
+                        buffer[seq_num] = data
+                        print(f"Received out-of-order packet {seq_num}, buffering.")
+                    # Send ACK for the next expected sequence number
+                    send_ack(client_socket, server_address, expected_seq_num)
+                else:
+                    # Duplicate or old packet, resend ACK for the next expected sequence number
+                    print(f"Received duplicate/old packet {seq_num}, resending ACK for {expected_seq_num}.")
+                    send_ack(client_socket, server_address, expected_seq_num)
+            except socket.timeout:
+                # On timeout, resend ACK for the next expected sequence number to prompt retransmission
+                print("Timeout waiting for data, resending ACK.")
+                send_ack(client_socket, server_address, expected_seq_num)
+
+def parse_packet(packet):
+    """
+    Parse the packet to extract the sequence number and data.
+    """
+    try:
+        # Split the packet by the delimiter '|'
+        seq_num_str, data = packet.split(b'|', 1)
+        seq_num = int(seq_num_str.decode())
+        return seq_num, data
+    except ValueError:
+        print("Malformed packet received.")
+        return -1, b''
+
+def send_ack(client_socket, server_address, ack_num):
+    """
+    Send a cumulative acknowledgment for the received packet.
+    """
+    ack_packet = f"{ack_num}|ACK".encode()
+    client_socket.sendto(ack_packet, server_address)
+    print(f"Sent cumulative ACK for packet {ack_num}.")
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+
+args = parser.parse_args()
+
+# Run the client
+receive_file(args.server_ip, args.server_port)
+
+Changes Made:
+
+    Initial Connection Request:
+        Added: After initializing the socket, the client sends a "START" message to the server to initiate the connection.
+        Purpose: Ensures that the server is aware of the client's intent to receive a file.
+
+    End Signal Handling:
+        Added: Checks if the received packet starts with "END".
+        Purpose: Detects the end of the file transfer and gracefully terminates the reception loop.
+
+    Cumulative ACKs:
+        Modified: The send_ack function now sends the next expected sequence number (expected_seq_num) instead of the received seq_num.
+        Purpose: Informs the server of the next sequence number the client is expecting, allowing for cumulative acknowledgments.
+
+    Out-of-Order Packet Buffering:
+        Added: Implemented a buffer dictionary to store out-of-order packets.
+        Purpose: Ensures that packets received out of order are stored and written to the file once the missing packets arrive.
+
+    Duplicate Packet Handling:
+        Modified: Resends the ACK for the next expected sequence number if a duplicate or old packet is received.
+        Purpose: Prevents unnecessary retransmissions by informing the server that the client is still expecting the next specific packet.
+
+    Timeout Handling:
+        Modified: On a socket timeout, the client resends the ACK for the next expected sequence number.
+        Purpose: Prompts the server to retransmit any lost packets that the client is still waiting for.
+
+    Packet Parsing Robustness:
+        Modified: Enhanced the parse_packet function to handle malformed packets gracefully.
+        Purpose: Prevents the client from crashing due to unexpected packet formats.
+
+2. p1_server.py
+Updated Code:
+
+python
+
+import socket
+import time
+import argparse
+
+# Constants
+MSS = 1400  # Maximum Segment Size for each packet
+WINDOW_SIZE = 5  # Number of packets in flight
+DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
+FILE_PATH = "sample_file.txt"  # Path to the file to be sent
+TIMEOUT = 1.0  # Timeout duration in seconds
+
+def send_file(server_ip, server_port, enable_fast_recovery):
+    """
+    Send a predefined file to the client, ensuring reliability over UDP.
+    """
+    # Initialize UDP socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    server_socket.bind((server_ip, server_port))
+
+    print(f"Server listening on {server_ip}:{server_port}")
+
+    client_address = None
+    seq_num = 0
+    window_base = 0
+    unacked_packets = {}
+    duplicate_ack_counts = {}
+    last_ack_received = -1
+    fast_recovery_mode = False
+
+    # Read the entire file into memory (for simplicity)
+    with open(FILE_PATH, 'rb') as file:
+        data = file.read()
+        total_packets = (len(data) + MSS - 1) // MSS
+
+    while True:
+        # Handle initial connection
+        if not client_address:
+            try:
+                server_socket.settimeout(None)  # Blocking mode
+                message, addr = server_socket.recvfrom(1024)
+                if message.startswith(b"START"):
+                    client_address = addr
+                    print(f"Connection established with client {client_address}.")
+            except socket.timeout:
+                continue
+
+        # Send packets within the window
+        while seq_num < window_base + WINDOW_SIZE and seq_num < total_packets:
+            if seq_num not in unacked_packets:
+                start = seq_num * MSS
+                end = start + MSS
+                chunk = data[start:end]
+                packet = create_packet(seq_num, chunk)
+                server_socket.sendto(packet, client_address)
+                unacked_packets[seq_num] = (packet, time.time())
+                print(f"Sent packet {seq_num}.")
+            seq_num += 1
+
+        # Set timeout for receiving ACKs
+        server_socket.settimeout(TIMEOUT)
+
+        try:
+            ack_packet, _ = server_socket.recvfrom(1024)
+            ack_seq_num = get_ack_num(ack_packet)
+
+            if ack_seq_num > last_ack_received:
+                print(f"Received cumulative ACK for packet {ack_seq_num}.")
+                last_ack_received = ack_seq_num
+
+                # Slide the window forward and remove acknowledged packets
+                for s_num in list(unacked_packets):
+                    if s_num < ack_seq_num:
+                        del unacked_packets[s_num]
+                        if s_num in duplicate_ack_counts:
+                            del duplicate_ack_counts[s_num]
+
+                # Reset duplicate ACK counts
+                duplicate_ack_counts = {}
+                fast_recovery_mode = False
+            else:
+                # Duplicate ACK received
+                duplicate_ack_counts[ack_seq_num] = duplicate_ack_counts.get(ack_seq_num, 0) + 1
+                print(f"Received duplicate ACK for packet {ack_seq_num}, count={duplicate_ack_counts[ack_seq_num]}.")
+
+                if enable_fast_recovery and duplicate_ack_counts[ack_seq_num] == DUP_ACK_THRESHOLD:
+                    print("Threshold reached for duplicate ACKs, entering fast recovery mode.")
+                    fast_recovery(server_socket, client_address, ack_seq_num, unacked_packets)
+                    fast_recovery_mode = True
+
+        except socket.timeout:
+            # Timeout occurred, retransmit all unacknowledged packets
+            print("Timeout occurred, retransmitting all unacknowledged packets.")
+            retransmit_unacked_packets(server_socket, client_address, unacked_packets)
+
+        # Check if all packets have been acknowledged
+        if window_base >= total_packets and not unacked_packets:
+            # Send END signal to the client
+            end_packet = b"END|END"
+            server_socket.sendto(end_packet, client_address)
+            print("All packets sent and acknowledged. Sent END signal.")
+            break
+
+def create_packet(seq_num, data):
+    """
+    Create a packet with the sequence number and data.
+    """
+    packet = f"{seq_num}|".encode() + data
+    return packet
+
+def get_ack_num(ack_packet):
+    """
+    Extract the acknowledgment number from the ACK packet.
+    """
+    try:
+        ack_num_str, ack_type = ack_packet.split(b'|', 1)
+        if ack_type == b"ACK":
+            return int(ack_num_str.decode())
+        else:
+            return -1
+    except ValueError:
+        print("Malformed ACK packet received.")
+        return -1
+
+def retransmit_unacked_packets(server_socket, client_address, unacked_packets):
+    """
+    Retransmit all unacknowledged packets.
+    """
+    for seq_num, (packet, timestamp) in unacked_packets.items():
+        server_socket.sendto(packet, client_address)
+        unacked_packets[seq_num] = (packet, time.time())
+        print(f"Retransmitted packet {seq_num}.")
+
+def fast_recovery(server_socket, client_address, ack_num, unacked_packets):
+    """
+    Retransmit the earliest unacknowledged packet (fast recovery).
+    """
+    if ack_num in unacked_packets:
+        packet, _ = unacked_packets[ack_num]
+        server_socket.sendto(packet, client_address)
+        unacked_packets[ack_num] = (packet, time.time())
+        print(f"Fast Recovery: Resent packet {ack_num}.")
+
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Reliable file transfer server over UDP.')
+parser.add_argument('server_ip', help='IP address of the server')
+parser.add_argument('server_port', type=int, help='Port number of the server')
+parser.add_argument('fast_recovery', type=int, choices=[0,1], help='Enable fast recovery (1) or disable (0)')
+
+args = parser.parse_args()
+
+# Run the server
+send_file(args.server_ip, args.server_port, bool(args.fast_recovery))
+
+Changes Made:
+
+    Defined Missing Constants:
+        Added:
+
+        python
+
+    WINDOW_SIZE = 5  # Number of packets in flight
+    DUP_ACK_THRESHOLD = 3  # Threshold for duplicate ACKs to trigger fast recovery
+    FILE_PATH = "sample_file.txt"  # Path to the file to be sent
+    TIMEOUT = 1.0  # Timeout duration in seconds
+
+    Purpose: Sets the window size for the sliding window protocol, the threshold for triggering fast recovery, the file to be sent, and the timeout duration.
+
+Implemented Packet Creation:
+
+    Added:
+
+    python
+
+    def create_packet(seq_num, data):
+        """
+        Create a packet with the sequence number and data.
+        """
+        packet = f"{seq_num}|".encode() + data
+        return packet
+
+    Purpose: Formats each packet by prefixing it with its sequence number followed by a delimiter (|).
+
+Implemented ACK Parsing:
+
+    Added:
+
+    python
+
+    def get_ack_num(ack_packet):
+        """
+        Extract the acknowledgment number from the ACK packet.
+        """
+        try:
+            ack_num_str, ack_type = ack_packet.split(b'|', 1)
+            if ack_type == b"ACK":
+                return int(ack_num_str.decode())
+            else:
+                return -1
+        except ValueError:
+            print("Malformed ACK packet received.")
+            return -1
+
+    Purpose: Extracts the acknowledgment number from the received ACK packet and ensures it's properly formatted.
+
+Implemented Retransmission Mechanism:
+
+    Added:
+
+    python
+
+    def retransmit_unacked_packets(server_socket, client_address, unacked_packets):
+        """
+        Retransmit all unacknowledged packets.
+        """
+        for seq_num, (packet, timestamp) in unacked_packets.items():
+            server_socket.sendto(packet, client_address)
+            unacked_packets[seq_num] = (packet, time.time())
+            print(f"Retransmitted packet {seq_num}.")
+
+    Purpose: Resends all packets that have not been acknowledged within the timeout period.
+
+Implemented Fast Recovery Mechanism:
+
+    Added:
+
+    python
+
+        def fast_recovery(server_socket, client_address, ack_num, unacked_packets):
+            """
+            Retransmit the earliest unacknowledged packet (fast recovery).
+            """
+            if ack_num in unacked_packets:
+                packet, _ = unacked_packets[ack_num]
+                server_socket.sendto(packet, client_address)
+                unacked_packets[ack_num] = (packet, time.time())
+                print(f"Fast Recovery: Resent packet {ack_num}.")
+
+        Purpose: Quickly retransmits the first unacknowledged packet upon receiving a specified number of duplicate ACKs, thereby reducing latency.
+
+    Implemented Sliding Window Protocol:
+        Modified: Added logic to manage a sliding window of packets.
+        Purpose: Controls the flow of packets to ensure that the server does not overwhelm the client and manages multiple in-flight packets efficiently.
+
+    Handled End of File Transmission:
+        Added: After all packets are acknowledged, the server sends an "END|END" signal to the client to indicate the completion of the file transfer.
+        Purpose: Notifies the client to terminate the reception loop and finalize the file.
+
+    Enhanced Connection Handling:
+        Modified: The server waits for the "START" message from the client to establish the connection before beginning the file transfer.
+        Purpose: Ensures synchronization between the client and server before data transmission begins.
+
+    Duplicate ACK Handling:
+        Modified: Tracks the number of duplicate ACKs received for a particular sequence number and triggers fast recovery if the threshold is reached.
+        Purpose: Detects potential packet loss and initiates retransmission without waiting for a timeout.
+
+    Timeout Handling:
+        Modified: Sets a timeout for receiving ACKs and retransmits unacknowledged packets upon timeout.
+        Purpose: Ensures that lost packets are detected and retransmitted, maintaining the reliability of the file transfer.
+
+3. p1_exp.py
+Updated Code:
+
+python
+
+from mininet.topo import Topo
+from mininet.net import Mininet
+from mininet.link import TCLink
+from mininet.node import RemoteController
+from mininet.cli import CLI
+from mininet.log import setLogLevel
+import time, os
+import sys
+import hashlib
+
+class CustomTopo(Topo):
+    def build(self, loss, delay):
+        # Add two hosts
+        h1 = self.addHost('h1')
+        h2 = self.addHost('h2')
+
+        # Add a single switch
+        s1 = self.addSwitch('s1')
+
+        # Add links with specified loss and delay
+        self.addLink(h1, s1, loss=loss, delay=f'{delay}ms')
+        self.addLink(h2, s1, loss=0)
+
+def compute_md5(file_path):
+    """Compute the MD5 hash of a file."""
+    hasher = hashlib.md5()
+    try:
+        with open(file_path, 'rb') as file:
+            # Read the file in chunks to avoid using too much memory for large files
+            while chunk := file.read(8192):
+                hasher.update(chunk)
+        return hasher.hexdigest()
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+        return None
+
+def run(expname):
+    # Set the log level to info to see detailed output
+    setLogLevel('info')
+    
+    # IP and port of the remote controller
+    controller_ip = '127.0.0.1'  # Change to the controller's IP address if not local
+    controller_port = 6653       # Default OpenFlow controller port
+    
+    # Output file 
+    output_file = f'reliability_{expname}.csv'
+    with open(output_file, 'w') as f_out:
+        f_out.write("loss,delay,fast_recovery,md5_hash,ttc\n")
+
+        SERVER_IP = "10.0.0.1"
+        SERVER_PORT = 6555
+                
+        NUM_ITERATIONS = 5 
+        delay_list, loss_list = [], []
+        if expname == "loss":
+            loss_list = [x*0.5 for x in range (0, 11)]  # 0% to 5% loss in 0.5% increments
+            delay_list = [20]
+        elif expname == "delay":
+            delay_list = [x for x in range(0, 201, 20)]  # 0ms to 200ms delay in 20ms increments
+            loss_list = [1]  # 1% loss
+
+        print(f"Testing configurations - Loss: {loss_list}, Delay: {delay_list}")
+        
+        # Loop to create the topology with varying loss and delay
+        for LOSS in loss_list:
+            for DELAY in delay_list:
+                for FAST_RECOVERY in [1, 0]:  # 1 for True, 0 for False
+                    for i in range(NUM_ITERATIONS):
+                        print(f"\n--- Test {i+1}: Loss={LOSS}%, Delay={DELAY}ms, Fast Recovery={bool(FAST_RECOVERY)} ---")
+
+                        # Create the custom topology with the specified loss and delay
+                        topo = CustomTopo(loss=LOSS, delay=DELAY)
+
+                        # Initialize the network with the custom topology and TCLink for link configuration
+                        net = Mininet(topo=topo, link=TCLink, controller=None)
+                        
+                        # Add the remote controller to the network
+                        remote_controller = RemoteController('c0', ip=controller_ip, port=controller_port)
+                        net.addController(remote_controller)
+
+                        # Start the network
+                        net.start()
+
+                        # Get references to h1 and h2
+                        h1 = net.get('h1')
+                        h2 = net.get('h2')
+
+                        # Ensure the server file exists on h1
+                        if not os.path.exists(FILE_PATH):
+                            print(f"Server file {FILE_PATH} does not exist. Exiting test.")
+                            net.stop()
+                            sys.exit(1)
+
+                        # Start the server on h1
+                        server_cmd = f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} &"
+                        h1.cmd(server_cmd)
+                        print(f"Started server on h1 with command: {server_cmd}")
+
+                        time.sleep(1)  # Give the server time to start
+
+                        # Start the client on h2 and measure the time
+                        start_time = time.time()
+                        client_cmd = f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}"
+                        h2.cmd(client_cmd)
+                        end_time = time.time()
+                        ttc = end_time - start_time
+
+                        # Compute MD5 hash of the received file
+                        md5_hash = compute_md5('received_file.txt')
+
+                        # Write the result to the output file 
+                        f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
+                        print(f"Test {i+1}/{NUM_ITERATIONS} completed with MD5: {md5_hash} and TTC: {ttc:.2f}s.")
+
+                        # Stop the network
+                        net.stop()
+
+                        # Remove the received file for the next iteration
+                        if os.path.exists('received_file.txt'):
+                            os.remove('received_file.txt')
+
+                        # Wait a moment before starting the next iteration
+                        time.sleep(1)
+
+    print("\n--- Completed all tests ---")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python experiment.py <expname>")
+    else:
+        expname = sys.argv[1].lower()
+        run(expname)
+
+Changes Made:
+
+    Ensured Server File Exists:
+        Added:
+
+        python
+
+    if not os.path.exists(FILE_PATH):
+        print(f"Server file {FILE_PATH} does not exist. Exiting test.")
+        net.stop()
+        sys.exit(1)
+
+    Purpose: Verifies that the file to be sent by the server exists before starting the test, preventing runtime errors.
+
+Adjusted Loss and Delay Parameters:
+
+    Modified:
+
+    python
+
+    if expname == "loss":
+        loss_list = [x*0.5 for x in range (0, 11)]  # 0% to 5% loss in 0.5% increments
+        delay_list = [20]
+    elif expname == "delay":
+        delay_list = [x for x in range(0, 201, 20)]  # 0ms to 200ms delay in 20ms increments
+        loss_list = [1]  # 1% loss
+
+    Purpose: Defines specific ranges for packet loss and delay based on the experiment name ("loss" or "delay").
+
+Parameterized Fast Recovery:
+
+    Modified:
+
+    python
+
+    for FAST_RECOVERY in [1, 0]:  # 1 for True, 0 for False
+
+    Purpose: Iterates over both enabling and disabling fast recovery to compare performance under different configurations.
+
+Enhanced Test Logging:
+
+    Modified:
+
+    python
+
+    print(f"\n--- Test {i+1}: Loss={LOSS}%, Delay={DELAY}ms, Fast Recovery={bool(FAST_RECOVERY)} ---")
+
+    Purpose: Provides clearer logging information for each test iteration, including the test number and configuration parameters.
+
+Server Command Execution:
+
+    Modified:
+
+    python
+
+    server_cmd = f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} &"
+    h1.cmd(server_cmd)
+    print(f"Started server on h1 with command: {server_cmd}")
+
+    Purpose: Ensures that the server is started with the correct parameters, including whether fast recovery is enabled.
+
+Client Execution and Timing:
+
+    Modified:
+
+    python
+
+    start_time = time.time()
+    client_cmd = f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}"
+    h2.cmd(client_cmd)
+    end_time = time.time()
+    ttc = end_time - start_time
+
+    Purpose: Measures the time-to-completion (TTC) for each file transfer test.
+
+Result Logging:
+
+    Modified:
+
+    python
+
+    f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
+    print(f"Test {i+1}/{NUM_ITERATIONS} completed with MD5: {md5_hash} and TTC: {ttc:.2f}s.")
+
+    Purpose: Records the packet loss, delay, fast recovery status, MD5 hash of the received file, and TTC in a CSV file for analysis.
+
+Cleanup Between Tests:
+
+    Modified:
+
+    python
+
+    if os.path.exists('received_file.txt'):
+        os.remove('received_file.txt')
+
+    Purpose: Removes the received file after each test to ensure a clean state for subsequent iterations.
+
+Enhanced Topology Configuration:
+
+    Modified:
+
+    python
+
+    self.addLink(h1, s1, loss=loss, delay=f'{delay}ms')
+
+    Purpose: Configures the link between h1 (server) and s1 (switch) with specified packet loss and delay, while ensuring that the link between h2 (client) and s1 has no loss.
+
+Robust Exception Handling:
+
+    Added in Client Parsing:
+
+    python
+
+        if packet.startswith(b"END"):
+            print("Received END signal from server, file transfer complete.")
+            break
+
+        Purpose: Ensures that the client can detect the end of the file transfer and terminate gracefully.
+
+Summary of Updates
+p1_client.py:
+
+    Connection Initiation: Sends a "START" message to the server to initiate the file transfer.
+    End Signal Handling: Detects the "END" signal from the server to conclude the file reception.
+    Cumulative ACKs: Sends the next expected sequence number as a cumulative ACK to inform the server of the client's state.
+    Out-of-Order Packet Buffering: Buffers packets that arrive out of order and writes them to the file once the missing packets are received.
+    Duplicate Packet Handling: Resends ACKs for duplicate or old packets to maintain synchronization with the server.
+    Timeout Handling: Resends ACKs upon timeout to prompt the server to retransmit lost packets.
+    Robust Packet Parsing: Enhances packet parsing to handle malformed packets without crashing.
+
+p1_server.py:
+
+    Sliding Window Protocol: Implements a sliding window to manage multiple in-flight packets efficiently.
+    Packet Creation: Formats packets with sequence numbers to ensure ordered delivery.
+    ACK Parsing: Accurately extracts acknowledgment numbers from ACK packets to manage the sliding window.
+    Retransmission Mechanism: Retransmits unacknowledged packets upon timeout to maintain reliability.
+    Fast Recovery Mechanism: Quickly retransmits the earliest unacknowledged packet upon receiving a specified number of duplicate ACKs, reducing latency.
+    End Signal Transmission: Sends an "END" signal to inform the client of the completion of the file transfer.
+    Connection Handling: Waits for the client to send a "START" message before beginning the file transmission.
+
+p1_exp.py:
+
+    Dynamic Testing Configurations: Adjusts packet loss and delay parameters based on the experiment name ("loss" or "delay").
+    Fast Recovery Testing: Tests both enabling and disabling fast recovery to evaluate its impact on performance.
+    Result Logging: Records the MD5 hash and TTC for each test iteration in a CSV file for further analysis.
+    Enhanced Logging: Provides detailed logging for each test iteration to facilitate debugging and result interpretation.
+    Cleanup Procedures: Ensures that the received file is removed after each test to maintain a clean environment for subsequent tests.
+
+Additional Recommendations
+
+    Concurrent Packet Sending and ACK Handling:
+        Suggestion: Implement threading or asynchronous I/O in the server to handle sending packets and receiving ACKs concurrently. This can improve performance, especially for larger files or higher packet loss scenarios.
+
+    Dynamic Timeout Adjustment:
+        Suggestion: Instead of using a fixed timeout (TIMEOUT = 1.0), consider implementing a dynamic timeout mechanism (e.g., based on RTT measurements) to adapt to varying network conditions.
+
+    Enhanced Error Handling:
+        Suggestion: Add more robust error handling to manage scenarios like abrupt client disconnections, malformed packets, or unexpected server shutdowns.
+
+    Scalability:
+        Suggestion: Modify the server to handle multiple clients simultaneously if required by the assignment, potentially using threading or multiprocessing.
+
+    Security Enhancements:
+        Suggestion: Although not required for this assignment, consider adding basic security measures like packet authentication to prevent malicious interference in the file transfer process.
+
+    Logging Enhancements:
+        Suggestion: Implement detailed logging (e.g., using Python’s logging module) to capture events like packet transmissions, ACK receptions, retransmissions, and errors. This can aid significantly in debugging and performance analysis.
+
+    Packet Size Optimization:
+        Suggestion: Ensure that the MSS is appropriately set based on the network's MTU to prevent fragmentation, which can introduce additional packet loss.
+
+    File Integrity Verification:
+        Suggestion: Beyond MD5 hashing, consider implementing additional integrity checks, such as checksums for individual packets, to detect and handle corrupted packets.
+
+By implementing these updates and recommendations, your UDP-based file transfer protocol will achieve the desired reliability, effectively handling packet loss, ensuring ordered delivery, and maintaining efficient data transmission through mechanisms like fast recovery.
+
+
+ChatGPT can make mistakes. Check important info.

@@ -1,0 +1,4 @@
+source py_3.9.6/bin/activate
+
+baadalvm@baadalvm:~$ export http_proxy="http://proxy22.iitd.ac.in:3128"
+baadalvm@baadalvm:~$ export https_proxy="http://proxy22.iitd.ac.in:3128"
