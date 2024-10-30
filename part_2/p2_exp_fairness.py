@@ -106,10 +106,10 @@ def run():
             
             pref_c1 = "1"
             pref_c2 = "2"
-            s1_cmd = f"python3 p2_server.py {SERVER_IP1} {SERVER_PORT1} &"
-            s2_cmd = f"python3 p2_server.py {SERVER_IP2} {SERVER_PORT2} &"
-            c1_cmd = f"python3 p2_client.py {SERVER_IP1} {SERVER_PORT1} --pref_outfile {pref_c1} &"
-            c2_cmd = f"python3 p2_client.py {SERVER_IP2} {SERVER_PORT2} --pref_outfile {pref_c2} &"
+            s1_cmd = f"python3 p2_server.py {SERVER_IP1} {SERVER_PORT1}  > server_output_1.log 2>&1 &"
+            s2_cmd = f"python3 p2_server.py {SERVER_IP2} {SERVER_PORT2}  > server_output_2.log 2>&1 &"
+            c1_cmd = f"python3 p2_client.py {SERVER_IP1} {SERVER_PORT1} --pref_outfile {pref_c1}  > client_output_1.log 2>&1 &"
+            c2_cmd = f"python3 p2_client.py {SERVER_IP2} {SERVER_PORT2} --pref_outfile {pref_c2}  > client_output_2.log 2>&1 &"
 
             s1_pid = s1.cmd(s1_cmd)
             s2_pid = s2.cmd(s2_cmd)
