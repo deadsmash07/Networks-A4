@@ -69,9 +69,9 @@ def run(expname):
     # Loop to create the topology 10 times with varying loss (1% to 10%)
     for LOSS in loss_list:
         for DELAY in delay_list:
-            for FAST_RECOVERY in [1,0]:
-                for i in range(0, NUM_ITERATIONS):
-                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}")
+            for FAST_RECOVERY in [1, 0]:
+                for i in range(NUM_ITERATIONS):
+                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}, iteration {i+1}")
 
                     # Create the custom topology with the specified loss
                     topo = CustomTopo(loss=LOSS, delay=DELAY)
@@ -91,14 +91,21 @@ def run(expname):
 
                     start_time = time.time()
                     
-                    h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT} > ./Logs/client_output.log 2>&1 &")
-                    result = h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY}  > ./Logs/server_output.log 2>&1 ")
+                    # Generate unique log file names for each test run
+                    client_log = f"./Logs/client_output_loss_{LOSS}_delay_{DELAY}_fastrecov_{FAST_RECOVERY}_iter_{i+1}.log"
+                    server_log = f"./Logs/server_output_loss_{LOSS}_delay_{DELAY}_fastrecov_{FAST_RECOVERY}_iter_{i+1}.log"
+
+                    # Run client and server commands with unique log file names
+                    h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT} > {client_log} 2>&1 &")
+                    result = h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} > {server_log} 2>&1")
                     end_time = time.time()
-                    ttc = end_time-start_time
-                    md5_hash = compute_md5('received_file.txt')
-                    # write the result to a file 
+                    
+                    # Calculate the time-to-complete and compute the MD5 hash
+                    ttc = end_time - start_time
+                    md5_hash = compute_md5(OUTFILE)
+                    
+                    # Write the result to the output CSV file
                     f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
-                            
 
                     # Stop the network
                     net.stop()
@@ -107,6 +114,7 @@ def run(expname):
                     time.sleep(1)
 
     print("\n--- Completed all tests ---")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

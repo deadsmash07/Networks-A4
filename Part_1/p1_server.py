@@ -3,6 +3,7 @@ import time
 import json
 import argparse
 import logging
+import time
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -143,6 +144,7 @@ class ReliableServer:
                             self.file_done = True
                             logger.info("File Read complete.")
                             break
+                        time.sleep(0.001)
                         self.send_packet(seq_num, chunk, client_address)
                         seq_num += len(chunk)
                     else:
@@ -159,6 +161,7 @@ class ReliableServer:
                 for seq in list(self.packet_map):
                     if time.time() - self.packet_map[seq]["sent_time"] > self.timeout_interval:
                         logger.warning(f"Timeout occurred for seq_num {seq}")
+                        time.sleep(0.001)
                         self.resend_packet(seq, client_address)
                 
                 if self.file_done and not self.packet_map:
