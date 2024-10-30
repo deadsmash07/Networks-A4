@@ -118,7 +118,7 @@ class ReliableServer:
             # Duplicate ACK received
             self.dup_ack_count += 1
             logger.info(f"Duplicate ACK for seq_num {ack_num}. dup_ack_count = {self.dup_ack_count}")
-            if self.dup_ack_count == DUP_ACK_THRESHOLD:
+            if self.dup_ack_count >= DUP_ACK_THRESHOLD:
                 # Fast Retransmit
                 self.ssthresh = max(int(self.cwnd / 2), MSS)
                 self.cwnd = self.ssthresh + 3 * MSS

@@ -7,7 +7,6 @@ from mininet.log import setLogLevel
 import time, re, os
 import sys
 import hashlib
-import matplotlib.pyplot as plt  # Add this for plotting
 
 class CustomTopo(Topo):
     def build(self, loss, delay):
@@ -16,7 +15,7 @@ class CustomTopo(Topo):
         h2 = self.addHost('h2')
 
         # Add a single switch
-        s1 = self.addSwitch('s1')
+        s1 = self.addSwitch('s1', protocols='OpenFlow13')
 
         # Add links
         # Link between h1 and s1 with the specified packet loss
@@ -24,6 +23,7 @@ class CustomTopo(Topo):
 
         # Link between h2 and s1 with no packet loss
         self.addLink(h2, s1, loss=0)
+
 
 def compute_md5(file_path):
     """Compute the MD5 hash of a file."""
@@ -49,34 +49,29 @@ def run(expname):
     # Output file 
     output_file = f'reliability_{expname}.csv'
     f_out = open(output_file, 'w')
-    f_out.write("loss,delay,fast_recovery,md5_hash,ttc,Estimated_RTT\n")
+    f_out.write("loss,delay,fast_recovery,md5_hash,ttc\n")
+
 
     SERVER_IP = "10.0.0.1"
-    SERVER_PORT = 1571
+    SERVER_PORT = 6555
             
-    NUM_ITERATIONS = 1
+    NUM_ITERATIONS = 5 
     OUTFILE = 'received_file.txt'
     delay_list, loss_list = [], []
     if expname == "loss":
-        loss_list = [x*0.5 for x in range (0, 4)]
+        loss_list = [x*0.5 for x in range (9, 11)]
         delay_list = [20]
     elif expname == "delay":
         delay_list = [x for x in range(0, 201, 20)]
         loss_list = [1]
     print(loss_list, delay_list)
     
-    # To store the results for plotting
-    ttc_values_fast_recovery_0 = []
-    ttc_values_fast_recovery_1 = []
-    loss_or_delay_values = []
-    
-    # Loop to create the topology with varying loss or delay
+    # Loop to create the topology 10 times with varying loss (1% to 10%)
     for LOSS in loss_list:
         for DELAY in delay_list:
             for FAST_RECOVERY in [1]:
-                #SERVER_PORT += 4
-                for i in range(0, NUM_ITERATIONS):
-                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}")
+                for i in range(NUM_ITERATIONS):
+                    print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}, iteration {i+1}")
 
                     # Create the custom topology with the specified loss
                     topo = CustomTopo(loss=LOSS, delay=DELAY)
@@ -95,39 +90,22 @@ def run(expname):
                     h2 = net.get('h2')
 
                     start_time = time.time()
-
-                    # Run the server on h1 in the background, but redirect output to a log file
-                    print(f"Starting server on h1 with command: python3 p2_server.py {SERVER_IP} {SERVER_PORT} &")
-                    h1_output = h1.cmd(f"sudo python3 p2_server.py {SERVER_IP} {SERVER_PORT}  > server_output.log 2>&1 &")
                     
+                    # Generate unique log file names for each test run
+                    client_log = f"./Logs/client_output_loss_{LOSS}_delay_{DELAY}_fastrecov_{FAST_RECOVERY}_iter_{i+1}.log"
+                    server_log = f"./Logs/server_output_loss_{LOSS}_delay_{DELAY}_fastrecov_{FAST_RECOVERY}_iter_{i+1}.log"
 
-                    # Run the client on h2
-                    print(f"Starting client on h2 with command: python3 p2_client.py {SERVER_IP} {SERVER_PORT}")
-                    h2_output = h2.cmd(f"sudo python3 p2_client.py {SERVER_IP} {SERVER_PORT}")
-                    print(f"Client output (h2): {h2_output}")
-
+                    # Run client and server commands with unique log file names
+                    h2.cmd(f"python3 p2_client.py {SERVER_IP} {SERVER_PORT} > {client_log} 2>&1 &")
+                    result = h1.cmd(f"python3 p2_server.py {SERVER_IP} {SERVER_PORT} > {server_log} 2>&1")
                     end_time = time.time()
-                    print(f"Server output (h1): {h1_output}")
                     
+                    # Calculate the time-to-complete and compute the MD5 hash
                     ttc = end_time - start_time
-                    md5_hash = compute_md5('received_file.txt')
-                    print(f"MD5 Hash of received file: {md5_hash}")
-
-                    # Store results for plotting
-                    if FAST_RECOVERY == 0:
-                        ttc_values_fast_recovery_0.append(665022/ttc)
-                    else:
-                        ttc_values_fast_recovery_1.append(665022/ttc)
-
-                    # Record loss or delay value only once since it's the same for both recovery modes
-                    if len(ttc_values_fast_recovery_0) == len(ttc_values_fast_recovery_1):
-                        if expname == "loss":
-                            loss_or_delay_values.append(LOSS)
-                        else:
-                            loss_or_delay_values.append(DELAY)
-
-                    # Write the result to a file
-                    f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{(8*0.665022)/ttc},{h1_output}\n")
+                    md5_hash = compute_md5('areceived_file.txt')
+                    
+                    # Write the result to the output CSV file
+                    f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
 
                     # Stop the network
                     net.stop()
@@ -135,27 +113,8 @@ def run(expname):
                     # Wait a moment before starting the next iteration
                     time.sleep(1)
 
-    # Close the output file
-    f_out.close()
+    print("\n--- Completed all tests ---")
 
-    # Plotting the results (TTC vs Loss/Delay) for both fast recovery modes
-    plt.figure(figsize=(10, 6))
-    if expname == "loss":
-        plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
-        plt.title('Throughput vs Loss')
-        plt.xlabel('Packet Loss (%)')
-    elif expname == "delay":
-        plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
-        plt.title('Time to Completion (TTC) vs THroughput')
-        plt.xlabel('Network Delay (ms)')
-
-    plt.ylabel('Throughput (s)')
-    plt.legend()
-    plt.grid(True)
-    plt.savefig(f'ttc_vs_{expname}_{expname}.png')  # Save the plot as a PNG image
-    plt.show()  # Display the plot
-
-    print("\n--- Completed all tests and plotted the results ---")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

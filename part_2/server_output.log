@@ -1,0 +1,691 @@
+2024-10-30 16:42:57,924 - INFO - Server is listening on 10.0.0.1:1571
+2024-10-30 16:42:57,983 - INFO - Received SYN from ('10.0.0.2', 45419)
+2024-10-30 16:42:58,025 - INFO - Connection established with ('10.0.0.2', 45419)
+2024-10-30 16:42:58,025 - INFO - Sent packet with seq_num 0
+2024-10-30 16:42:58,066 - INFO - Received ACK for seq_num 1400
+2024-10-30 16:42:58,066 - INFO - Timeout interval updated to 0.124 seconds
+2024-10-30 16:42:58,067 - INFO - Slow Start: Increased cwnd to 2800
+2024-10-30 16:42:58,067 - INFO - Sent packet with seq_num 1400
+2024-10-30 16:42:58,068 - INFO - Sent packet with seq_num 2800
+2024-10-30 16:42:58,108 - INFO - Received ACK for seq_num 2800
+2024-10-30 16:42:58,108 - INFO - Timeout interval updated to 0.104 seconds
+2024-10-30 16:42:58,109 - INFO - Slow Start: Increased cwnd to 4200
+2024-10-30 16:42:58,109 - INFO - Sent packet with seq_num 4200
+2024-10-30 16:42:58,109 - INFO - Sent packet with seq_num 5600
+2024-10-30 16:42:58,110 - INFO - Received ACK for seq_num 4200
+2024-10-30 16:42:58,110 - INFO - Timeout interval updated to 0.089 seconds
+2024-10-30 16:42:58,110 - INFO - Slow Start: Increased cwnd to 5600
+2024-10-30 16:42:58,111 - INFO - Sent packet with seq_num 7000
+2024-10-30 16:42:58,111 - INFO - Sent packet with seq_num 8400
+2024-10-30 16:42:58,150 - INFO - Received ACK for seq_num 5600
+2024-10-30 16:42:58,150 - INFO - Timeout interval updated to 0.078 seconds
+2024-10-30 16:42:58,150 - INFO - Slow Start: Increased cwnd to 7000
+2024-10-30 16:42:58,151 - INFO - Sent packet with seq_num 9800
+2024-10-30 16:42:58,151 - INFO - Sent packet with seq_num 11200
+2024-10-30 16:42:58,152 - INFO - Received ACK for seq_num 7000
+2024-10-30 16:42:58,152 - INFO - Timeout interval updated to 0.070 seconds
+2024-10-30 16:42:58,152 - INFO - Slow Start: Increased cwnd to 8400
+2024-10-30 16:42:58,153 - INFO - Sent packet with seq_num 12600
+2024-10-30 16:42:58,154 - INFO - Sent packet with seq_num 14000
+2024-10-30 16:42:58,154 - INFO - Received ACK for seq_num 8400
+2024-10-30 16:42:58,154 - INFO - Timeout interval updated to 0.065 seconds
+2024-10-30 16:42:58,155 - INFO - Slow Start: Increased cwnd to 9800
+2024-10-30 16:42:58,155 - INFO - Sent packet with seq_num 15400
+2024-10-30 16:42:58,155 - INFO - Sent packet with seq_num 16800
+2024-10-30 16:42:58,156 - INFO - Received ACK for seq_num 9800
+2024-10-30 16:42:58,156 - INFO - Timeout interval updated to 0.062 seconds
+2024-10-30 16:42:58,156 - INFO - Slow Start: Increased cwnd to 11200
+2024-10-30 16:42:58,157 - INFO - Sent packet with seq_num 18200
+2024-10-30 16:42:58,157 - INFO - Sent packet with seq_num 19600
+2024-10-30 16:42:58,191 - INFO - Received ACK for seq_num 11200
+2024-10-30 16:42:58,192 - INFO - Timeout interval updated to 0.058 seconds
+2024-10-30 16:42:58,192 - INFO - Slow Start: Increased cwnd to 12600
+2024-10-30 16:42:58,192 - INFO - Sent packet with seq_num 21000
+2024-10-30 16:42:58,193 - INFO - Sent packet with seq_num 22400
+2024-10-30 16:42:58,193 - INFO - Received ACK for seq_num 12600
+2024-10-30 16:42:58,194 - INFO - Timeout interval updated to 0.054 seconds
+2024-10-30 16:42:58,194 - INFO - Slow Start: Increased cwnd to 14000
+2024-10-30 16:42:58,194 - INFO - Sent packet with seq_num 23800
+2024-10-30 16:42:58,195 - INFO - Sent packet with seq_num 25200
+2024-10-30 16:42:58,195 - INFO - Received ACK for seq_num 14000
+2024-10-30 16:42:58,195 - INFO - Timeout interval updated to 0.052 seconds
+2024-10-30 16:42:58,196 - INFO - Slow Start: Increased cwnd to 15400
+2024-10-30 16:42:58,196 - INFO - Sent packet with seq_num 26600
+2024-10-30 16:42:58,197 - INFO - Sent packet with seq_num 28000
+2024-10-30 16:42:58,197 - INFO - Received ACK for seq_num 15400
+2024-10-30 16:42:58,198 - INFO - Timeout interval updated to 0.052 seconds
+2024-10-30 16:42:58,198 - INFO - Slow Start: Increased cwnd to 16800
+2024-10-30 16:42:58,199 - INFO - Sent packet with seq_num 29400
+2024-10-30 16:42:58,199 - INFO - Sent packet with seq_num 30800
+2024-10-30 16:42:58,199 - INFO - Received ACK for seq_num 16800
+2024-10-30 16:42:58,199 - INFO - Timeout interval updated to 0.051 seconds
+2024-10-30 16:42:58,199 - INFO - Slow Start: Increased cwnd to 18200
+2024-10-30 16:42:58,200 - INFO - Sent packet with seq_num 32200
+2024-10-30 16:42:58,200 - INFO - Sent packet with seq_num 33600
+2024-10-30 16:42:58,200 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,200 - INFO - Timeout interval updated to 0.051 seconds
+2024-10-30 16:42:58,201 - INFO - Slow Start: Increased cwnd to 19600
+2024-10-30 16:42:58,201 - INFO - Sent packet with seq_num 35000
+2024-10-30 16:42:58,201 - INFO - Sent packet with seq_num 36400
+2024-10-30 16:42:58,201 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,201 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 1
+2024-10-30 16:42:58,233 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,233 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 2
+2024-10-30 16:42:58,234 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,234 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 3
+2024-10-30 16:42:58,234 - INFO - Fast Retransmit: ssthresh set to 9800, cwnd set to 14000
+2024-10-30 16:42:58,234 - INFO - Resent packet with seq_num 18200 (Retransmission count: 1)
+2024-10-30 16:42:58,235 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,235 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 4
+2024-10-30 16:42:58,235 - INFO - Fast Retransmit: ssthresh set to 7000, cwnd set to 11200
+2024-10-30 16:42:58,235 - INFO - Resent packet with seq_num 18200 (Retransmission count: 2)
+2024-10-30 16:42:58,235 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,236 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 5
+2024-10-30 16:42:58,236 - INFO - Fast Retransmit: ssthresh set to 5600, cwnd set to 9800
+2024-10-30 16:42:58,236 - INFO - Resent packet with seq_num 18200 (Retransmission count: 3)
+2024-10-30 16:42:58,237 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,237 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 6
+2024-10-30 16:42:58,237 - INFO - Fast Retransmit: ssthresh set to 4900, cwnd set to 9100
+2024-10-30 16:42:58,237 - INFO - Resent packet with seq_num 18200 (Retransmission count: 4)
+2024-10-30 16:42:58,237 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,238 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 7
+2024-10-30 16:42:58,238 - INFO - Fast Retransmit: ssthresh set to 4550, cwnd set to 8750
+2024-10-30 16:42:58,238 - INFO - Resent packet with seq_num 18200 (Retransmission count: 5)
+2024-10-30 16:42:58,239 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,239 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 8
+2024-10-30 16:42:58,239 - INFO - Fast Retransmit: ssthresh set to 4375, cwnd set to 8575
+2024-10-30 16:42:58,240 - INFO - Resent packet with seq_num 18200 (Retransmission count: 6)
+2024-10-30 16:42:58,240 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,240 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 9
+2024-10-30 16:42:58,240 - INFO - Fast Retransmit: ssthresh set to 4287, cwnd set to 8487
+2024-10-30 16:42:58,240 - INFO - Resent packet with seq_num 18200 (Retransmission count: 7)
+2024-10-30 16:42:58,240 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,240 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 10
+2024-10-30 16:42:58,240 - INFO - Fast Retransmit: ssthresh set to 4243, cwnd set to 8443
+2024-10-30 16:42:58,241 - INFO - Resent packet with seq_num 18200 (Retransmission count: 8)
+2024-10-30 16:42:58,241 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,241 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 11
+2024-10-30 16:42:58,241 - INFO - Fast Retransmit: ssthresh set to 4221, cwnd set to 8421
+2024-10-30 16:42:58,241 - INFO - Resent packet with seq_num 18200 (Retransmission count: 9)
+2024-10-30 16:42:58,241 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,241 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 12
+2024-10-30 16:42:58,242 - INFO - Fast Retransmit: ssthresh set to 4210, cwnd set to 8410
+2024-10-30 16:42:58,242 - INFO - Resent packet with seq_num 18200 (Retransmission count: 10)
+2024-10-30 16:42:58,242 - INFO - Received ACK for seq_num 18200
+2024-10-30 16:42:58,242 - INFO - Duplicate ACK for seq_num 18200. dup_ack_count = 13
+2024-10-30 16:42:58,242 - INFO - Fast Retransmit: ssthresh set to 4205, cwnd set to 8405
+2024-10-30 16:42:58,242 - INFO - Resent packet with seq_num 18200 (Retransmission count: 11)
+2024-10-30 16:42:58,275 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,275 - INFO - Timeout interval updated to 0.124 seconds
+2024-10-30 16:42:58,275 - INFO - Timeout interval updated to 0.136 seconds
+2024-10-30 16:42:58,275 - INFO - Timeout interval updated to 0.143 seconds
+2024-10-30 16:42:58,275 - INFO - Timeout interval updated to 0.143 seconds
+2024-10-30 16:42:58,275 - INFO - Timeout interval updated to 0.142 seconds
+2024-10-30 16:42:58,275 - INFO - Timeout interval updated to 0.137 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.132 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.125 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.119 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.113 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.108 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.103 seconds
+2024-10-30 16:42:58,276 - INFO - Timeout interval updated to 0.098 seconds
+2024-10-30 16:42:58,276 - INFO - Fast Recovery: Set cwnd to ssthresh 4205 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,276 - INFO - Sent packet with seq_num 37800
+2024-10-30 16:42:58,277 - INFO - Sent packet with seq_num 39200
+2024-10-30 16:42:58,277 - INFO - Sent packet with seq_num 40600
+2024-10-30 16:42:58,277 - INFO - Sent packet with seq_num 42000
+2024-10-30 16:42:58,277 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,278 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 1
+2024-10-30 16:42:58,278 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,278 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 2
+2024-10-30 16:42:58,278 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,278 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 3
+2024-10-30 16:42:58,278 - INFO - Fast Retransmit: ssthresh set to 2102, cwnd set to 6302
+2024-10-30 16:42:58,278 - INFO - Resent packet with seq_num 37800 (Retransmission count: 1)
+2024-10-30 16:42:58,278 - INFO - Sent packet with seq_num 43400
+2024-10-30 16:42:58,280 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,280 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 4
+2024-10-30 16:42:58,280 - INFO - Fast Retransmit: ssthresh set to 3151, cwnd set to 7351
+2024-10-30 16:42:58,280 - INFO - Resent packet with seq_num 37800 (Retransmission count: 2)
+2024-10-30 16:42:58,281 - INFO - Sent packet with seq_num 44800
+2024-10-30 16:42:58,281 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,281 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 5
+2024-10-30 16:42:58,281 - INFO - Fast Retransmit: ssthresh set to 3675, cwnd set to 7875
+2024-10-30 16:42:58,281 - INFO - Resent packet with seq_num 37800 (Retransmission count: 3)
+2024-10-30 16:42:58,281 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,281 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 6
+2024-10-30 16:42:58,282 - INFO - Fast Retransmit: ssthresh set to 3937, cwnd set to 8137
+2024-10-30 16:42:58,282 - INFO - Resent packet with seq_num 37800 (Retransmission count: 4)
+2024-10-30 16:42:58,282 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,282 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 7
+2024-10-30 16:42:58,282 - INFO - Fast Retransmit: ssthresh set to 4068, cwnd set to 8268
+2024-10-30 16:42:58,282 - INFO - Resent packet with seq_num 37800 (Retransmission count: 5)
+2024-10-30 16:42:58,282 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,282 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 8
+2024-10-30 16:42:58,282 - INFO - Fast Retransmit: ssthresh set to 4134, cwnd set to 8334
+2024-10-30 16:42:58,283 - INFO - Resent packet with seq_num 37800 (Retransmission count: 6)
+2024-10-30 16:42:58,283 - INFO - Received ACK for seq_num 37800
+2024-10-30 16:42:58,283 - INFO - Duplicate ACK for seq_num 37800. dup_ack_count = 9
+2024-10-30 16:42:58,283 - INFO - Fast Retransmit: ssthresh set to 4167, cwnd set to 8367
+2024-10-30 16:42:58,283 - INFO - Resent packet with seq_num 37800 (Retransmission count: 7)
+2024-10-30 16:42:58,317 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,317 - INFO - Fast Recovery: Set cwnd to ssthresh 4167 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,318 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,318 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 1
+2024-10-30 16:42:58,318 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,318 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 2
+2024-10-30 16:42:58,319 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,319 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 3
+2024-10-30 16:42:58,319 - INFO - Fast Retransmit: ssthresh set to 2083, cwnd set to 6283
+2024-10-30 16:42:58,319 - INFO - Resent packet with seq_num 39200 (Retransmission count: 1)
+2024-10-30 16:42:58,319 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,319 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 4
+2024-10-30 16:42:58,319 - INFO - Fast Retransmit: ssthresh set to 3141, cwnd set to 7341
+2024-10-30 16:42:58,320 - INFO - Resent packet with seq_num 39200 (Retransmission count: 2)
+2024-10-30 16:42:58,320 - INFO - Sent packet with seq_num 46200
+2024-10-30 16:42:58,321 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,321 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 5
+2024-10-30 16:42:58,321 - INFO - Fast Retransmit: ssthresh set to 3670, cwnd set to 7870
+2024-10-30 16:42:58,321 - INFO - Resent packet with seq_num 39200 (Retransmission count: 3)
+2024-10-30 16:42:58,322 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,322 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 6
+2024-10-30 16:42:58,322 - INFO - Fast Retransmit: ssthresh set to 3935, cwnd set to 8135
+2024-10-30 16:42:58,322 - INFO - Resent packet with seq_num 39200 (Retransmission count: 4)
+2024-10-30 16:42:58,322 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,322 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 7
+2024-10-30 16:42:58,322 - INFO - Fast Retransmit: ssthresh set to 4067, cwnd set to 8267
+2024-10-30 16:42:58,322 - INFO - Resent packet with seq_num 39200 (Retransmission count: 5)
+2024-10-30 16:42:58,323 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,323 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 8
+2024-10-30 16:42:58,323 - INFO - Fast Retransmit: ssthresh set to 4133, cwnd set to 8333
+2024-10-30 16:42:58,323 - INFO - Resent packet with seq_num 39200 (Retransmission count: 6)
+2024-10-30 16:42:58,323 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,323 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 9
+2024-10-30 16:42:58,323 - INFO - Fast Retransmit: ssthresh set to 4166, cwnd set to 8366
+2024-10-30 16:42:58,323 - INFO - Resent packet with seq_num 39200 (Retransmission count: 7)
+2024-10-30 16:42:58,324 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,324 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 10
+2024-10-30 16:42:58,324 - INFO - Fast Retransmit: ssthresh set to 4183, cwnd set to 8383
+2024-10-30 16:42:58,324 - INFO - Resent packet with seq_num 39200 (Retransmission count: 8)
+2024-10-30 16:42:58,324 - INFO - Received ACK for seq_num 39200
+2024-10-30 16:42:58,324 - INFO - Duplicate ACK for seq_num 39200. dup_ack_count = 11
+2024-10-30 16:42:58,324 - INFO - Fast Retransmit: ssthresh set to 4191, cwnd set to 8391
+2024-10-30 16:42:58,324 - INFO - Resent packet with seq_num 39200 (Retransmission count: 9)
+2024-10-30 16:42:58,360 - INFO - Received ACK for seq_num 46200
+2024-10-30 16:42:58,360 - INFO - Timeout interval updated to 0.102 seconds
+2024-10-30 16:42:58,360 - INFO - Timeout interval updated to 0.105 seconds
+2024-10-30 16:42:58,360 - INFO - Timeout interval updated to 0.104 seconds
+2024-10-30 16:42:58,360 - INFO - Timeout interval updated to 0.101 seconds
+2024-10-30 16:42:58,360 - INFO - Fast Recovery: Set cwnd to ssthresh 4191 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,361 - INFO - Sent packet with seq_num 47600
+2024-10-30 16:42:58,361 - INFO - Sent packet with seq_num 49000
+2024-10-30 16:42:58,361 - INFO - Received ACK for seq_num 46200
+2024-10-30 16:42:58,361 - INFO - Duplicate ACK for seq_num 46200. dup_ack_count = 1
+2024-10-30 16:42:58,361 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,362 - INFO - Timeout interval updated to 0.121 seconds
+2024-10-30 16:42:58,362 - INFO - Congestion Avoidance: Increased cwnd to 4658
+2024-10-30 16:42:58,362 - INFO - Sent packet with seq_num 50400
+2024-10-30 16:42:58,362 - INFO - Sent packet with seq_num 51800
+2024-10-30 16:42:58,362 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,362 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 1
+2024-10-30 16:42:58,363 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,363 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 2
+2024-10-30 16:42:58,363 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,363 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 3
+2024-10-30 16:42:58,363 - INFO - Fast Retransmit: ssthresh set to 2329, cwnd set to 6529
+2024-10-30 16:42:58,363 - INFO - Resent packet with seq_num 47600 (Retransmission count: 1)
+2024-10-30 16:42:58,363 - INFO - Sent packet with seq_num 53200
+2024-10-30 16:42:58,364 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,364 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 4
+2024-10-30 16:42:58,364 - INFO - Fast Retransmit: ssthresh set to 3264, cwnd set to 7464
+2024-10-30 16:42:58,364 - INFO - Resent packet with seq_num 47600 (Retransmission count: 2)
+2024-10-30 16:42:58,364 - INFO - Sent packet with seq_num 54600
+2024-10-30 16:42:58,364 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,364 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 5
+2024-10-30 16:42:58,364 - INFO - Fast Retransmit: ssthresh set to 3732, cwnd set to 7932
+2024-10-30 16:42:58,365 - INFO - Resent packet with seq_num 47600 (Retransmission count: 3)
+2024-10-30 16:42:58,365 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,365 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 6
+2024-10-30 16:42:58,365 - INFO - Fast Retransmit: ssthresh set to 3966, cwnd set to 8166
+2024-10-30 16:42:58,365 - INFO - Resent packet with seq_num 47600 (Retransmission count: 4)
+2024-10-30 16:42:58,365 - INFO - Received ACK for seq_num 47600
+2024-10-30 16:42:58,365 - INFO - Duplicate ACK for seq_num 47600. dup_ack_count = 7
+2024-10-30 16:42:58,366 - INFO - Fast Retransmit: ssthresh set to 4083, cwnd set to 8283
+2024-10-30 16:42:58,366 - INFO - Resent packet with seq_num 47600 (Retransmission count: 5)
+2024-10-30 16:42:58,401 - INFO - Received ACK for seq_num 49000
+2024-10-30 16:42:58,401 - INFO - Fast Recovery: Set cwnd to ssthresh 4083 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,402 - INFO - Received ACK for seq_num 50400
+2024-10-30 16:42:58,402 - INFO - Timeout interval updated to 0.132 seconds
+2024-10-30 16:42:58,402 - INFO - Congestion Avoidance: Increased cwnd to 4563
+2024-10-30 16:42:58,402 - INFO - Received ACK for seq_num 51800
+2024-10-30 16:42:58,403 - INFO - Timeout interval updated to 0.136 seconds
+2024-10-30 16:42:58,403 - INFO - Congestion Avoidance: Increased cwnd to 4992
+2024-10-30 16:42:58,403 - INFO - Sent packet with seq_num 56000
+2024-10-30 16:42:58,403 - INFO - Received ACK for seq_num 53200
+2024-10-30 16:42:58,403 - INFO - Timeout interval updated to 0.136 seconds
+2024-10-30 16:42:58,403 - INFO - Congestion Avoidance: Increased cwnd to 5384
+2024-10-30 16:42:58,404 - INFO - Sent packet with seq_num 57400
+2024-10-30 16:42:58,404 - INFO - Received ACK for seq_num 53200
+2024-10-30 16:42:58,404 - INFO - Duplicate ACK for seq_num 53200. dup_ack_count = 1
+2024-10-30 16:42:58,404 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,404 - INFO - Timeout interval updated to 0.133 seconds
+2024-10-30 16:42:58,404 - INFO - Congestion Avoidance: Increased cwnd to 5748
+2024-10-30 16:42:58,405 - INFO - Sent packet with seq_num 58800
+2024-10-30 16:42:58,405 - INFO - Sent packet with seq_num 60200
+2024-10-30 16:42:58,405 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,405 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 1
+2024-10-30 16:42:58,405 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,405 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 2
+2024-10-30 16:42:58,406 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,406 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 3
+2024-10-30 16:42:58,406 - INFO - Fast Retransmit: ssthresh set to 2874, cwnd set to 7074
+2024-10-30 16:42:58,406 - INFO - Resent packet with seq_num 54600 (Retransmission count: 1)
+2024-10-30 16:42:58,406 - INFO - Sent packet with seq_num 61600
+2024-10-30 16:42:58,406 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,407 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 4
+2024-10-30 16:42:58,407 - INFO - Fast Retransmit: ssthresh set to 3537, cwnd set to 7737
+2024-10-30 16:42:58,407 - INFO - Resent packet with seq_num 54600 (Retransmission count: 2)
+2024-10-30 16:42:58,443 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,444 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 5
+2024-10-30 16:42:58,444 - INFO - Fast Retransmit: ssthresh set to 3868, cwnd set to 8068
+2024-10-30 16:42:58,444 - INFO - Resent packet with seq_num 54600 (Retransmission count: 3)
+2024-10-30 16:42:58,444 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,444 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 6
+2024-10-30 16:42:58,444 - INFO - Fast Retransmit: ssthresh set to 4034, cwnd set to 8234
+2024-10-30 16:42:58,445 - INFO - Resent packet with seq_num 54600 (Retransmission count: 4)
+2024-10-30 16:42:58,445 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,445 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 7
+2024-10-30 16:42:58,445 - INFO - Fast Retransmit: ssthresh set to 4117, cwnd set to 8317
+2024-10-30 16:42:58,445 - INFO - Resent packet with seq_num 54600 (Retransmission count: 5)
+2024-10-30 16:42:58,446 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,446 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 8
+2024-10-30 16:42:58,446 - INFO - Fast Retransmit: ssthresh set to 4158, cwnd set to 8358
+2024-10-30 16:42:58,446 - INFO - Resent packet with seq_num 54600 (Retransmission count: 6)
+2024-10-30 16:42:58,447 - INFO - Received ACK for seq_num 54600
+2024-10-30 16:42:58,447 - INFO - Duplicate ACK for seq_num 54600. dup_ack_count = 9
+2024-10-30 16:42:58,447 - INFO - Fast Retransmit: ssthresh set to 4179, cwnd set to 8379
+2024-10-30 16:42:58,447 - INFO - Resent packet with seq_num 54600 (Retransmission count: 7)
+2024-10-30 16:42:58,447 - INFO - Received ACK for seq_num 63000
+2024-10-30 16:42:58,448 - INFO - Timeout interval updated to 0.125 seconds
+2024-10-30 16:42:58,448 - INFO - Timeout interval updated to 0.118 seconds
+2024-10-30 16:42:58,448 - INFO - Timeout interval updated to 0.112 seconds
+2024-10-30 16:42:58,448 - INFO - Timeout interval updated to 0.106 seconds
+2024-10-30 16:42:58,448 - INFO - Timeout interval updated to 0.101 seconds
+2024-10-30 16:42:58,448 - INFO - Fast Recovery: Set cwnd to ssthresh 4179 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,448 - INFO - Sent packet with seq_num 63000
+2024-10-30 16:42:58,448 - INFO - Sent packet with seq_num 64400
+2024-10-30 16:42:58,449 - INFO - Sent packet with seq_num 65800
+2024-10-30 16:42:58,484 - INFO - Received ACK for seq_num 63000
+2024-10-30 16:42:58,485 - INFO - Duplicate ACK for seq_num 63000. dup_ack_count = 1
+2024-10-30 16:42:58,485 - INFO - Received ACK for seq_num 63000
+2024-10-30 16:42:58,485 - INFO - Duplicate ACK for seq_num 63000. dup_ack_count = 2
+2024-10-30 16:42:58,486 - INFO - Received ACK for seq_num 63000
+2024-10-30 16:42:58,486 - INFO - Duplicate ACK for seq_num 63000. dup_ack_count = 3
+2024-10-30 16:42:58,486 - INFO - Fast Retransmit: ssthresh set to 2089, cwnd set to 6289
+2024-10-30 16:42:58,486 - INFO - Resent packet with seq_num 63000 (Retransmission count: 1)
+2024-10-30 16:42:58,486 - INFO - Sent packet with seq_num 67200
+2024-10-30 16:42:58,487 - INFO - Sent packet with seq_num 68600
+2024-10-30 16:42:58,487 - INFO - Received ACK for seq_num 63000
+2024-10-30 16:42:58,487 - INFO - Duplicate ACK for seq_num 63000. dup_ack_count = 4
+2024-10-30 16:42:58,487 - INFO - Fast Retransmit: ssthresh set to 3144, cwnd set to 7344
+2024-10-30 16:42:58,487 - INFO - Resent packet with seq_num 63000 (Retransmission count: 2)
+2024-10-30 16:42:58,488 - INFO - Sent packet with seq_num 70000
+2024-10-30 16:42:58,488 - INFO - Received ACK for seq_num 63000
+2024-10-30 16:42:58,488 - INFO - Duplicate ACK for seq_num 63000. dup_ack_count = 5
+2024-10-30 16:42:58,488 - INFO - Fast Retransmit: ssthresh set to 3672, cwnd set to 7872
+2024-10-30 16:42:58,488 - INFO - Resent packet with seq_num 63000 (Retransmission count: 3)
+2024-10-30 16:42:58,489 - INFO - Received ACK for seq_num 64400
+2024-10-30 16:42:58,489 - INFO - Fast Recovery: Set cwnd to ssthresh 3672 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,489 - INFO - Received ACK for seq_num 65800
+2024-10-30 16:42:58,489 - INFO - Timeout interval updated to 0.096 seconds
+2024-10-30 16:42:58,490 - INFO - Congestion Avoidance: Increased cwnd to 4205
+2024-10-30 16:42:58,527 - INFO - Received ACK for seq_num 67200
+2024-10-30 16:42:58,527 - INFO - Timeout interval updated to 0.113 seconds
+2024-10-30 16:42:58,527 - INFO - Congestion Avoidance: Increased cwnd to 4671
+2024-10-30 16:42:58,527 - INFO - Sent packet with seq_num 71400
+2024-10-30 16:42:58,528 - INFO - Received ACK for seq_num 68600
+2024-10-30 16:42:58,528 - INFO - Timeout interval updated to 0.107 seconds
+2024-10-30 16:42:58,528 - INFO - Congestion Avoidance: Increased cwnd to 5090
+2024-10-30 16:42:58,528 - INFO - Sent packet with seq_num 72800
+2024-10-30 16:42:58,528 - INFO - Received ACK for seq_num 70000
+2024-10-30 16:42:58,528 - INFO - Timeout interval updated to 0.101 seconds
+2024-10-30 16:42:58,528 - INFO - Congestion Avoidance: Increased cwnd to 5475
+2024-10-30 16:42:58,529 - INFO - Sent packet with seq_num 74200
+2024-10-30 16:42:58,529 - INFO - Received ACK for seq_num 70000
+2024-10-30 16:42:58,529 - INFO - Duplicate ACK for seq_num 70000. dup_ack_count = 1
+2024-10-30 16:42:58,529 - INFO - Received ACK for seq_num 70000
+2024-10-30 16:42:58,529 - INFO - Duplicate ACK for seq_num 70000. dup_ack_count = 2
+2024-10-30 16:42:58,568 - INFO - Received ACK for seq_num 70000
+2024-10-30 16:42:58,568 - INFO - Duplicate ACK for seq_num 70000. dup_ack_count = 3
+2024-10-30 16:42:58,568 - INFO - Fast Retransmit: ssthresh set to 2737, cwnd set to 6937
+2024-10-30 16:42:58,568 - INFO - Resent packet with seq_num 70000 (Retransmission count: 1)
+2024-10-30 16:42:58,569 - INFO - Sent packet with seq_num 75600
+2024-10-30 16:42:58,569 - INFO - Received ACK for seq_num 70000
+2024-10-30 16:42:58,569 - INFO - Duplicate ACK for seq_num 70000. dup_ack_count = 4
+2024-10-30 16:42:58,569 - INFO - Fast Retransmit: ssthresh set to 3468, cwnd set to 7668
+2024-10-30 16:42:58,569 - INFO - Resent packet with seq_num 70000 (Retransmission count: 2)
+2024-10-30 16:42:58,569 - INFO - Sent packet with seq_num 77000
+2024-10-30 16:42:58,569 - INFO - Received ACK for seq_num 70000
+2024-10-30 16:42:58,570 - INFO - Duplicate ACK for seq_num 70000. dup_ack_count = 5
+2024-10-30 16:42:58,570 - INFO - Fast Retransmit: ssthresh set to 3834, cwnd set to 8034
+2024-10-30 16:42:58,570 - INFO - Resent packet with seq_num 70000 (Retransmission count: 3)
+2024-10-30 16:42:58,609 - INFO - Received ACK for seq_num 75600
+2024-10-30 16:42:58,609 - INFO - Timeout interval updated to 0.120 seconds
+2024-10-30 16:42:58,610 - INFO - Timeout interval updated to 0.131 seconds
+2024-10-30 16:42:58,610 - INFO - Timeout interval updated to 0.136 seconds
+2024-10-30 16:42:58,610 - INFO - Fast Recovery: Set cwnd to ssthresh 3834 and transitioned to Congestion Avoidance
+2024-10-30 16:42:58,611 - INFO - Sent packet with seq_num 78400
+2024-10-30 16:42:58,611 - INFO - Received ACK for seq_num 77000
+2024-10-30 16:42:58,611 - INFO - Timeout interval updated to 0.131 seconds
+2024-10-30 16:42:58,612 - INFO - Congestion Avoidance: Increased cwnd to 4345
+2024-10-30 16:42:58,612 - INFO - Sent packet with seq_num 79800
+2024-10-30 16:42:58,612 - INFO - Sent packet with seq_num 81200
+2024-10-30 16:42:58,613 - INFO - Received ACK for seq_num 77000
+2024-10-30 16:42:58,613 - INFO - Duplicate ACK for seq_num 77000. dup_ack_count = 1
+2024-10-30 16:42:58,613 - INFO - Received ACK for seq_num 78400
+2024-10-30 16:42:58,614 - INFO - Timeout interval updated to 0.123 seconds
+2024-10-30 16:42:58,614 - INFO - Congestion Avoidance: Increased cwnd to 4796
+2024-10-30 16:42:58,614 - INFO - Sent packet with seq_num 82600
+2024-10-30 16:42:58,615 - INFO - Received ACK for seq_num 78400
+2024-10-30 16:42:58,615 - INFO - Duplicate ACK for seq_num 78400. dup_ack_count = 1
+2024-10-30 16:42:58,651 - INFO - Received ACK for seq_num 79800
+2024-10-30 16:42:58,652 - INFO - Timeout interval updated to 0.119 seconds
+2024-10-30 16:42:58,652 - INFO - Congestion Avoidance: Increased cwnd to 5204
+2024-10-30 16:42:58,652 - INFO - Sent packet with seq_num 84000
+2024-10-30 16:42:58,653 - INFO - Received ACK for seq_num 81200
+2024-10-30 16:42:58,653 - INFO - Timeout interval updated to 0.113 seconds
+2024-10-30 16:42:58,653 - INFO - Congestion Avoidance: Increased cwnd to 5580
+2024-10-30 16:42:58,653 - INFO - Sent packet with seq_num 85400
+2024-10-30 16:42:58,654 - INFO - Received ACK for seq_num 82600
+2024-10-30 16:42:58,654 - INFO - Timeout interval updated to 0.107 seconds
+2024-10-30 16:42:58,654 - INFO - Congestion Avoidance: Increased cwnd to 5931
+2024-10-30 16:42:58,654 - INFO - Sent packet with seq_num 86800
+2024-10-30 16:42:58,655 - INFO - Sent packet with seq_num 88200
+2024-10-30 16:42:58,655 - INFO - Received ACK for seq_num 84000
+2024-10-30 16:42:58,655 - INFO - Timeout interval updated to 0.101 seconds
+2024-10-30 16:42:58,655 - INFO - Congestion Avoidance: Increased cwnd to 6261
+2024-10-30 16:42:58,655 - INFO - Sent packet with seq_num 89600
+2024-10-30 16:42:58,693 - INFO - Received ACK for seq_num 85400
+2024-10-30 16:42:58,693 - INFO - Timeout interval updated to 0.096 seconds
+2024-10-30 16:42:58,693 - INFO - Congestion Avoidance: Increased cwnd to 6574
+2024-10-30 16:42:58,694 - INFO - Sent packet with seq_num 91000
+2024-10-30 16:42:58,694 - INFO - Received ACK for seq_num 86800
+2024-10-30 16:42:58,694 - INFO - Timeout interval updated to 0.091 seconds
+2024-10-30 16:42:58,694 - INFO - Congestion Avoidance: Increased cwnd to 6872
+2024-10-30 16:42:58,694 - INFO - Sent packet with seq_num 92400
+2024-10-30 16:42:58,695 - INFO - Received ACK for seq_num 88200
+2024-10-30 16:42:58,695 - INFO - Timeout interval updated to 0.086 seconds
+2024-10-30 16:42:58,695 - INFO - Congestion Avoidance: Increased cwnd to 7157
+2024-10-30 16:42:58,695 - INFO - Sent packet with seq_num 93800
+2024-10-30 16:42:58,695 - INFO - Sent packet with seq_num 95200
+2024-10-30 16:42:58,696 - INFO - Received ACK for seq_num 89600
+2024-10-30 16:42:58,696 - INFO - Timeout interval updated to 0.080 seconds
+2024-10-30 16:42:58,696 - INFO - Congestion Avoidance: Increased cwnd to 7430
+2024-10-30 16:42:58,696 - INFO - Sent packet with seq_num 96600
+2024-10-30 16:42:58,696 - INFO - Received ACK for seq_num 91000
+2024-10-30 16:42:58,696 - INFO - Timeout interval updated to 0.076 seconds
+2024-10-30 16:42:58,696 - INFO - Congestion Avoidance: Increased cwnd to 7693
+2024-10-30 16:42:58,697 - INFO - Sent packet with seq_num 98000
+2024-10-30 16:42:58,734 - INFO - Received ACK for seq_num 92400
+2024-10-30 16:42:58,734 - INFO - Timeout interval updated to 0.072 seconds
+2024-10-30 16:42:58,734 - INFO - Congestion Avoidance: Increased cwnd to 7947
+2024-10-30 16:42:58,734 - INFO - Sent packet with seq_num 99400
+2024-10-30 16:42:58,735 - INFO - Received ACK for seq_num 93800
+2024-10-30 16:42:58,735 - INFO - Timeout interval updated to 0.069 seconds
+2024-10-30 16:42:58,735 - INFO - Congestion Avoidance: Increased cwnd to 8193
+2024-10-30 16:42:58,735 - INFO - Sent packet with seq_num 100800
+2024-10-30 16:42:58,736 - INFO - Received ACK for seq_num 95200
+2024-10-30 16:42:58,736 - INFO - Timeout interval updated to 0.066 seconds
+2024-10-30 16:42:58,736 - INFO - Congestion Avoidance: Increased cwnd to 8432
+2024-10-30 16:42:58,736 - INFO - Sent packet with seq_num 102200
+2024-10-30 16:42:58,736 - INFO - Sent packet with seq_num 103600
+2024-10-30 16:42:58,736 - INFO - Received ACK for seq_num 96600
+2024-10-30 16:42:58,736 - INFO - Timeout interval updated to 0.063 seconds
+2024-10-30 16:42:58,736 - INFO - Congestion Avoidance: Increased cwnd to 8664
+2024-10-30 16:42:58,737 - INFO - Sent packet with seq_num 105000
+2024-10-30 16:42:58,737 - INFO - Received ACK for seq_num 98000
+2024-10-30 16:42:58,737 - INFO - Timeout interval updated to 0.060 seconds
+2024-10-30 16:42:58,737 - INFO - Congestion Avoidance: Increased cwnd to 8890
+2024-10-30 16:42:58,737 - INFO - Sent packet with seq_num 106400
+2024-10-30 16:42:58,737 - INFO - Received ACK for seq_num 99400
+2024-10-30 16:42:58,737 - INFO - Timeout interval updated to 0.058 seconds
+2024-10-30 16:42:58,738 - INFO - Congestion Avoidance: Increased cwnd to 9110
+2024-10-30 16:42:58,738 - INFO - Sent packet with seq_num 107800
+2024-10-30 16:42:58,775 - INFO - Received ACK for seq_num 100800
+2024-10-30 16:42:58,775 - INFO - Timeout interval updated to 0.056 seconds
+2024-10-30 16:42:58,775 - INFO - Congestion Avoidance: Increased cwnd to 9325
+2024-10-30 16:42:58,775 - INFO - Sent packet with seq_num 109200
+2024-10-30 16:42:58,775 - INFO - Received ACK for seq_num 102200
+2024-10-30 16:42:58,776 - INFO - Timeout interval updated to 0.054 seconds
+2024-10-30 16:42:58,776 - INFO - Congestion Avoidance: Increased cwnd to 9535
+2024-10-30 16:42:58,776 - INFO - Sent packet with seq_num 110600
+2024-10-30 16:42:58,776 - INFO - Received ACK for seq_num 103600
+2024-10-30 16:42:58,776 - INFO - Timeout interval updated to 0.053 seconds
+2024-10-30 16:42:58,776 - INFO - Congestion Avoidance: Increased cwnd to 9740
+2024-10-30 16:42:58,777 - INFO - Sent packet with seq_num 112000
+2024-10-30 16:42:58,777 - INFO - Received ACK for seq_num 105000
+2024-10-30 16:42:58,777 - INFO - Timeout interval updated to 0.051 seconds
+2024-10-30 16:42:58,777 - INFO - Congestion Avoidance: Increased cwnd to 9941
+2024-10-30 16:42:58,777 - INFO - Sent packet with seq_num 113400
+2024-10-30 16:42:58,777 - INFO - Sent packet with seq_num 114800
+2024-10-30 16:42:58,777 - INFO - Received ACK for seq_num 106400
+2024-10-30 16:42:58,778 - INFO - Timeout interval updated to 0.050 seconds
+2024-10-30 16:42:58,778 - INFO - Congestion Avoidance: Increased cwnd to 10138
+2024-10-30 16:42:58,778 - INFO - Sent packet with seq_num 116200
+2024-10-30 16:42:58,778 - INFO - Received ACK for seq_num 107800
+2024-10-30 16:42:58,778 - INFO - Timeout interval updated to 0.048 seconds
+2024-10-30 16:42:58,778 - INFO - Congestion Avoidance: Increased cwnd to 10331
+2024-10-30 16:42:58,778 - INFO - Sent packet with seq_num 117600
+2024-10-30 16:42:58,778 - INFO - Received ACK for seq_num 109200
+2024-10-30 16:42:58,778 - INFO - Timeout interval updated to 0.047 seconds
+2024-10-30 16:42:58,779 - INFO - Congestion Avoidance: Increased cwnd to 10520
+2024-10-30 16:42:58,779 - INFO - Sent packet with seq_num 119000
+2024-10-30 16:42:58,816 - INFO - Received ACK for seq_num 110600
+2024-10-30 16:42:58,816 - INFO - Timeout interval updated to 0.047 seconds
+2024-10-30 16:42:58,816 - INFO - Congestion Avoidance: Increased cwnd to 10706
+2024-10-30 16:42:58,816 - INFO - Sent packet with seq_num 120400
+2024-10-30 16:42:58,816 - INFO - Received ACK for seq_num 112000
+2024-10-30 16:42:58,816 - INFO - Timeout interval updated to 0.046 seconds
+2024-10-30 16:42:58,816 - INFO - Congestion Avoidance: Increased cwnd to 10889
+2024-10-30 16:42:58,817 - INFO - Sent packet with seq_num 121800
+2024-10-30 16:42:58,817 - INFO - Received ACK for seq_num 113400
+2024-10-30 16:42:58,817 - INFO - Timeout interval updated to 0.046 seconds
+2024-10-30 16:42:58,817 - INFO - Congestion Avoidance: Increased cwnd to 11068
+2024-10-30 16:42:58,817 - INFO - Sent packet with seq_num 123200
+2024-10-30 16:42:58,818 - INFO - Received ACK for seq_num 114800
+2024-10-30 16:42:58,818 - INFO - Timeout interval updated to 0.045 seconds
+2024-10-30 16:42:58,818 - INFO - Congestion Avoidance: Increased cwnd to 11245
+2024-10-30 16:42:58,818 - INFO - Sent packet with seq_num 124600
+2024-10-30 16:42:58,818 - INFO - Sent packet with seq_num 126000
+2024-10-30 16:42:58,818 - INFO - Received ACK for seq_num 116200
+2024-10-30 16:42:58,818 - INFO - Timeout interval updated to 0.044 seconds
+2024-10-30 16:42:58,818 - INFO - Congestion Avoidance: Increased cwnd to 11419
+2024-10-30 16:42:58,818 - INFO - Sent packet with seq_num 127400
+2024-10-30 16:42:58,819 - INFO - Received ACK for seq_num 117600
+2024-10-30 16:42:58,819 - INFO - Timeout interval updated to 0.044 seconds
+2024-10-30 16:42:58,819 - INFO - Congestion Avoidance: Increased cwnd to 11590
+2024-10-30 16:42:58,819 - INFO - Sent packet with seq_num 128800
+2024-10-30 16:42:58,819 - INFO - Received ACK for seq_num 119000
+2024-10-30 16:42:58,819 - INFO - Timeout interval updated to 0.043 seconds
+2024-10-30 16:42:58,819 - INFO - Congestion Avoidance: Increased cwnd to 11759
+2024-10-30 16:42:58,819 - INFO - Sent packet with seq_num 130200
+2024-10-30 16:42:58,819 - INFO - Received ACK for seq_num 120400
+2024-10-30 16:42:58,820 - INFO - Timeout interval updated to 0.043 seconds
+2024-10-30 16:42:58,820 - INFO - Congestion Avoidance: Increased cwnd to 11925
+2024-10-30 16:42:58,820 - INFO - Sent packet with seq_num 131600
+2024-10-30 16:42:58,857 - INFO - Received ACK for seq_num 121800
+2024-10-30 16:42:58,857 - INFO - Timeout interval updated to 0.043 seconds
+2024-10-30 16:42:58,857 - INFO - Congestion Avoidance: Increased cwnd to 12089
+2024-10-30 16:42:58,857 - INFO - Sent packet with seq_num 133000
+2024-10-30 16:42:58,857 - INFO - Received ACK for seq_num 123200
+2024-10-30 16:42:58,857 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,857 - INFO - Congestion Avoidance: Increased cwnd to 12251
+2024-10-30 16:42:58,858 - INFO - Sent packet with seq_num 134400
+2024-10-30 16:42:58,858 - INFO - Received ACK for seq_num 124600
+2024-10-30 16:42:58,858 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,858 - INFO - Congestion Avoidance: Increased cwnd to 12410
+2024-10-30 16:42:58,858 - INFO - Sent packet with seq_num 135800
+2024-10-30 16:42:58,858 - INFO - Received ACK for seq_num 126000
+2024-10-30 16:42:58,858 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,858 - INFO - Congestion Avoidance: Increased cwnd to 12567
+2024-10-30 16:42:58,859 - INFO - Sent packet with seq_num 137200
+2024-10-30 16:42:58,859 - INFO - Received ACK for seq_num 127400
+2024-10-30 16:42:58,859 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,859 - INFO - Congestion Avoidance: Increased cwnd to 12722
+2024-10-30 16:42:58,859 - INFO - Sent packet with seq_num 138600
+2024-10-30 16:42:58,859 - INFO - Sent packet with seq_num 140000
+2024-10-30 16:42:58,859 - INFO - Received ACK for seq_num 128800
+2024-10-30 16:42:58,859 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,860 - INFO - Congestion Avoidance: Increased cwnd to 12876
+2024-10-30 16:42:58,860 - INFO - Sent packet with seq_num 141400
+2024-10-30 16:42:58,860 - INFO - Received ACK for seq_num 130200
+2024-10-30 16:42:58,860 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,860 - INFO - Congestion Avoidance: Increased cwnd to 13028
+2024-10-30 16:42:58,860 - INFO - Sent packet with seq_num 142800
+2024-10-30 16:42:58,860 - INFO - Received ACK for seq_num 131600
+2024-10-30 16:42:58,860 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,860 - INFO - Congestion Avoidance: Increased cwnd to 13178
+2024-10-30 16:42:58,861 - INFO - Sent packet with seq_num 144200
+2024-10-30 16:42:58,861 - INFO - Received ACK for seq_num 133000
+2024-10-30 16:42:58,861 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,861 - INFO - Congestion Avoidance: Increased cwnd to 13326
+2024-10-30 16:42:58,861 - INFO - Sent packet with seq_num 145600
+2024-10-30 16:42:58,897 - INFO - Received ACK for seq_num 134400
+2024-10-30 16:42:58,898 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,898 - INFO - Congestion Avoidance: Increased cwnd to 13473
+2024-10-30 16:42:58,898 - INFO - Sent packet with seq_num 147000
+2024-10-30 16:42:58,898 - INFO - Received ACK for seq_num 135800
+2024-10-30 16:42:58,898 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,898 - INFO - Congestion Avoidance: Increased cwnd to 13618
+2024-10-30 16:42:58,898 - INFO - Sent packet with seq_num 148400
+2024-10-30 16:42:58,898 - INFO - Received ACK for seq_num 137200
+2024-10-30 16:42:58,899 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,899 - INFO - Congestion Avoidance: Increased cwnd to 13761
+2024-10-30 16:42:58,899 - INFO - Sent packet with seq_num 149800
+2024-10-30 16:42:58,899 - INFO - Received ACK for seq_num 138600
+2024-10-30 16:42:58,899 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,899 - INFO - Congestion Avoidance: Increased cwnd to 13903
+2024-10-30 16:42:58,899 - INFO - Sent packet with seq_num 151200
+2024-10-30 16:42:58,899 - INFO - Received ACK for seq_num 140000
+2024-10-30 16:42:58,900 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,900 - INFO - Congestion Avoidance: Increased cwnd to 14043
+2024-10-30 16:42:58,900 - INFO - Sent packet with seq_num 152600
+2024-10-30 16:42:58,900 - INFO - Sent packet with seq_num 154000
+2024-10-30 16:42:58,900 - INFO - Received ACK for seq_num 141400
+2024-10-30 16:42:58,900 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,900 - INFO - Congestion Avoidance: Increased cwnd to 14182
+2024-10-30 16:42:58,900 - INFO - Sent packet with seq_num 155400
+2024-10-30 16:42:58,900 - INFO - Received ACK for seq_num 142800
+2024-10-30 16:42:58,901 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,901 - INFO - Congestion Avoidance: Increased cwnd to 14320
+2024-10-30 16:42:58,901 - INFO - Sent packet with seq_num 156800
+2024-10-30 16:42:58,901 - INFO - Received ACK for seq_num 144200
+2024-10-30 16:42:58,901 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,901 - INFO - Congestion Avoidance: Increased cwnd to 14456
+2024-10-30 16:42:58,901 - INFO - Sent packet with seq_num 158200
+2024-10-30 16:42:58,901 - INFO - Received ACK for seq_num 145600
+2024-10-30 16:42:58,901 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,902 - INFO - Congestion Avoidance: Increased cwnd to 14591
+2024-10-30 16:42:58,902 - INFO - Sent packet with seq_num 159600
+2024-10-30 16:42:58,902 - INFO - Received ACK for seq_num 147000
+2024-10-30 16:42:58,902 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,902 - INFO - Congestion Avoidance: Increased cwnd to 14725
+2024-10-30 16:42:58,902 - INFO - Sent packet with seq_num 161000
+2024-10-30 16:42:58,938 - INFO - Received ACK for seq_num 148400
+2024-10-30 16:42:58,938 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,939 - INFO - Congestion Avoidance: Increased cwnd to 14858
+2024-10-30 16:42:58,939 - INFO - Sent packet with seq_num 162400
+2024-10-30 16:42:58,939 - INFO - Received ACK for seq_num 149800
+2024-10-30 16:42:58,939 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,939 - INFO - Congestion Avoidance: Increased cwnd to 14989
+2024-10-30 16:42:58,939 - INFO - Sent packet with seq_num 163800
+2024-10-30 16:42:58,939 - INFO - Received ACK for seq_num 151200
+2024-10-30 16:42:58,939 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,940 - INFO - Congestion Avoidance: Increased cwnd to 15119
+2024-10-30 16:42:58,940 - INFO - Sent packet with seq_num 165200
+2024-10-30 16:42:58,940 - INFO - Received ACK for seq_num 152600
+2024-10-30 16:42:58,940 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,940 - INFO - Congestion Avoidance: Increased cwnd to 15248
+2024-10-30 16:42:58,940 - INFO - Sent packet with seq_num 166600
+2024-10-30 16:42:58,940 - INFO - Received ACK for seq_num 154000
+2024-10-30 16:42:58,940 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,940 - INFO - Congestion Avoidance: Increased cwnd to 15376
+2024-10-30 16:42:58,941 - INFO - Sent packet with seq_num 168000
+2024-10-30 16:42:58,941 - INFO - Received ACK for seq_num 155400
+2024-10-30 16:42:58,941 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,941 - INFO - Congestion Avoidance: Increased cwnd to 15503
+2024-10-30 16:42:58,941 - INFO - Sent packet with seq_num 169400
+2024-10-30 16:42:58,941 - INFO - Sent packet with seq_num 170800
+2024-10-30 16:42:58,941 - INFO - Received ACK for seq_num 156800
+2024-10-30 16:42:58,941 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,942 - INFO - Congestion Avoidance: Increased cwnd to 15629
+2024-10-30 16:42:58,942 - INFO - Sent packet with seq_num 172200
+2024-10-30 16:42:58,942 - INFO - Received ACK for seq_num 158200
+2024-10-30 16:42:58,942 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,942 - INFO - Congestion Avoidance: Increased cwnd to 15754
+2024-10-30 16:42:58,942 - INFO - Sent packet with seq_num 173600
+2024-10-30 16:42:58,942 - INFO - Received ACK for seq_num 159600
+2024-10-30 16:42:58,942 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,942 - INFO - Congestion Avoidance: Increased cwnd to 15878
+2024-10-30 16:42:58,943 - INFO - Sent packet with seq_num 175000
+2024-10-30 16:42:58,943 - INFO - Received ACK for seq_num 161000
+2024-10-30 16:42:58,943 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,943 - INFO - Congestion Avoidance: Increased cwnd to 16001
+2024-10-30 16:42:58,943 - INFO - Sent packet with seq_num 176400
+2024-10-30 16:42:58,943 - INFO - Received ACK for seq_num 162400
+2024-10-30 16:42:58,943 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,943 - INFO - Congestion Avoidance: Increased cwnd to 16123
+2024-10-30 16:42:58,944 - INFO - Sent packet with seq_num 177800
+2024-10-30 16:42:58,979 - INFO - Received ACK for seq_num 163800
+2024-10-30 16:42:58,979 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,979 - INFO - Congestion Avoidance: Increased cwnd to 16244
+2024-10-30 16:42:58,980 - INFO - Sent packet with seq_num 179200
+2024-10-30 16:42:58,980 - INFO - Received ACK for seq_num 165200
+2024-10-30 16:42:58,980 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,980 - INFO - Congestion Avoidance: Increased cwnd to 16364
+2024-10-30 16:42:58,980 - INFO - Sent packet with seq_num 180600
+2024-10-30 16:42:58,980 - INFO - Received ACK for seq_num 166600
+2024-10-30 16:42:58,980 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,980 - INFO - Congestion Avoidance: Increased cwnd to 16483
+2024-10-30 16:42:58,981 - INFO - Sent packet with seq_num 182000
+2024-10-30 16:42:58,981 - INFO - File read complete.
+2024-10-30 16:42:58,981 - INFO - Received ACK for seq_num 168000
+2024-10-30 16:42:58,981 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,981 - INFO - Congestion Avoidance: Increased cwnd to 16601
+2024-10-30 16:42:58,981 - INFO - Received ACK for seq_num 169400
+2024-10-30 16:42:58,981 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,981 - INFO - Congestion Avoidance: Increased cwnd to 16719
+2024-10-30 16:42:58,981 - INFO - Received ACK for seq_num 170800
+2024-10-30 16:42:58,981 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,982 - INFO - Congestion Avoidance: Increased cwnd to 16836
+2024-10-30 16:42:58,982 - INFO - Received ACK for seq_num 172200
+2024-10-30 16:42:58,982 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,982 - INFO - Congestion Avoidance: Increased cwnd to 16952
+2024-10-30 16:42:58,982 - INFO - Received ACK for seq_num 173600
+2024-10-30 16:42:58,982 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,982 - INFO - Congestion Avoidance: Increased cwnd to 17067
+2024-10-30 16:42:58,982 - INFO - Received ACK for seq_num 175000
+2024-10-30 16:42:58,983 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,983 - INFO - Congestion Avoidance: Increased cwnd to 17181
+2024-10-30 16:42:58,983 - INFO - Received ACK for seq_num 176400
+2024-10-30 16:42:58,983 - INFO - Timeout interval updated to 0.042 seconds
+2024-10-30 16:42:58,983 - INFO - Congestion Avoidance: Increased cwnd to 17295
+2024-10-30 16:42:58,983 - INFO - Received ACK for seq_num 177800
+2024-10-30 16:42:58,984 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,984 - INFO - Congestion Avoidance: Increased cwnd to 17408
+2024-10-30 16:42:58,984 - INFO - Received ACK for seq_num 179200
+2024-10-30 16:42:58,984 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:58,984 - INFO - Congestion Avoidance: Increased cwnd to 17520
+2024-10-30 16:42:59,020 - INFO - Received ACK for seq_num 180600
+2024-10-30 16:42:59,020 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:59,020 - INFO - Congestion Avoidance: Increased cwnd to 17631
+2024-10-30 16:42:59,020 - INFO - Received ACK for seq_num 182000
+2024-10-30 16:42:59,020 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:59,021 - INFO - Congestion Avoidance: Increased cwnd to 17742
+2024-10-30 16:42:59,021 - INFO - Received ACK for seq_num 182664
+2024-10-30 16:42:59,021 - INFO - Timeout interval updated to 0.041 seconds
+2024-10-30 16:42:59,021 - INFO - Congestion Avoidance: Increased cwnd to 17852
+2024-10-30 16:42:59,021 - INFO - Sent FIN to client.
+2024-10-30 16:42:59,062 - INFO - Received ACK for FIN from client.
+2024-10-30 16:42:59,062 - INFO - Received FIN from client.
+2024-10-30 16:42:59,062 - INFO - Connection closed successfully.
