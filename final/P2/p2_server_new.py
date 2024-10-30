@@ -192,5 +192,5 @@ if __name__ == "__main__":
         data, client_address = server.server_socket.recvfrom(1024)
         if data == b"START":
             logger.info(f"Received START from {client_address}")
-            server.run("Sample.txt", client_address)
+            server.run("example.txt", client_address)
             break

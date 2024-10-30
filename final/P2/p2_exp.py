@@ -97,13 +97,13 @@ def run(expname):
                     start_time = time.time()
 
                     # Run the server on h1 in the background, but redirect output to a log file
-                    print(f"Starting server on h1 with command: python3 p2_server.py {SERVER_IP} {SERVER_PORT} &")
-                    h1_output = h1.cmd(f"sudo python3 p2_server.py {SERVER_IP} {SERVER_PORT}  > server_output.log 2>&1 &")
+                    print(f"Starting server on h1 with command: python3 p2_serve_new.py {SERVER_IP} {SERVER_PORT} &")
+                    h1_output = h1.cmd(f"sudo python3 p2_server_new.py {SERVER_IP} {SERVER_PORT}  > server_output.log 2>&1 &")
                     
 
                     # Run the client on h2
-                    print(f"Starting client on h2 with command: python3 p2_client.py {SERVER_IP} {SERVER_PORT}")
-                    h2_output = h2.cmd(f"sudo python3 p2_client.py {SERVER_IP} {SERVER_PORT} > client_log.log 2>&1 ")
+                    print(f"Starting client on h2 with command: python3 p2_client_new.py {SERVER_IP} {SERVER_PORT}")
+                    h2_output = h2.cmd(f"sudo python3 p2_client_new.py {SERVER_IP} {SERVER_PORT} > client_log.log 2>&1 ")
                     print(f"Client output (h2): {h2_output}")
 
                     end_time = time.time()
@@ -138,22 +138,22 @@ def run(expname):
     # Close the output file
     f_out.close()
 
-    # # Plotting the results (TTC vs Loss/Delay) for both fast recovery modes
-    # plt.figure(figsize=(10, 6))
-    # if expname == "loss":
-    #     plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
-    #     plt.title('Throughput vs Loss')
-    #     plt.xlabel('Packet Loss (%)')
-    # elif expname == "delay":
-    #     plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
-    #     plt.title('Time to Completion (TTC) vs THroughput')
-    #     plt.xlabel('Network Delay (ms)')
+    # Plotting the results (TTC vs Loss/Delay) for both fast recovery modes
+    plt.figure(figsize=(10, 6))
+    if expname == "loss":
+        plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
+        plt.title('Throughput vs Loss')
+        plt.xlabel('Packet Loss (%)')
+    elif expname == "delay":
+        plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
+        plt.title('Time to Completion (TTC) vs THroughput')
+        plt.xlabel('Network Delay (ms)')
 
-    # plt.ylabel('Throughput (s)')
-    # plt.legend()
-    # plt.grid(True)
-    # plt.savefig(f'ttc_vs_{expname}_{expname}.png')  # Save the plot as a PNG image
-    # plt.show()  # Display the plot
+    plt.ylabel('Throughput (s)')
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(f'ttc_vs_{expname}_{expname}.png')  # Save the plot as a PNG image
+    plt.show()  # Display the plot
 
     print("\n--- Completed all tests and plotted the results ---")
 
