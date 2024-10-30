@@ -51,7 +51,7 @@ def receive_file(server_ip, server_port):
                         # Send ACK for the last received packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        print(f"Received and acknowledged packet with seq_num {seq_num}")
+                        print(f"Received and acknowledged packet with seq_num {Last_received_seq}")
                     elif seq_num > expected_seq_num:
                         # Out-of-order packet received, buffer it
                         buffer[seq_num] = data
@@ -59,11 +59,13 @@ def receive_file(server_ip, server_port):
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
                         print(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
+                        print(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
                     else:
                         # Duplicate or old packet received, resend ACK
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
                         print(f"Received duplicate packet with seq_num {seq_num}")
+                        print(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
             except socket.timeout:
                 # If timeout occurs, continue to the next iteration
                 continue

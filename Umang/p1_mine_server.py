@@ -93,8 +93,9 @@ class ReliableServer:
     def receive_ack(self):
         try:
             # This returns 1 packet at a time !! 
-            ack_data, _ = self.server_socket.recvfrom(1024)
+            ack_data, _ = self.server_socket.recvfrom(2*MSS)
             ack_info = json.loads(ack_data.decode('utf-8'))
+            print(f"Received ACK for seq_num {ack_info['ack_num']}")
             return ack_info["ack_num"]
         except socket.timeout:
             return None
@@ -108,10 +109,13 @@ class ReliableServer:
             self.window_base = ack_num + MSS  # Adjust as per the assignment requirements
 
             # Update ACK time for each acknowledged packet in the map
+            print("Handling ack here. ")
+            print(f"Packet map: {self.packet_map}")
             for seq in list(self.packet_map):
                 if seq <= ack_num:
                     self.packet_map[seq]["ack_time"] = time.time()
                     del self.packet_map[seq]  # Remove acknowledged packets
+                    print(f"Removed packet with seq_num {seq} from packet_map")
         else:
             # Handle duplicate ACKs
             self.dup_ack_count += 1
@@ -148,13 +152,15 @@ class ReliableServer:
                             print("File Read")
                             break
                         self.send_packet(seq_num, chunk, client_address)
-                    seq_num += MSS
+                        seq_num += len(chunk)
+                    else:
+                        seq_num += MSS
                 
                 
                 # Check for ACKs
                 self.server_socket.settimeout(0.001)
                 ack_num = self.receive_ack()
-                if ack_num:
+                if ack_num is not None:
                     sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
                     if self.packet_map[ack_num]["retransmission_count"] == 0:
                         self.calculate_timeout(sample_rtt)
