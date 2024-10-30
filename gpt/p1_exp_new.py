@@ -4,6 +4,7 @@ from mininet.link import TCLink
 from mininet.node import RemoteController
 from mininet.cli import CLI
 from mininet.log import setLogLevel
+
 import time, os
 import sys
 import hashlib
@@ -44,6 +45,10 @@ def run(expname):
     
     # Output file 
     output_file = f'reliability_{expname}.csv'
+    
+    # FILE PATH 
+    FILE_PATH = "sample_file.txt"
+    
     with open(output_file, 'w') as f_out:
         f_out.write("loss,delay,fast_recovery,md5_hash,ttc\n")
 
