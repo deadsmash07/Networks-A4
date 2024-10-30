@@ -96,8 +96,8 @@ def run(expname):
                     server_log = f"./Logs/server_output_loss_{LOSS}_delay_{DELAY}_fastrecov_{FAST_RECOVERY}_iter_{i+1}.log"
 
                     # Run client and server commands with unique log file names
-                    h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT} > {client_log} 2>&1 &")
-                    result = h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} > {server_log} 2>&1")
+                    h2.cmd(f"python3 p1_client_new.py {SERVER_IP} {SERVER_PORT} > {client_log} 2>&1 &")
+                    result = h1.cmd(f"python3 p1_server_new.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} > {server_log} 2>&1")
                     end_time = time.time()
                     
                     # Calculate the time-to-complete and compute the MD5 hash
