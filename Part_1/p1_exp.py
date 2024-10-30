@@ -15,7 +15,7 @@ class CustomTopo(Topo):
         h2 = self.addHost('h2')
 
         # Add a single switch
-        s1 = self.addSwitch('s1')
+        s1 = self.addSwitch('s1', protocols='OpenFlow13')
 
         # Add links
         # Link between h1 and s1 with the specified packet loss
@@ -59,7 +59,7 @@ def run(expname):
     OUTFILE = 'received_file.txt'
     delay_list, loss_list = [], []
     if expname == "loss":
-        loss_list = [x*0.5 for x in range (0, 11)]
+        loss_list = [x*0.5 for x in range (9, 11)]
         delay_list = [20]
     elif expname == "delay":
         delay_list = [x for x in range(0, 201, 20)]
@@ -69,7 +69,7 @@ def run(expname):
     # Loop to create the topology 10 times with varying loss (1% to 10%)
     for LOSS in loss_list:
         for DELAY in delay_list:
-            for FAST_RECOVERY in [True, False]:
+            for FAST_RECOVERY in [1,0]:
                 for i in range(0, NUM_ITERATIONS):
                     print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}")
 
@@ -91,8 +91,8 @@ def run(expname):
 
                     start_time = time.time()
                     
-                    h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY} &")
-                    result = h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}")
+                    h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT} > ./Logs/client_output.log 2>&1 &")
+                    result = h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {FAST_RECOVERY}  > ./Logs/server_output.log 2>&1 ")
                     end_time = time.time()
                     ttc = end_time-start_time
                     md5_hash = compute_md5('received_file.txt')
