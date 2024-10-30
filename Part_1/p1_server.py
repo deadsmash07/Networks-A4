@@ -119,7 +119,7 @@ class ReliableServer:
                 rtt = time.time() - timestamp
                 logger.info(f"RTT measured: {rtt} seconds")
                 self.set_window_size(rtt)
-                break
+                
         except socket.timeout:
             # self.server_socket.sendto(ping_message, client_address)
             # continue
