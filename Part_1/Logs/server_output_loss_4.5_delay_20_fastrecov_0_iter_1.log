@@ -1,0 +1,6 @@
+2024-10-30 15:41:39,803 - INFO - Server is ready to receive.
+2024-10-30 15:41:39,869 - INFO - Received SYN from ('10.0.0.2', 57758)
+Traceback (most recent call last):
+  File "/home/baadalvm/Networks-A4/Part_1/p1_server.py", line 200, in <module>
+    data, client_address = server.server_socket.recvfrom(1024)
+TimeoutError: timed out

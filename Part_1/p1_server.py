@@ -119,7 +119,6 @@ class ReliableServer:
                 rtt = time.time() - timestamp
                 logger.info(f"RTT measured: {rtt} seconds")
                 self.set_window_size(rtt)
-                break
         except socket.timeout:
             # self.server_socket.sendto(ping_message, client_address)
             # continue
@@ -151,9 +150,10 @@ class ReliableServer:
                 self.server_socket.settimeout(0.001)
                 ack_num = self.receive_ack()
                 if ack_num is not None:
-                    sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
-                    if self.packet_map[ack_num]["retransmission_count"] == 0:
-                        self.calculate_timeout(sample_rtt)
+                    if ack_num in list(self.packet_map):
+                        sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
+                        if self.packet_map[ack_num]["retransmission_count"] == 0:
+                            self.calculate_timeout(sample_rtt)
                     self.handle_ack(ack_num, client_address)
 
                 for seq in list(self.packet_map):
@@ -210,4 +210,7 @@ if __name__ == "__main__":
                     server.run("Sample.txt", client_address)
                     break
             except socket.timeout:
-                continue
+                logger.info("Connection established with client. halfway")
+                server.perform_rtt_measurement(client_address)
+                server.run("Sample.txt", client_address)
+                break

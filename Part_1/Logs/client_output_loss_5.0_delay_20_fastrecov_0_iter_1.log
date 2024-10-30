@@ -1,0 +1,8 @@
+2024-10-30 15:42:18,198 - INFO - Connection established with server.
+Didn't get packet conintuing.
+Traceback (most recent call last):
+  File "/home/baadalvm/Networks-A4/Part_1/p1_client.py", line 126, in <module>
+    receive_file(args.server_ip, args.server_port)
+  File "/home/baadalvm/Networks-A4/Part_1/p1_client.py", line 80, in receive_file
+    seq_num = packet_data['seq_num']
+KeyError: 'seq_num'

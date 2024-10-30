@@ -1,0 +1,2165 @@
+2024-10-30 15:41:32,807 - INFO - Server is ready to receive.
+2024-10-30 15:41:32,880 - INFO - Received SYN from ('10.0.0.2', 42890)
+2024-10-30 15:41:32,921 - INFO - Connection established with client.
+2024-10-30 15:41:32,922 - INFO - Sent PING for RTT measurement.
+2024-10-30 15:41:32,962 - INFO - RTT measured: 0.04065442085266113 seconds
+2024-10-30 15:41:32,962 - INFO - Window size set to 190 segments.
+2024-10-30 15:41:32,963 - INFO - Sent packet with seq_num 0
+2024-10-30 15:41:32,963 - INFO - Sent packet with seq_num 1400
+2024-10-30 15:41:32,963 - INFO - Sent packet with seq_num 2800
+2024-10-30 15:41:32,963 - INFO - Sent packet with seq_num 4200
+2024-10-30 15:41:32,964 - INFO - Sent packet with seq_num 5600
+2024-10-30 15:41:32,964 - INFO - Sent packet with seq_num 7000
+2024-10-30 15:41:32,964 - INFO - Sent packet with seq_num 8400
+2024-10-30 15:41:32,964 - INFO - Sent packet with seq_num 9800
+2024-10-30 15:41:32,965 - INFO - Sent packet with seq_num 11200
+2024-10-30 15:41:32,965 - INFO - Sent packet with seq_num 12600
+2024-10-30 15:41:32,965 - INFO - Sent packet with seq_num 14000
+2024-10-30 15:41:32,965 - INFO - Sent packet with seq_num 15400
+2024-10-30 15:41:32,965 - INFO - Sent packet with seq_num 16800
+2024-10-30 15:41:32,966 - INFO - Sent packet with seq_num 18200
+2024-10-30 15:41:32,966 - INFO - Sent packet with seq_num 19600
+2024-10-30 15:41:32,966 - INFO - Sent packet with seq_num 21000
+2024-10-30 15:41:32,966 - INFO - Sent packet with seq_num 22400
+2024-10-30 15:41:32,967 - INFO - Sent packet with seq_num 23800
+2024-10-30 15:41:32,967 - INFO - Sent packet with seq_num 25200
+2024-10-30 15:41:32,967 - INFO - Sent packet with seq_num 26600
+2024-10-30 15:41:32,967 - INFO - Sent packet with seq_num 28000
+2024-10-30 15:41:32,968 - INFO - Sent packet with seq_num 29400
+2024-10-30 15:41:32,968 - INFO - Sent packet with seq_num 30800
+2024-10-30 15:41:32,968 - INFO - Sent packet with seq_num 32200
+2024-10-30 15:41:32,968 - INFO - Sent packet with seq_num 33600
+2024-10-30 15:41:32,968 - INFO - Sent packet with seq_num 35000
+2024-10-30 15:41:32,969 - INFO - Sent packet with seq_num 36400
+2024-10-30 15:41:32,969 - INFO - Sent packet with seq_num 37800
+2024-10-30 15:41:32,969 - INFO - Sent packet with seq_num 39200
+2024-10-30 15:41:32,969 - INFO - Sent packet with seq_num 40600
+2024-10-30 15:41:32,970 - INFO - Sent packet with seq_num 42000
+2024-10-30 15:41:32,970 - INFO - Sent packet with seq_num 43400
+2024-10-30 15:41:32,970 - INFO - Sent packet with seq_num 44800
+2024-10-30 15:41:32,970 - INFO - Sent packet with seq_num 46200
+2024-10-30 15:41:32,971 - INFO - Sent packet with seq_num 47600
+2024-10-30 15:41:32,971 - INFO - Sent packet with seq_num 49000
+2024-10-30 15:41:32,971 - INFO - Sent packet with seq_num 50400
+2024-10-30 15:41:32,971 - INFO - Sent packet with seq_num 51800
+2024-10-30 15:41:32,971 - INFO - Sent packet with seq_num 53200
+2024-10-30 15:41:32,972 - INFO - Sent packet with seq_num 54600
+2024-10-30 15:41:32,972 - INFO - Sent packet with seq_num 56000
+2024-10-30 15:41:32,972 - INFO - Sent packet with seq_num 57400
+2024-10-30 15:41:32,972 - INFO - Sent packet with seq_num 58800
+2024-10-30 15:41:32,972 - INFO - Sent packet with seq_num 60200
+2024-10-30 15:41:32,973 - INFO - Sent packet with seq_num 61600
+2024-10-30 15:41:32,973 - INFO - Sent packet with seq_num 63000
+2024-10-30 15:41:32,973 - INFO - Sent packet with seq_num 64400
+2024-10-30 15:41:32,973 - INFO - Sent packet with seq_num 65800
+2024-10-30 15:41:32,974 - INFO - Sent packet with seq_num 67200
+2024-10-30 15:41:32,974 - INFO - Sent packet with seq_num 68600
+2024-10-30 15:41:32,974 - INFO - Sent packet with seq_num 70000
+2024-10-30 15:41:32,974 - INFO - Sent packet with seq_num 71400
+2024-10-30 15:41:32,974 - INFO - Sent packet with seq_num 72800
+2024-10-30 15:41:32,975 - INFO - Sent packet with seq_num 74200
+2024-10-30 15:41:32,975 - INFO - Sent packet with seq_num 75600
+2024-10-30 15:41:32,975 - INFO - Sent packet with seq_num 77000
+2024-10-30 15:41:32,975 - INFO - Sent packet with seq_num 78400
+2024-10-30 15:41:32,976 - INFO - Sent packet with seq_num 79800
+2024-10-30 15:41:32,976 - INFO - Sent packet with seq_num 81200
+2024-10-30 15:41:32,976 - INFO - Sent packet with seq_num 82600
+2024-10-30 15:41:32,976 - INFO - Sent packet with seq_num 84000
+2024-10-30 15:41:32,976 - INFO - Sent packet with seq_num 85400
+2024-10-30 15:41:32,977 - INFO - Sent packet with seq_num 86800
+2024-10-30 15:41:32,977 - INFO - Sent packet with seq_num 88200
+2024-10-30 15:41:32,977 - INFO - Sent packet with seq_num 89600
+2024-10-30 15:41:32,977 - INFO - Sent packet with seq_num 91000
+2024-10-30 15:41:32,978 - INFO - Sent packet with seq_num 92400
+2024-10-30 15:41:32,978 - INFO - Sent packet with seq_num 93800
+2024-10-30 15:41:32,978 - INFO - Sent packet with seq_num 95200
+2024-10-30 15:41:32,978 - INFO - Sent packet with seq_num 96600
+2024-10-30 15:41:32,978 - INFO - Sent packet with seq_num 98000
+2024-10-30 15:41:32,979 - INFO - Sent packet with seq_num 99400
+2024-10-30 15:41:32,979 - INFO - Sent packet with seq_num 100800
+2024-10-30 15:41:32,979 - INFO - Sent packet with seq_num 102200
+2024-10-30 15:41:32,979 - INFO - Sent packet with seq_num 103600
+2024-10-30 15:41:32,980 - INFO - Sent packet with seq_num 105000
+2024-10-30 15:41:32,980 - INFO - Sent packet with seq_num 106400
+2024-10-30 15:41:32,980 - INFO - Sent packet with seq_num 107800
+2024-10-30 15:41:32,980 - INFO - Sent packet with seq_num 109200
+2024-10-30 15:41:32,980 - INFO - Sent packet with seq_num 110600
+2024-10-30 15:41:32,981 - INFO - Sent packet with seq_num 112000
+2024-10-30 15:41:32,981 - INFO - Sent packet with seq_num 113400
+2024-10-30 15:41:32,981 - INFO - Sent packet with seq_num 114800
+2024-10-30 15:41:32,981 - INFO - Sent packet with seq_num 116200
+2024-10-30 15:41:32,982 - INFO - Sent packet with seq_num 117600
+2024-10-30 15:41:32,982 - INFO - Sent packet with seq_num 119000
+2024-10-30 15:41:32,982 - INFO - Sent packet with seq_num 120400
+2024-10-30 15:41:32,982 - INFO - Sent packet with seq_num 121800
+2024-10-30 15:41:32,982 - INFO - Sent packet with seq_num 123200
+2024-10-30 15:41:32,983 - INFO - Sent packet with seq_num 124600
+2024-10-30 15:41:32,983 - INFO - Sent packet with seq_num 126000
+2024-10-30 15:41:32,983 - INFO - Sent packet with seq_num 127400
+2024-10-30 15:41:32,984 - INFO - Sent packet with seq_num 128800
+2024-10-30 15:41:32,984 - INFO - Sent packet with seq_num 130200
+2024-10-30 15:41:32,984 - INFO - Sent packet with seq_num 131600
+2024-10-30 15:41:32,985 - INFO - Sent packet with seq_num 133000
+2024-10-30 15:41:32,985 - INFO - Sent packet with seq_num 134400
+2024-10-30 15:41:32,986 - INFO - Sent packet with seq_num 135800
+2024-10-30 15:41:32,986 - INFO - Sent packet with seq_num 137200
+2024-10-30 15:41:32,986 - INFO - Sent packet with seq_num 138600
+2024-10-30 15:41:32,987 - INFO - Sent packet with seq_num 140000
+2024-10-30 15:41:32,987 - INFO - Sent packet with seq_num 141400
+2024-10-30 15:41:32,987 - INFO - Sent packet with seq_num 142800
+2024-10-30 15:41:32,988 - INFO - Sent packet with seq_num 144200
+2024-10-30 15:41:32,988 - INFO - Sent packet with seq_num 145600
+2024-10-30 15:41:32,988 - INFO - Sent packet with seq_num 147000
+2024-10-30 15:41:32,989 - INFO - Sent packet with seq_num 148400
+2024-10-30 15:41:32,989 - INFO - Sent packet with seq_num 149800
+2024-10-30 15:41:32,989 - INFO - Sent packet with seq_num 151200
+2024-10-30 15:41:32,990 - INFO - Sent packet with seq_num 152600
+2024-10-30 15:41:32,990 - INFO - Sent packet with seq_num 154000
+2024-10-30 15:41:32,990 - INFO - Sent packet with seq_num 155400
+2024-10-30 15:41:32,991 - INFO - Sent packet with seq_num 156800
+2024-10-30 15:41:32,991 - INFO - Sent packet with seq_num 158200
+2024-10-30 15:41:32,991 - INFO - Sent packet with seq_num 159600
+2024-10-30 15:41:32,992 - INFO - Sent packet with seq_num 161000
+2024-10-30 15:41:32,992 - INFO - Sent packet with seq_num 162400
+2024-10-30 15:41:32,992 - INFO - Sent packet with seq_num 163800
+2024-10-30 15:41:32,993 - INFO - Sent packet with seq_num 165200
+2024-10-30 15:41:32,993 - INFO - Sent packet with seq_num 166600
+2024-10-30 15:41:32,993 - INFO - Sent packet with seq_num 168000
+2024-10-30 15:41:32,994 - INFO - Sent packet with seq_num 169400
+2024-10-30 15:41:32,994 - INFO - Sent packet with seq_num 170800
+2024-10-30 15:41:32,994 - INFO - Sent packet with seq_num 172200
+2024-10-30 15:41:32,995 - INFO - Sent packet with seq_num 173600
+2024-10-30 15:41:32,995 - INFO - Sent packet with seq_num 175000
+2024-10-30 15:41:32,996 - INFO - Sent packet with seq_num 176400
+2024-10-30 15:41:32,996 - INFO - Sent packet with seq_num 177800
+2024-10-30 15:41:32,996 - INFO - Sent packet with seq_num 179200
+2024-10-30 15:41:32,997 - INFO - Sent packet with seq_num 180600
+2024-10-30 15:41:32,997 - INFO - Sent packet with seq_num 182000
+2024-10-30 15:41:32,997 - INFO - File Read complete.
+2024-10-30 15:41:33,004 - INFO - Received ACK for seq_num 0
+2024-10-30 15:41:33,004 - INFO - Received new ACK for seq_num 0
+2024-10-30 15:41:33,004 - INFO - Removed packet with seq_num 0 from packet_map
+2024-10-30 15:41:33,005 - INFO - Received ACK for seq_num 0
+2024-10-30 15:41:33,005 - INFO - Received duplicate ACK for seq_num 0
+2024-10-30 15:41:33,005 - INFO - Received ACK for seq_num 2800
+2024-10-30 15:41:33,005 - INFO - Received new ACK for seq_num 2800
+2024-10-30 15:41:33,005 - INFO - Removed packet with seq_num 1400 from packet_map
+2024-10-30 15:41:33,005 - INFO - Removed packet with seq_num 2800 from packet_map
+2024-10-30 15:41:33,006 - INFO - Received ACK for seq_num 4200
+2024-10-30 15:41:33,006 - INFO - Received new ACK for seq_num 4200
+2024-10-30 15:41:33,006 - INFO - Removed packet with seq_num 4200 from packet_map
+2024-10-30 15:41:33,006 - INFO - Received ACK for seq_num 5600
+2024-10-30 15:41:33,007 - INFO - Received new ACK for seq_num 5600
+2024-10-30 15:41:33,007 - INFO - Removed packet with seq_num 5600 from packet_map
+2024-10-30 15:41:33,007 - INFO - Received ACK for seq_num 7000
+2024-10-30 15:41:33,007 - INFO - Received new ACK for seq_num 7000
+2024-10-30 15:41:33,007 - INFO - Removed packet with seq_num 7000 from packet_map
+2024-10-30 15:41:33,008 - INFO - Received ACK for seq_num 8400
+2024-10-30 15:41:33,008 - INFO - Received new ACK for seq_num 8400
+2024-10-30 15:41:33,008 - INFO - Removed packet with seq_num 8400 from packet_map
+2024-10-30 15:41:33,008 - INFO - Received ACK for seq_num 9800
+2024-10-30 15:41:33,009 - INFO - Received new ACK for seq_num 9800
+2024-10-30 15:41:33,009 - INFO - Removed packet with seq_num 9800 from packet_map
+2024-10-30 15:41:33,009 - INFO - Received ACK for seq_num 11200
+2024-10-30 15:41:33,009 - INFO - Received new ACK for seq_num 11200
+2024-10-30 15:41:33,010 - INFO - Removed packet with seq_num 11200 from packet_map
+2024-10-30 15:41:33,010 - INFO - Received ACK for seq_num 12600
+2024-10-30 15:41:33,010 - INFO - Received new ACK for seq_num 12600
+2024-10-30 15:41:33,010 - INFO - Removed packet with seq_num 12600 from packet_map
+2024-10-30 15:41:33,010 - INFO - Received ACK for seq_num 14000
+2024-10-30 15:41:33,011 - INFO - Received new ACK for seq_num 14000
+2024-10-30 15:41:33,011 - INFO - Removed packet with seq_num 14000 from packet_map
+2024-10-30 15:41:33,011 - INFO - Received ACK for seq_num 15400
+2024-10-30 15:41:33,011 - INFO - Received new ACK for seq_num 15400
+2024-10-30 15:41:33,011 - INFO - Removed packet with seq_num 15400 from packet_map
+2024-10-30 15:41:33,012 - INFO - Received ACK for seq_num 16800
+2024-10-30 15:41:33,012 - INFO - Received new ACK for seq_num 16800
+2024-10-30 15:41:33,012 - INFO - Removed packet with seq_num 16800 from packet_map
+2024-10-30 15:41:33,013 - INFO - Received ACK for seq_num 18200
+2024-10-30 15:41:33,013 - INFO - Received new ACK for seq_num 18200
+2024-10-30 15:41:33,013 - INFO - Removed packet with seq_num 18200 from packet_map
+2024-10-30 15:41:33,013 - INFO - Received ACK for seq_num 19600
+2024-10-30 15:41:33,013 - INFO - Received new ACK for seq_num 19600
+2024-10-30 15:41:33,014 - INFO - Removed packet with seq_num 19600 from packet_map
+2024-10-30 15:41:33,014 - INFO - Received ACK for seq_num 21000
+2024-10-30 15:41:33,014 - INFO - Received new ACK for seq_num 21000
+2024-10-30 15:41:33,014 - INFO - Removed packet with seq_num 21000 from packet_map
+2024-10-30 15:41:33,015 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,015 - INFO - Received new ACK for seq_num 22400
+2024-10-30 15:41:33,015 - INFO - Removed packet with seq_num 22400 from packet_map
+2024-10-30 15:41:33,015 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,015 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,016 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,016 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,016 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,016 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,017 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,017 - INFO - Resent packet with seq_num 23800 (retransmission count: 1)
+2024-10-30 15:41:33,017 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,017 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,017 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,018 - INFO - Resent packet with seq_num 23800 (retransmission count: 2)
+2024-10-30 15:41:33,018 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,018 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,018 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,018 - INFO - Resent packet with seq_num 23800 (retransmission count: 3)
+2024-10-30 15:41:33,018 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,018 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,019 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,019 - INFO - Resent packet with seq_num 23800 (retransmission count: 4)
+2024-10-30 15:41:33,019 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,019 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,019 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,019 - INFO - Resent packet with seq_num 23800 (retransmission count: 5)
+2024-10-30 15:41:33,020 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,020 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,020 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,020 - INFO - Resent packet with seq_num 23800 (retransmission count: 6)
+2024-10-30 15:41:33,020 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,020 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,020 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,020 - INFO - Resent packet with seq_num 23800 (retransmission count: 7)
+2024-10-30 15:41:33,021 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,021 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,021 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,021 - INFO - Resent packet with seq_num 23800 (retransmission count: 8)
+2024-10-30 15:41:33,021 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,021 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,021 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,022 - INFO - Resent packet with seq_num 23800 (retransmission count: 9)
+2024-10-30 15:41:33,022 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,022 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,022 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,022 - INFO - Resent packet with seq_num 23800 (retransmission count: 10)
+2024-10-30 15:41:33,022 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,022 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,023 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,023 - INFO - Resent packet with seq_num 23800 (retransmission count: 11)
+2024-10-30 15:41:33,023 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,023 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,023 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,023 - INFO - Resent packet with seq_num 23800 (retransmission count: 12)
+2024-10-30 15:41:33,024 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,024 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,024 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,024 - INFO - Resent packet with seq_num 23800 (retransmission count: 13)
+2024-10-30 15:41:33,024 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,024 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,024 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,024 - INFO - Resent packet with seq_num 23800 (retransmission count: 14)
+2024-10-30 15:41:33,025 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,025 - INFO - Resent packet with seq_num 23800 (retransmission count: 15)
+2024-10-30 15:41:33,025 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,026 - INFO - Resent packet with seq_num 23800 (retransmission count: 16)
+2024-10-30 15:41:33,026 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,026 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,026 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,026 - INFO - Resent packet with seq_num 23800 (retransmission count: 17)
+2024-10-30 15:41:33,026 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,026 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,026 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,027 - INFO - Resent packet with seq_num 23800 (retransmission count: 18)
+2024-10-30 15:41:33,027 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,027 - INFO - Resent packet with seq_num 23800 (retransmission count: 19)
+2024-10-30 15:41:33,027 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,028 - INFO - Resent packet with seq_num 23800 (retransmission count: 20)
+2024-10-30 15:41:33,028 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,028 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,028 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,028 - INFO - Resent packet with seq_num 23800 (retransmission count: 21)
+2024-10-30 15:41:33,028 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,028 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,028 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,029 - INFO - Resent packet with seq_num 23800 (retransmission count: 22)
+2024-10-30 15:41:33,029 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,029 - INFO - Resent packet with seq_num 23800 (retransmission count: 23)
+2024-10-30 15:41:33,029 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,030 - INFO - Resent packet with seq_num 23800 (retransmission count: 24)
+2024-10-30 15:41:33,030 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,030 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,030 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,030 - INFO - Resent packet with seq_num 23800 (retransmission count: 25)
+2024-10-30 15:41:33,030 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,030 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,030 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,031 - INFO - Resent packet with seq_num 23800 (retransmission count: 26)
+2024-10-30 15:41:33,031 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,031 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,031 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,031 - INFO - Resent packet with seq_num 23800 (retransmission count: 27)
+2024-10-30 15:41:33,031 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,031 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,032 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,032 - INFO - Resent packet with seq_num 23800 (retransmission count: 28)
+2024-10-30 15:41:33,032 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,032 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,032 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,032 - INFO - Resent packet with seq_num 23800 (retransmission count: 29)
+2024-10-30 15:41:33,032 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,032 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,033 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,033 - INFO - Resent packet with seq_num 23800 (retransmission count: 30)
+2024-10-30 15:41:33,033 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,033 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,033 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,033 - INFO - Resent packet with seq_num 23800 (retransmission count: 31)
+2024-10-30 15:41:33,033 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,033 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,034 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,034 - INFO - Resent packet with seq_num 23800 (retransmission count: 32)
+2024-10-30 15:41:33,034 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,034 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,034 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,034 - INFO - Resent packet with seq_num 23800 (retransmission count: 33)
+2024-10-30 15:41:33,034 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,034 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,034 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,035 - INFO - Resent packet with seq_num 23800 (retransmission count: 34)
+2024-10-30 15:41:33,035 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,035 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,035 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,035 - INFO - Resent packet with seq_num 23800 (retransmission count: 35)
+2024-10-30 15:41:33,035 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,035 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,035 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,035 - INFO - Resent packet with seq_num 23800 (retransmission count: 36)
+2024-10-30 15:41:33,036 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,036 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,036 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,036 - INFO - Resent packet with seq_num 23800 (retransmission count: 37)
+2024-10-30 15:41:33,036 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,036 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,036 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,036 - INFO - Resent packet with seq_num 23800 (retransmission count: 38)
+2024-10-30 15:41:33,037 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,037 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,037 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,037 - INFO - Resent packet with seq_num 23800 (retransmission count: 39)
+2024-10-30 15:41:33,037 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,037 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,037 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,037 - INFO - Resent packet with seq_num 23800 (retransmission count: 40)
+2024-10-30 15:41:33,038 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,038 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,038 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,038 - INFO - Resent packet with seq_num 23800 (retransmission count: 41)
+2024-10-30 15:41:33,038 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,038 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,038 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,038 - INFO - Resent packet with seq_num 23800 (retransmission count: 42)
+2024-10-30 15:41:33,039 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,039 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,039 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,039 - INFO - Resent packet with seq_num 23800 (retransmission count: 43)
+2024-10-30 15:41:33,039 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,039 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,039 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,040 - INFO - Resent packet with seq_num 23800 (retransmission count: 44)
+2024-10-30 15:41:33,040 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,040 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,040 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,040 - INFO - Resent packet with seq_num 23800 (retransmission count: 45)
+2024-10-30 15:41:33,040 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,040 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,040 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,041 - INFO - Resent packet with seq_num 23800 (retransmission count: 46)
+2024-10-30 15:41:33,041 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,041 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,041 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,041 - INFO - Resent packet with seq_num 23800 (retransmission count: 47)
+2024-10-30 15:41:33,041 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,041 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,041 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,042 - INFO - Resent packet with seq_num 23800 (retransmission count: 48)
+2024-10-30 15:41:33,042 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,042 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,042 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,042 - INFO - Resent packet with seq_num 23800 (retransmission count: 49)
+2024-10-30 15:41:33,042 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,042 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,042 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,043 - INFO - Resent packet with seq_num 23800 (retransmission count: 50)
+2024-10-30 15:41:33,043 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,043 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,043 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,043 - INFO - Resent packet with seq_num 23800 (retransmission count: 51)
+2024-10-30 15:41:33,043 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,043 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,044 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,044 - INFO - Resent packet with seq_num 23800 (retransmission count: 52)
+2024-10-30 15:41:33,044 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,044 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,044 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,044 - INFO - Resent packet with seq_num 23800 (retransmission count: 53)
+2024-10-30 15:41:33,044 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,044 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,045 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,045 - INFO - Resent packet with seq_num 23800 (retransmission count: 54)
+2024-10-30 15:41:33,045 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,045 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,045 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,045 - INFO - Resent packet with seq_num 23800 (retransmission count: 55)
+2024-10-30 15:41:33,045 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,045 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,045 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,046 - INFO - Resent packet with seq_num 23800 (retransmission count: 56)
+2024-10-30 15:41:33,046 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,046 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,046 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,046 - INFO - Resent packet with seq_num 23800 (retransmission count: 57)
+2024-10-30 15:41:33,046 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,046 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,046 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,046 - INFO - Resent packet with seq_num 23800 (retransmission count: 58)
+2024-10-30 15:41:33,047 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,047 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,047 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,047 - INFO - Resent packet with seq_num 23800 (retransmission count: 59)
+2024-10-30 15:41:33,047 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,047 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,047 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,048 - INFO - Resent packet with seq_num 23800 (retransmission count: 60)
+2024-10-30 15:41:33,048 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,048 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,048 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,048 - INFO - Resent packet with seq_num 23800 (retransmission count: 61)
+2024-10-30 15:41:33,048 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,048 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,048 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,048 - INFO - Resent packet with seq_num 23800 (retransmission count: 62)
+2024-10-30 15:41:33,049 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,049 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,049 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,049 - INFO - Resent packet with seq_num 23800 (retransmission count: 63)
+2024-10-30 15:41:33,049 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,049 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,049 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,049 - INFO - Resent packet with seq_num 23800 (retransmission count: 64)
+2024-10-30 15:41:33,050 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,050 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,050 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,050 - INFO - Resent packet with seq_num 23800 (retransmission count: 65)
+2024-10-30 15:41:33,050 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,050 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,050 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,050 - INFO - Resent packet with seq_num 23800 (retransmission count: 66)
+2024-10-30 15:41:33,050 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,050 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,051 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,051 - INFO - Resent packet with seq_num 23800 (retransmission count: 67)
+2024-10-30 15:41:33,051 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,051 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,051 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,051 - INFO - Resent packet with seq_num 23800 (retransmission count: 68)
+2024-10-30 15:41:33,051 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,051 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,051 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,051 - INFO - Resent packet with seq_num 23800 (retransmission count: 69)
+2024-10-30 15:41:33,052 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,052 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,052 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,052 - INFO - Resent packet with seq_num 23800 (retransmission count: 70)
+2024-10-30 15:41:33,052 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,052 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,052 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,052 - INFO - Resent packet with seq_num 23800 (retransmission count: 71)
+2024-10-30 15:41:33,053 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,053 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,053 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,053 - INFO - Resent packet with seq_num 23800 (retransmission count: 72)
+2024-10-30 15:41:33,053 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,053 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,053 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,053 - INFO - Resent packet with seq_num 23800 (retransmission count: 73)
+2024-10-30 15:41:33,053 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,053 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,054 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,054 - INFO - Resent packet with seq_num 23800 (retransmission count: 74)
+2024-10-30 15:41:33,054 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,054 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,054 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,054 - INFO - Resent packet with seq_num 23800 (retransmission count: 75)
+2024-10-30 15:41:33,054 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,054 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,054 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,054 - INFO - Resent packet with seq_num 23800 (retransmission count: 76)
+2024-10-30 15:41:33,055 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,055 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,055 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,055 - INFO - Resent packet with seq_num 23800 (retransmission count: 77)
+2024-10-30 15:41:33,055 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,055 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,055 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,055 - INFO - Resent packet with seq_num 23800 (retransmission count: 78)
+2024-10-30 15:41:33,056 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,056 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,056 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,056 - INFO - Resent packet with seq_num 23800 (retransmission count: 79)
+2024-10-30 15:41:33,056 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,056 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,056 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,056 - INFO - Resent packet with seq_num 23800 (retransmission count: 80)
+2024-10-30 15:41:33,056 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,056 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,056 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,057 - INFO - Resent packet with seq_num 23800 (retransmission count: 81)
+2024-10-30 15:41:33,057 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,057 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,057 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,057 - INFO - Resent packet with seq_num 23800 (retransmission count: 82)
+2024-10-30 15:41:33,057 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,057 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,057 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,057 - INFO - Resent packet with seq_num 23800 (retransmission count: 83)
+2024-10-30 15:41:33,057 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,058 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,058 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,058 - INFO - Resent packet with seq_num 23800 (retransmission count: 84)
+2024-10-30 15:41:33,058 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,058 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,058 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,058 - INFO - Resent packet with seq_num 23800 (retransmission count: 85)
+2024-10-30 15:41:33,058 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,058 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,058 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,058 - INFO - Resent packet with seq_num 23800 (retransmission count: 86)
+2024-10-30 15:41:33,059 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,059 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,059 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,059 - INFO - Resent packet with seq_num 23800 (retransmission count: 87)
+2024-10-30 15:41:33,059 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,059 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,059 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,059 - INFO - Resent packet with seq_num 23800 (retransmission count: 88)
+2024-10-30 15:41:33,059 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,059 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,059 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,060 - INFO - Resent packet with seq_num 23800 (retransmission count: 89)
+2024-10-30 15:41:33,060 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,060 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,060 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,060 - INFO - Resent packet with seq_num 23800 (retransmission count: 90)
+2024-10-30 15:41:33,060 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,060 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,060 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,060 - INFO - Resent packet with seq_num 23800 (retransmission count: 91)
+2024-10-30 15:41:33,061 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,061 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,061 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,061 - INFO - Resent packet with seq_num 23800 (retransmission count: 92)
+2024-10-30 15:41:33,061 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,061 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,061 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,061 - INFO - Resent packet with seq_num 23800 (retransmission count: 93)
+2024-10-30 15:41:33,061 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,061 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,061 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,062 - INFO - Resent packet with seq_num 23800 (retransmission count: 94)
+2024-10-30 15:41:33,062 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,062 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,062 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,062 - INFO - Resent packet with seq_num 23800 (retransmission count: 95)
+2024-10-30 15:41:33,062 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,062 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,062 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,062 - INFO - Resent packet with seq_num 23800 (retransmission count: 96)
+2024-10-30 15:41:33,063 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,063 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,063 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,063 - INFO - Resent packet with seq_num 23800 (retransmission count: 97)
+2024-10-30 15:41:33,063 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:33,063 - INFO - Received duplicate ACK for seq_num 22400
+2024-10-30 15:41:33,063 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,063 - INFO - Resent packet with seq_num 23800 (retransmission count: 98)
+2024-10-30 15:41:33,063 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,063 - INFO - Received new ACK for seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Removed packet with seq_num 23800 from packet_map
+2024-10-30 15:41:33,064 - INFO - Removed packet with seq_num 25200 from packet_map
+2024-10-30 15:41:33,064 - INFO - Removed packet with seq_num 26600 from packet_map
+2024-10-30 15:41:33,064 - INFO - Removed packet with seq_num 28000 from packet_map
+2024-10-30 15:41:33,064 - INFO - Removed packet with seq_num 29400 from packet_map
+2024-10-30 15:41:33,064 - INFO - Removed packet with seq_num 30800 from packet_map
+2024-10-30 15:41:33,064 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,065 - INFO - Resent packet with seq_num 32200 (retransmission count: 1)
+2024-10-30 15:41:33,065 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,065 - INFO - Resent packet with seq_num 32200 (retransmission count: 2)
+2024-10-30 15:41:33,065 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,066 - INFO - Resent packet with seq_num 32200 (retransmission count: 3)
+2024-10-30 15:41:33,066 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,066 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,066 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,066 - INFO - Resent packet with seq_num 32200 (retransmission count: 4)
+2024-10-30 15:41:33,066 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,066 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,066 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,066 - INFO - Resent packet with seq_num 32200 (retransmission count: 5)
+2024-10-30 15:41:33,066 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,067 - INFO - Resent packet with seq_num 32200 (retransmission count: 6)
+2024-10-30 15:41:33,067 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,067 - INFO - Resent packet with seq_num 32200 (retransmission count: 7)
+2024-10-30 15:41:33,067 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,067 - INFO - Resent packet with seq_num 32200 (retransmission count: 8)
+2024-10-30 15:41:33,068 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,068 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,068 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,068 - INFO - Resent packet with seq_num 32200 (retransmission count: 9)
+2024-10-30 15:41:33,068 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,068 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,068 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,069 - INFO - Resent packet with seq_num 32200 (retransmission count: 10)
+2024-10-30 15:41:33,069 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,069 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,069 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,069 - INFO - Resent packet with seq_num 32200 (retransmission count: 11)
+2024-10-30 15:41:33,069 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,069 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,069 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,069 - INFO - Resent packet with seq_num 32200 (retransmission count: 12)
+2024-10-30 15:41:33,070 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,070 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,070 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,070 - INFO - Resent packet with seq_num 32200 (retransmission count: 13)
+2024-10-30 15:41:33,070 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,070 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,070 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,070 - INFO - Resent packet with seq_num 32200 (retransmission count: 14)
+2024-10-30 15:41:33,071 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,071 - INFO - Resent packet with seq_num 32200 (retransmission count: 15)
+2024-10-30 15:41:33,071 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,071 - INFO - Resent packet with seq_num 32200 (retransmission count: 16)
+2024-10-30 15:41:33,071 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,072 - INFO - Resent packet with seq_num 32200 (retransmission count: 17)
+2024-10-30 15:41:33,072 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,072 - INFO - Resent packet with seq_num 32200 (retransmission count: 18)
+2024-10-30 15:41:33,072 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,072 - INFO - Resent packet with seq_num 32200 (retransmission count: 19)
+2024-10-30 15:41:33,073 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,073 - INFO - Resent packet with seq_num 32200 (retransmission count: 20)
+2024-10-30 15:41:33,073 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,073 - INFO - Resent packet with seq_num 32200 (retransmission count: 21)
+2024-10-30 15:41:33,073 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,074 - INFO - Resent packet with seq_num 32200 (retransmission count: 22)
+2024-10-30 15:41:33,074 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,074 - INFO - Resent packet with seq_num 32200 (retransmission count: 23)
+2024-10-30 15:41:33,074 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,074 - INFO - Resent packet with seq_num 32200 (retransmission count: 24)
+2024-10-30 15:41:33,075 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,075 - INFO - Resent packet with seq_num 32200 (retransmission count: 25)
+2024-10-30 15:41:33,075 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,075 - INFO - Resent packet with seq_num 32200 (retransmission count: 26)
+2024-10-30 15:41:33,075 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,076 - INFO - Resent packet with seq_num 32200 (retransmission count: 27)
+2024-10-30 15:41:33,076 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,076 - INFO - Resent packet with seq_num 32200 (retransmission count: 28)
+2024-10-30 15:41:33,076 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,076 - INFO - Resent packet with seq_num 32200 (retransmission count: 29)
+2024-10-30 15:41:33,077 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,077 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,077 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,077 - INFO - Resent packet with seq_num 32200 (retransmission count: 30)
+2024-10-30 15:41:33,078 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,078 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,078 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,078 - INFO - Resent packet with seq_num 32200 (retransmission count: 31)
+2024-10-30 15:41:33,079 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,079 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,079 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,079 - INFO - Resent packet with seq_num 32200 (retransmission count: 32)
+2024-10-30 15:41:33,080 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,080 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,080 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,080 - INFO - Resent packet with seq_num 32200 (retransmission count: 33)
+2024-10-30 15:41:33,080 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,081 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,081 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,081 - INFO - Resent packet with seq_num 32200 (retransmission count: 34)
+2024-10-30 15:41:33,081 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,081 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,081 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,081 - INFO - Resent packet with seq_num 32200 (retransmission count: 35)
+2024-10-30 15:41:33,081 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,082 - INFO - Resent packet with seq_num 32200 (retransmission count: 36)
+2024-10-30 15:41:33,082 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,082 - INFO - Resent packet with seq_num 32200 (retransmission count: 37)
+2024-10-30 15:41:33,082 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,083 - INFO - Resent packet with seq_num 32200 (retransmission count: 38)
+2024-10-30 15:41:33,083 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,083 - INFO - Resent packet with seq_num 32200 (retransmission count: 39)
+2024-10-30 15:41:33,083 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,084 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,084 - INFO - Resent packet with seq_num 32200 (retransmission count: 40)
+2024-10-30 15:41:33,084 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,084 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,084 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,084 - INFO - Resent packet with seq_num 32200 (retransmission count: 41)
+2024-10-30 15:41:33,084 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,084 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,084 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,085 - INFO - Resent packet with seq_num 32200 (retransmission count: 42)
+2024-10-30 15:41:33,085 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,085 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,085 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,085 - INFO - Resent packet with seq_num 32200 (retransmission count: 43)
+2024-10-30 15:41:33,085 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,085 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,086 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,086 - INFO - Resent packet with seq_num 32200 (retransmission count: 44)
+2024-10-30 15:41:33,086 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,086 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,086 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,086 - INFO - Resent packet with seq_num 32200 (retransmission count: 45)
+2024-10-30 15:41:33,086 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,086 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,087 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,087 - INFO - Resent packet with seq_num 32200 (retransmission count: 46)
+2024-10-30 15:41:33,087 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,087 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,087 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,087 - INFO - Resent packet with seq_num 32200 (retransmission count: 47)
+2024-10-30 15:41:33,087 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,087 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,088 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,088 - INFO - Resent packet with seq_num 32200 (retransmission count: 48)
+2024-10-30 15:41:33,088 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,088 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,088 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,088 - INFO - Resent packet with seq_num 32200 (retransmission count: 49)
+2024-10-30 15:41:33,088 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,088 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,088 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,088 - INFO - Resent packet with seq_num 32200 (retransmission count: 50)
+2024-10-30 15:41:33,089 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,089 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,089 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,089 - INFO - Resent packet with seq_num 32200 (retransmission count: 51)
+2024-10-30 15:41:33,089 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,089 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,089 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,089 - INFO - Resent packet with seq_num 32200 (retransmission count: 52)
+2024-10-30 15:41:33,090 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,090 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,090 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,090 - INFO - Resent packet with seq_num 32200 (retransmission count: 53)
+2024-10-30 15:41:33,090 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,090 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,091 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,091 - INFO - Resent packet with seq_num 32200 (retransmission count: 54)
+2024-10-30 15:41:33,091 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,091 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,091 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,091 - INFO - Resent packet with seq_num 32200 (retransmission count: 55)
+2024-10-30 15:41:33,091 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,091 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,091 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,091 - INFO - Resent packet with seq_num 32200 (retransmission count: 56)
+2024-10-30 15:41:33,092 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,092 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,092 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,092 - INFO - Resent packet with seq_num 32200 (retransmission count: 57)
+2024-10-30 15:41:33,092 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,092 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,092 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,092 - INFO - Resent packet with seq_num 32200 (retransmission count: 58)
+2024-10-30 15:41:33,092 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,092 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,092 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,093 - INFO - Resent packet with seq_num 32200 (retransmission count: 59)
+2024-10-30 15:41:33,093 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,093 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,093 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,093 - INFO - Resent packet with seq_num 32200 (retransmission count: 60)
+2024-10-30 15:41:33,093 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,093 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,093 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,093 - INFO - Resent packet with seq_num 32200 (retransmission count: 61)
+2024-10-30 15:41:33,094 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,094 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,094 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,094 - INFO - Resent packet with seq_num 32200 (retransmission count: 62)
+2024-10-30 15:41:33,094 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,094 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,094 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,094 - INFO - Resent packet with seq_num 32200 (retransmission count: 63)
+2024-10-30 15:41:33,094 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,094 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,095 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,095 - INFO - Resent packet with seq_num 32200 (retransmission count: 64)
+2024-10-30 15:41:33,095 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,095 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,095 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,095 - INFO - Resent packet with seq_num 32200 (retransmission count: 65)
+2024-10-30 15:41:33,095 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,095 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,095 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,095 - INFO - Resent packet with seq_num 32200 (retransmission count: 66)
+2024-10-30 15:41:33,096 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,096 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,096 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,096 - INFO - Resent packet with seq_num 32200 (retransmission count: 67)
+2024-10-30 15:41:33,096 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,097 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,097 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,097 - INFO - Resent packet with seq_num 32200 (retransmission count: 68)
+2024-10-30 15:41:33,097 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,097 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,097 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,097 - INFO - Resent packet with seq_num 32200 (retransmission count: 69)
+2024-10-30 15:41:33,098 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,098 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,098 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,098 - INFO - Resent packet with seq_num 32200 (retransmission count: 70)
+2024-10-30 15:41:33,098 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,098 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,098 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,098 - INFO - Resent packet with seq_num 32200 (retransmission count: 71)
+2024-10-30 15:41:33,099 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,099 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,099 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,099 - INFO - Resent packet with seq_num 32200 (retransmission count: 72)
+2024-10-30 15:41:33,099 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,099 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,099 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,099 - INFO - Resent packet with seq_num 32200 (retransmission count: 73)
+2024-10-30 15:41:33,099 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,099 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,099 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,099 - INFO - Resent packet with seq_num 32200 (retransmission count: 74)
+2024-10-30 15:41:33,100 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,100 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,100 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,100 - INFO - Resent packet with seq_num 32200 (retransmission count: 75)
+2024-10-30 15:41:33,100 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,101 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,101 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,101 - INFO - Resent packet with seq_num 32200 (retransmission count: 76)
+2024-10-30 15:41:33,101 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,101 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,101 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,102 - INFO - Resent packet with seq_num 32200 (retransmission count: 77)
+2024-10-30 15:41:33,102 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,102 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,102 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,102 - INFO - Resent packet with seq_num 32200 (retransmission count: 78)
+2024-10-30 15:41:33,103 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,103 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,103 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,103 - INFO - Resent packet with seq_num 32200 (retransmission count: 79)
+2024-10-30 15:41:33,103 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,103 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,103 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,103 - INFO - Resent packet with seq_num 32200 (retransmission count: 80)
+2024-10-30 15:41:33,104 - INFO - Received ACK for seq_num 30800
+2024-10-30 15:41:33,104 - INFO - Received duplicate ACK for seq_num 30800
+2024-10-30 15:41:33,104 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,104 - INFO - Resent packet with seq_num 32200 (retransmission count: 81)
+2024-10-30 15:41:33,105 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,105 - INFO - Received new ACK for seq_num 71400
+2024-10-30 15:41:33,105 - INFO - Removed packet with seq_num 32200 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 33600 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 35000 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 36400 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 37800 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 39200 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 40600 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 42000 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 43400 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 44800 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 46200 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 47600 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 49000 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 50400 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 51800 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 53200 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 54600 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 56000 from packet_map
+2024-10-30 15:41:33,106 - INFO - Removed packet with seq_num 57400 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 58800 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 60200 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 61600 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 63000 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 64400 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 65800 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 67200 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 68600 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 70000 from packet_map
+2024-10-30 15:41:33,107 - INFO - Removed packet with seq_num 71400 from packet_map
+2024-10-30 15:41:33,107 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,107 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,107 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,107 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,108 - INFO - Resent packet with seq_num 72800 (retransmission count: 1)
+2024-10-30 15:41:33,108 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,108 - INFO - Resent packet with seq_num 72800 (retransmission count: 2)
+2024-10-30 15:41:33,108 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,108 - INFO - Resent packet with seq_num 72800 (retransmission count: 3)
+2024-10-30 15:41:33,109 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,109 - INFO - Resent packet with seq_num 72800 (retransmission count: 4)
+2024-10-30 15:41:33,109 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,109 - INFO - Resent packet with seq_num 72800 (retransmission count: 5)
+2024-10-30 15:41:33,109 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,110 - INFO - Resent packet with seq_num 72800 (retransmission count: 6)
+2024-10-30 15:41:33,110 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,110 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,110 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,110 - INFO - Resent packet with seq_num 72800 (retransmission count: 7)
+2024-10-30 15:41:33,110 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,110 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,110 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,111 - INFO - Resent packet with seq_num 72800 (retransmission count: 8)
+2024-10-30 15:41:33,111 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,111 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,111 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,111 - INFO - Resent packet with seq_num 72800 (retransmission count: 9)
+2024-10-30 15:41:33,111 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,111 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,111 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,111 - INFO - Resent packet with seq_num 72800 (retransmission count: 10)
+2024-10-30 15:41:33,112 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,112 - INFO - Resent packet with seq_num 72800 (retransmission count: 11)
+2024-10-30 15:41:33,112 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,112 - INFO - Resent packet with seq_num 72800 (retransmission count: 12)
+2024-10-30 15:41:33,112 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,113 - INFO - Resent packet with seq_num 72800 (retransmission count: 13)
+2024-10-30 15:41:33,113 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,113 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,113 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,113 - INFO - Resent packet with seq_num 72800 (retransmission count: 14)
+2024-10-30 15:41:33,113 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,114 - INFO - Resent packet with seq_num 72800 (retransmission count: 15)
+2024-10-30 15:41:33,114 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,114 - INFO - Resent packet with seq_num 72800 (retransmission count: 16)
+2024-10-30 15:41:33,114 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,114 - INFO - Resent packet with seq_num 72800 (retransmission count: 17)
+2024-10-30 15:41:33,115 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,115 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,115 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,115 - INFO - Resent packet with seq_num 72800 (retransmission count: 18)
+2024-10-30 15:41:33,115 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,115 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,115 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,115 - INFO - Resent packet with seq_num 72800 (retransmission count: 19)
+2024-10-30 15:41:33,115 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,116 - INFO - Resent packet with seq_num 72800 (retransmission count: 20)
+2024-10-30 15:41:33,116 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,116 - INFO - Resent packet with seq_num 72800 (retransmission count: 21)
+2024-10-30 15:41:33,116 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,116 - INFO - Resent packet with seq_num 72800 (retransmission count: 22)
+2024-10-30 15:41:33,117 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,117 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,117 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,117 - INFO - Resent packet with seq_num 72800 (retransmission count: 23)
+2024-10-30 15:41:33,118 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,118 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,118 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,118 - INFO - Resent packet with seq_num 72800 (retransmission count: 24)
+2024-10-30 15:41:33,119 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,119 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,119 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,119 - INFO - Resent packet with seq_num 72800 (retransmission count: 25)
+2024-10-30 15:41:33,119 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,119 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,119 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,119 - INFO - Resent packet with seq_num 72800 (retransmission count: 26)
+2024-10-30 15:41:33,120 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,120 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,121 - INFO - Resent packet with seq_num 72800 (retransmission count: 27)
+2024-10-30 15:41:33,121 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,121 - INFO - Resent packet with seq_num 72800 (retransmission count: 28)
+2024-10-30 15:41:33,121 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,122 - INFO - Resent packet with seq_num 72800 (retransmission count: 29)
+2024-10-30 15:41:33,122 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,122 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,122 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,122 - INFO - Resent packet with seq_num 72800 (retransmission count: 30)
+2024-10-30 15:41:33,123 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,123 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,123 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,123 - INFO - Resent packet with seq_num 72800 (retransmission count: 31)
+2024-10-30 15:41:33,123 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,123 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,124 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,124 - INFO - Resent packet with seq_num 72800 (retransmission count: 32)
+2024-10-30 15:41:33,124 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,124 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,124 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,125 - INFO - Resent packet with seq_num 72800 (retransmission count: 33)
+2024-10-30 15:41:33,125 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,125 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,125 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,125 - INFO - Resent packet with seq_num 72800 (retransmission count: 34)
+2024-10-30 15:41:33,125 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,125 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,126 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,126 - INFO - Resent packet with seq_num 72800 (retransmission count: 35)
+2024-10-30 15:41:33,126 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,126 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,126 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,126 - INFO - Resent packet with seq_num 72800 (retransmission count: 36)
+2024-10-30 15:41:33,126 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,126 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,126 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,127 - INFO - Resent packet with seq_num 72800 (retransmission count: 37)
+2024-10-30 15:41:33,127 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,127 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,127 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,127 - INFO - Resent packet with seq_num 72800 (retransmission count: 38)
+2024-10-30 15:41:33,127 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,127 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,127 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,127 - INFO - Resent packet with seq_num 72800 (retransmission count: 39)
+2024-10-30 15:41:33,128 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,128 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,128 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,128 - INFO - Resent packet with seq_num 72800 (retransmission count: 40)
+2024-10-30 15:41:33,128 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,128 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,129 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,129 - INFO - Resent packet with seq_num 72800 (retransmission count: 41)
+2024-10-30 15:41:33,129 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,129 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,129 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,129 - INFO - Resent packet with seq_num 72800 (retransmission count: 42)
+2024-10-30 15:41:33,129 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,129 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,129 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,129 - INFO - Resent packet with seq_num 72800 (retransmission count: 43)
+2024-10-30 15:41:33,131 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,131 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,131 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,131 - INFO - Resent packet with seq_num 72800 (retransmission count: 44)
+2024-10-30 15:41:33,131 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,131 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,131 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,132 - INFO - Resent packet with seq_num 72800 (retransmission count: 45)
+2024-10-30 15:41:33,132 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,132 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,132 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,132 - INFO - Resent packet with seq_num 72800 (retransmission count: 46)
+2024-10-30 15:41:33,132 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,132 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,132 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,132 - INFO - Resent packet with seq_num 72800 (retransmission count: 47)
+2024-10-30 15:41:33,132 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,132 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,133 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,133 - INFO - Resent packet with seq_num 72800 (retransmission count: 48)
+2024-10-30 15:41:33,133 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,133 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,133 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,133 - INFO - Resent packet with seq_num 72800 (retransmission count: 49)
+2024-10-30 15:41:33,133 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,133 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,133 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,133 - INFO - Resent packet with seq_num 72800 (retransmission count: 50)
+2024-10-30 15:41:33,134 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,134 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,134 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,134 - INFO - Resent packet with seq_num 72800 (retransmission count: 51)
+2024-10-30 15:41:33,134 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,135 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,135 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,135 - INFO - Resent packet with seq_num 72800 (retransmission count: 52)
+2024-10-30 15:41:33,135 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,135 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,135 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,135 - INFO - Resent packet with seq_num 72800 (retransmission count: 53)
+2024-10-30 15:41:33,135 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,135 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,135 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,135 - INFO - Resent packet with seq_num 72800 (retransmission count: 54)
+2024-10-30 15:41:33,136 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,136 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,136 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,136 - INFO - Resent packet with seq_num 72800 (retransmission count: 55)
+2024-10-30 15:41:33,137 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,137 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,137 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,137 - INFO - Resent packet with seq_num 72800 (retransmission count: 56)
+2024-10-30 15:41:33,137 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,137 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,137 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,138 - INFO - Resent packet with seq_num 72800 (retransmission count: 57)
+2024-10-30 15:41:33,138 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,138 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,138 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,138 - INFO - Resent packet with seq_num 72800 (retransmission count: 58)
+2024-10-30 15:41:33,138 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,138 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,139 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,139 - INFO - Resent packet with seq_num 72800 (retransmission count: 59)
+2024-10-30 15:41:33,139 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,139 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,139 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,139 - INFO - Resent packet with seq_num 72800 (retransmission count: 60)
+2024-10-30 15:41:33,139 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,139 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,140 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,140 - INFO - Resent packet with seq_num 72800 (retransmission count: 61)
+2024-10-30 15:41:33,140 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,140 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,140 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,140 - INFO - Resent packet with seq_num 72800 (retransmission count: 62)
+2024-10-30 15:41:33,141 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,141 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,141 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,141 - INFO - Resent packet with seq_num 72800 (retransmission count: 63)
+2024-10-30 15:41:33,142 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,142 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,142 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,142 - INFO - Resent packet with seq_num 72800 (retransmission count: 64)
+2024-10-30 15:41:33,143 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,143 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,143 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,143 - INFO - Resent packet with seq_num 72800 (retransmission count: 65)
+2024-10-30 15:41:33,143 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,143 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,143 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,143 - INFO - Resent packet with seq_num 72800 (retransmission count: 66)
+2024-10-30 15:41:33,144 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:33,144 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:33,144 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,144 - INFO - Resent packet with seq_num 72800 (retransmission count: 67)
+2024-10-30 15:41:33,148 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Received new ACK for seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Removed packet with seq_num 72800 from packet_map
+2024-10-30 15:41:33,149 - INFO - Removed packet with seq_num 74200 from packet_map
+2024-10-30 15:41:33,149 - INFO - Removed packet with seq_num 75600 from packet_map
+2024-10-30 15:41:33,149 - INFO - Removed packet with seq_num 77000 from packet_map
+2024-10-30 15:41:33,149 - INFO - Removed packet with seq_num 78400 from packet_map
+2024-10-30 15:41:33,149 - INFO - Removed packet with seq_num 79800 from packet_map
+2024-10-30 15:41:33,149 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,150 - INFO - Resent packet with seq_num 81200 (retransmission count: 1)
+2024-10-30 15:41:33,150 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,150 - INFO - Resent packet with seq_num 81200 (retransmission count: 2)
+2024-10-30 15:41:33,150 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,150 - INFO - Resent packet with seq_num 81200 (retransmission count: 3)
+2024-10-30 15:41:33,150 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,150 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,151 - INFO - Resent packet with seq_num 81200 (retransmission count: 4)
+2024-10-30 15:41:33,151 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,151 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,151 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,151 - INFO - Resent packet with seq_num 81200 (retransmission count: 5)
+2024-10-30 15:41:33,151 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,151 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,151 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,151 - INFO - Resent packet with seq_num 81200 (retransmission count: 6)
+2024-10-30 15:41:33,152 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,152 - INFO - Resent packet with seq_num 81200 (retransmission count: 7)
+2024-10-30 15:41:33,152 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,152 - INFO - Resent packet with seq_num 81200 (retransmission count: 8)
+2024-10-30 15:41:33,152 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,153 - INFO - Resent packet with seq_num 81200 (retransmission count: 9)
+2024-10-30 15:41:33,153 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,153 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,153 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,153 - INFO - Resent packet with seq_num 81200 (retransmission count: 10)
+2024-10-30 15:41:33,154 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,154 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,154 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,154 - INFO - Resent packet with seq_num 81200 (retransmission count: 11)
+2024-10-30 15:41:33,154 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,154 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,154 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,155 - INFO - Resent packet with seq_num 81200 (retransmission count: 12)
+2024-10-30 15:41:33,155 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,155 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,155 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,155 - INFO - Resent packet with seq_num 81200 (retransmission count: 13)
+2024-10-30 15:41:33,155 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,155 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,155 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,155 - INFO - Resent packet with seq_num 81200 (retransmission count: 14)
+2024-10-30 15:41:33,155 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,156 - INFO - Resent packet with seq_num 81200 (retransmission count: 15)
+2024-10-30 15:41:33,156 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,156 - INFO - Resent packet with seq_num 81200 (retransmission count: 16)
+2024-10-30 15:41:33,156 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,156 - INFO - Resent packet with seq_num 81200 (retransmission count: 17)
+2024-10-30 15:41:33,157 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,157 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,157 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,157 - INFO - Resent packet with seq_num 81200 (retransmission count: 18)
+2024-10-30 15:41:33,157 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,157 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,157 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,157 - INFO - Resent packet with seq_num 81200 (retransmission count: 19)
+2024-10-30 15:41:33,158 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,158 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,158 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,158 - INFO - Resent packet with seq_num 81200 (retransmission count: 20)
+2024-10-30 15:41:33,159 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,159 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,159 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,159 - INFO - Resent packet with seq_num 81200 (retransmission count: 21)
+2024-10-30 15:41:33,160 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,160 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,160 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,160 - INFO - Resent packet with seq_num 81200 (retransmission count: 22)
+2024-10-30 15:41:33,161 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,161 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,161 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,161 - INFO - Resent packet with seq_num 81200 (retransmission count: 23)
+2024-10-30 15:41:33,161 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,161 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,162 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,162 - INFO - Resent packet with seq_num 81200 (retransmission count: 24)
+2024-10-30 15:41:33,162 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,162 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,163 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,163 - INFO - Resent packet with seq_num 81200 (retransmission count: 25)
+2024-10-30 15:41:33,164 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,164 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,164 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,164 - INFO - Resent packet with seq_num 81200 (retransmission count: 26)
+2024-10-30 15:41:33,165 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,165 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,165 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,165 - INFO - Resent packet with seq_num 81200 (retransmission count: 27)
+2024-10-30 15:41:33,165 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,165 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,165 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,165 - INFO - Resent packet with seq_num 81200 (retransmission count: 28)
+2024-10-30 15:41:33,166 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,166 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,166 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,166 - INFO - Resent packet with seq_num 81200 (retransmission count: 29)
+2024-10-30 15:41:33,166 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,166 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,166 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,167 - INFO - Resent packet with seq_num 81200 (retransmission count: 30)
+2024-10-30 15:41:33,167 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,167 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,167 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,167 - INFO - Resent packet with seq_num 81200 (retransmission count: 31)
+2024-10-30 15:41:33,167 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,167 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,167 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,167 - INFO - Resent packet with seq_num 81200 (retransmission count: 32)
+2024-10-30 15:41:33,168 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,168 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,168 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,168 - INFO - Resent packet with seq_num 81200 (retransmission count: 33)
+2024-10-30 15:41:33,168 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,168 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,168 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,168 - INFO - Resent packet with seq_num 81200 (retransmission count: 34)
+2024-10-30 15:41:33,169 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,169 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,169 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,169 - INFO - Resent packet with seq_num 81200 (retransmission count: 35)
+2024-10-30 15:41:33,171 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,172 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,172 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,172 - INFO - Resent packet with seq_num 81200 (retransmission count: 36)
+2024-10-30 15:41:33,172 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,172 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,172 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,172 - INFO - Resent packet with seq_num 81200 (retransmission count: 37)
+2024-10-30 15:41:33,172 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,172 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,172 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,172 - INFO - Resent packet with seq_num 81200 (retransmission count: 38)
+2024-10-30 15:41:33,173 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,173 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,173 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,173 - INFO - Resent packet with seq_num 81200 (retransmission count: 39)
+2024-10-30 15:41:33,173 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,173 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,173 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,173 - INFO - Resent packet with seq_num 81200 (retransmission count: 40)
+2024-10-30 15:41:33,173 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,173 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,173 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,173 - INFO - Resent packet with seq_num 81200 (retransmission count: 41)
+2024-10-30 15:41:33,174 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,174 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,174 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,174 - INFO - Resent packet with seq_num 81200 (retransmission count: 42)
+2024-10-30 15:41:33,175 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,175 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,175 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,175 - INFO - Resent packet with seq_num 81200 (retransmission count: 43)
+2024-10-30 15:41:33,175 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,175 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,175 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,176 - INFO - Resent packet with seq_num 81200 (retransmission count: 44)
+2024-10-30 15:41:33,176 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,176 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,176 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,176 - INFO - Resent packet with seq_num 81200 (retransmission count: 45)
+2024-10-30 15:41:33,178 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,178 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,178 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,178 - INFO - Resent packet with seq_num 81200 (retransmission count: 46)
+2024-10-30 15:41:33,178 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,178 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,178 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,178 - INFO - Resent packet with seq_num 81200 (retransmission count: 47)
+2024-10-30 15:41:33,178 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,179 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,179 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,179 - INFO - Resent packet with seq_num 81200 (retransmission count: 48)
+2024-10-30 15:41:33,179 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,179 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,179 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,179 - INFO - Resent packet with seq_num 81200 (retransmission count: 49)
+2024-10-30 15:41:33,179 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,180 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,180 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,180 - INFO - Resent packet with seq_num 81200 (retransmission count: 50)
+2024-10-30 15:41:33,180 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,180 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,180 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,180 - INFO - Resent packet with seq_num 81200 (retransmission count: 51)
+2024-10-30 15:41:33,180 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,180 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,180 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,180 - INFO - Resent packet with seq_num 81200 (retransmission count: 52)
+2024-10-30 15:41:33,182 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,182 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,182 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,182 - INFO - Resent packet with seq_num 81200 (retransmission count: 53)
+2024-10-30 15:41:33,182 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,182 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,182 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,182 - INFO - Resent packet with seq_num 81200 (retransmission count: 54)
+2024-10-30 15:41:33,183 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,183 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,183 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,183 - INFO - Resent packet with seq_num 81200 (retransmission count: 55)
+2024-10-30 15:41:33,184 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,184 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,184 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,184 - INFO - Resent packet with seq_num 81200 (retransmission count: 56)
+2024-10-30 15:41:33,184 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:41:33,184 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:41:33,184 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,184 - INFO - Resent packet with seq_num 81200 (retransmission count: 57)
+2024-10-30 15:41:33,190 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,190 - INFO - Received new ACK for seq_num 82600
+2024-10-30 15:41:33,190 - INFO - Removed packet with seq_num 81200 from packet_map
+2024-10-30 15:41:33,190 - INFO - Removed packet with seq_num 82600 from packet_map
+2024-10-30 15:41:33,190 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,191 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,191 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,191 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,191 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,191 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,191 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,191 - INFO - Resent packet with seq_num 84000 (retransmission count: 1)
+2024-10-30 15:41:33,192 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,192 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,192 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,192 - INFO - Resent packet with seq_num 84000 (retransmission count: 2)
+2024-10-30 15:41:33,192 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,192 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,192 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,192 - INFO - Resent packet with seq_num 84000 (retransmission count: 3)
+2024-10-30 15:41:33,193 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,193 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,193 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,193 - INFO - Resent packet with seq_num 84000 (retransmission count: 4)
+2024-10-30 15:41:33,194 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,194 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,195 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,195 - INFO - Resent packet with seq_num 84000 (retransmission count: 5)
+2024-10-30 15:41:33,195 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,195 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,195 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,195 - INFO - Resent packet with seq_num 84000 (retransmission count: 6)
+2024-10-30 15:41:33,199 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,199 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,199 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,199 - INFO - Resent packet with seq_num 84000 (retransmission count: 7)
+2024-10-30 15:41:33,199 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,199 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,200 - INFO - Resent packet with seq_num 84000 (retransmission count: 8)
+2024-10-30 15:41:33,200 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,200 - INFO - Resent packet with seq_num 84000 (retransmission count: 9)
+2024-10-30 15:41:33,200 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,200 - INFO - Resent packet with seq_num 84000 (retransmission count: 10)
+2024-10-30 15:41:33,201 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,201 - INFO - Resent packet with seq_num 84000 (retransmission count: 11)
+2024-10-30 15:41:33,201 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,201 - INFO - Resent packet with seq_num 84000 (retransmission count: 12)
+2024-10-30 15:41:33,201 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,201 - INFO - Resent packet with seq_num 84000 (retransmission count: 13)
+2024-10-30 15:41:33,202 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,202 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,202 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,202 - INFO - Resent packet with seq_num 84000 (retransmission count: 14)
+2024-10-30 15:41:33,203 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,203 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,203 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,203 - INFO - Resent packet with seq_num 84000 (retransmission count: 15)
+2024-10-30 15:41:33,204 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,204 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,205 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,205 - INFO - Resent packet with seq_num 84000 (retransmission count: 16)
+2024-10-30 15:41:33,205 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,205 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,205 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,206 - INFO - Resent packet with seq_num 84000 (retransmission count: 17)
+2024-10-30 15:41:33,206 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,206 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,206 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,206 - INFO - Resent packet with seq_num 84000 (retransmission count: 18)
+2024-10-30 15:41:33,206 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,206 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,206 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,207 - INFO - Resent packet with seq_num 84000 (retransmission count: 19)
+2024-10-30 15:41:33,207 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,207 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,207 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,207 - INFO - Resent packet with seq_num 84000 (retransmission count: 20)
+2024-10-30 15:41:33,207 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,207 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,207 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,207 - INFO - Resent packet with seq_num 84000 (retransmission count: 21)
+2024-10-30 15:41:33,209 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,209 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,209 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,209 - INFO - Resent packet with seq_num 84000 (retransmission count: 22)
+2024-10-30 15:41:33,210 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,210 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,210 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,210 - INFO - Resent packet with seq_num 84000 (retransmission count: 23)
+2024-10-30 15:41:33,212 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,212 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,212 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,212 - INFO - Resent packet with seq_num 84000 (retransmission count: 24)
+2024-10-30 15:41:33,212 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,212 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,213 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,213 - INFO - Resent packet with seq_num 84000 (retransmission count: 25)
+2024-10-30 15:41:33,213 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,213 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,213 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,213 - INFO - Resent packet with seq_num 84000 (retransmission count: 26)
+2024-10-30 15:41:33,213 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,213 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,213 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,213 - INFO - Resent packet with seq_num 84000 (retransmission count: 27)
+2024-10-30 15:41:33,213 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,213 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,214 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,214 - INFO - Resent packet with seq_num 84000 (retransmission count: 28)
+2024-10-30 15:41:33,214 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,214 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,214 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,214 - INFO - Resent packet with seq_num 84000 (retransmission count: 29)
+2024-10-30 15:41:33,215 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,216 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,216 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,216 - INFO - Resent packet with seq_num 84000 (retransmission count: 30)
+2024-10-30 15:41:33,219 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,219 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,219 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,219 - INFO - Resent packet with seq_num 84000 (retransmission count: 31)
+2024-10-30 15:41:33,220 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,220 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,220 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,220 - INFO - Resent packet with seq_num 84000 (retransmission count: 32)
+2024-10-30 15:41:33,220 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,220 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,220 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,220 - INFO - Resent packet with seq_num 84000 (retransmission count: 33)
+2024-10-30 15:41:33,220 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,220 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,220 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,221 - INFO - Resent packet with seq_num 84000 (retransmission count: 34)
+2024-10-30 15:41:33,221 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,221 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,221 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,221 - INFO - Resent packet with seq_num 84000 (retransmission count: 35)
+2024-10-30 15:41:33,221 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,221 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,221 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,221 - INFO - Resent packet with seq_num 84000 (retransmission count: 36)
+2024-10-30 15:41:33,221 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,221 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,222 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,222 - INFO - Resent packet with seq_num 84000 (retransmission count: 37)
+2024-10-30 15:41:33,222 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,222 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,222 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,222 - INFO - Resent packet with seq_num 84000 (retransmission count: 38)
+2024-10-30 15:41:33,222 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,222 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,222 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,222 - INFO - Resent packet with seq_num 84000 (retransmission count: 39)
+2024-10-30 15:41:33,223 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,223 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,223 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,223 - INFO - Resent packet with seq_num 84000 (retransmission count: 40)
+2024-10-30 15:41:33,224 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,224 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,224 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,224 - INFO - Resent packet with seq_num 84000 (retransmission count: 41)
+2024-10-30 15:41:33,224 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,224 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,224 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,224 - INFO - Resent packet with seq_num 84000 (retransmission count: 42)
+2024-10-30 15:41:33,225 - INFO - Received ACK for seq_num 82600
+2024-10-30 15:41:33,225 - INFO - Received duplicate ACK for seq_num 82600
+2024-10-30 15:41:33,225 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,225 - INFO - Resent packet with seq_num 84000 (retransmission count: 43)
+2024-10-30 15:41:33,232 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,232 - INFO - Received new ACK for seq_num 99400
+2024-10-30 15:41:33,232 - INFO - Removed packet with seq_num 84000 from packet_map
+2024-10-30 15:41:33,232 - INFO - Removed packet with seq_num 85400 from packet_map
+2024-10-30 15:41:33,232 - INFO - Removed packet with seq_num 86800 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 88200 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 89600 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 91000 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 92400 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 93800 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 95200 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 96600 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 98000 from packet_map
+2024-10-30 15:41:33,233 - INFO - Removed packet with seq_num 99400 from packet_map
+2024-10-30 15:41:33,233 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,233 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,233 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,233 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,235 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,235 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,235 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,235 - INFO - Resent packet with seq_num 100800 (retransmission count: 1)
+2024-10-30 15:41:33,236 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,236 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,236 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,236 - INFO - Resent packet with seq_num 100800 (retransmission count: 2)
+2024-10-30 15:41:33,240 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,240 - INFO - Resent packet with seq_num 100800 (retransmission count: 3)
+2024-10-30 15:41:33,240 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,240 - INFO - Resent packet with seq_num 100800 (retransmission count: 4)
+2024-10-30 15:41:33,240 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,241 - INFO - Resent packet with seq_num 100800 (retransmission count: 5)
+2024-10-30 15:41:33,241 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,241 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,241 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,241 - INFO - Resent packet with seq_num 100800 (retransmission count: 6)
+2024-10-30 15:41:33,241 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,241 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,241 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,241 - INFO - Resent packet with seq_num 100800 (retransmission count: 7)
+2024-10-30 15:41:33,242 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,242 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,242 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,242 - INFO - Resent packet with seq_num 100800 (retransmission count: 8)
+2024-10-30 15:41:33,242 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,242 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,242 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,242 - INFO - Resent packet with seq_num 100800 (retransmission count: 9)
+2024-10-30 15:41:33,243 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,243 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,244 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,244 - INFO - Resent packet with seq_num 100800 (retransmission count: 10)
+2024-10-30 15:41:33,245 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,245 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,245 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,245 - INFO - Resent packet with seq_num 100800 (retransmission count: 11)
+2024-10-30 15:41:33,246 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,246 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,246 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,246 - INFO - Resent packet with seq_num 100800 (retransmission count: 12)
+2024-10-30 15:41:33,247 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,247 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,247 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,247 - INFO - Resent packet with seq_num 100800 (retransmission count: 13)
+2024-10-30 15:41:33,247 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,247 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,247 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,247 - INFO - Resent packet with seq_num 100800 (retransmission count: 14)
+2024-10-30 15:41:33,248 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,248 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,248 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,248 - INFO - Resent packet with seq_num 100800 (retransmission count: 15)
+2024-10-30 15:41:33,249 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,249 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,249 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,249 - INFO - Resent packet with seq_num 100800 (retransmission count: 16)
+2024-10-30 15:41:33,250 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,250 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,250 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,250 - INFO - Resent packet with seq_num 100800 (retransmission count: 17)
+2024-10-30 15:41:33,252 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,252 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,253 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,253 - INFO - Resent packet with seq_num 100800 (retransmission count: 18)
+2024-10-30 15:41:33,253 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,253 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,253 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,253 - INFO - Resent packet with seq_num 100800 (retransmission count: 19)
+2024-10-30 15:41:33,253 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,253 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,253 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,253 - INFO - Resent packet with seq_num 100800 (retransmission count: 20)
+2024-10-30 15:41:33,253 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,254 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,254 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,254 - INFO - Resent packet with seq_num 100800 (retransmission count: 21)
+2024-10-30 15:41:33,254 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,254 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,254 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,254 - INFO - Resent packet with seq_num 100800 (retransmission count: 22)
+2024-10-30 15:41:33,254 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,255 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,255 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,255 - INFO - Resent packet with seq_num 100800 (retransmission count: 23)
+2024-10-30 15:41:33,256 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,256 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,256 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,256 - INFO - Resent packet with seq_num 100800 (retransmission count: 24)
+2024-10-30 15:41:33,260 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,260 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,260 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,260 - INFO - Resent packet with seq_num 100800 (retransmission count: 25)
+2024-10-30 15:41:33,260 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,260 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,260 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,260 - INFO - Resent packet with seq_num 100800 (retransmission count: 26)
+2024-10-30 15:41:33,260 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,261 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,261 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,261 - INFO - Resent packet with seq_num 100800 (retransmission count: 27)
+2024-10-30 15:41:33,261 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,261 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,261 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,261 - INFO - Resent packet with seq_num 100800 (retransmission count: 28)
+2024-10-30 15:41:33,261 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,261 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,261 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,262 - INFO - Resent packet with seq_num 100800 (retransmission count: 29)
+2024-10-30 15:41:33,262 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,262 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,263 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,263 - INFO - Resent packet with seq_num 100800 (retransmission count: 30)
+2024-10-30 15:41:33,263 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,263 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,263 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,263 - INFO - Resent packet with seq_num 100800 (retransmission count: 31)
+2024-10-30 15:41:33,263 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,263 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,263 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,263 - INFO - Resent packet with seq_num 100800 (retransmission count: 32)
+2024-10-30 15:41:33,264 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,265 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,265 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,265 - INFO - Resent packet with seq_num 100800 (retransmission count: 33)
+2024-10-30 15:41:33,265 - INFO - Received ACK for seq_num 99400
+2024-10-30 15:41:33,265 - INFO - Received duplicate ACK for seq_num 99400
+2024-10-30 15:41:33,265 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,265 - INFO - Resent packet with seq_num 100800 (retransmission count: 34)
+2024-10-30 15:41:33,275 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,276 - INFO - Received new ACK for seq_num 109200
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 100800 from packet_map
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 102200 from packet_map
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 103600 from packet_map
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 105000 from packet_map
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 106400 from packet_map
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 107800 from packet_map
+2024-10-30 15:41:33,276 - INFO - Removed packet with seq_num 109200 from packet_map
+2024-10-30 15:41:33,276 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,276 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,280 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,280 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,281 - INFO - Resent packet with seq_num 110600 (retransmission count: 1)
+2024-10-30 15:41:33,281 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,281 - INFO - Resent packet with seq_num 110600 (retransmission count: 2)
+2024-10-30 15:41:33,281 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,282 - INFO - Resent packet with seq_num 110600 (retransmission count: 3)
+2024-10-30 15:41:33,282 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,282 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,282 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,282 - INFO - Resent packet with seq_num 110600 (retransmission count: 4)
+2024-10-30 15:41:33,283 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,283 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,283 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,283 - INFO - Resent packet with seq_num 110600 (retransmission count: 5)
+2024-10-30 15:41:33,283 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,283 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,283 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,283 - INFO - Resent packet with seq_num 110600 (retransmission count: 6)
+2024-10-30 15:41:33,284 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,284 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,284 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,284 - INFO - Resent packet with seq_num 110600 (retransmission count: 7)
+2024-10-30 15:41:33,286 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,286 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,286 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,286 - INFO - Resent packet with seq_num 110600 (retransmission count: 8)
+2024-10-30 15:41:33,287 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,287 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,288 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,288 - INFO - Resent packet with seq_num 110600 (retransmission count: 9)
+2024-10-30 15:41:33,288 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,288 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,288 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,288 - INFO - Resent packet with seq_num 110600 (retransmission count: 10)
+2024-10-30 15:41:33,289 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,289 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,289 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,289 - INFO - Resent packet with seq_num 110600 (retransmission count: 11)
+2024-10-30 15:41:33,289 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,289 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,289 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,290 - INFO - Resent packet with seq_num 110600 (retransmission count: 12)
+2024-10-30 15:41:33,290 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,290 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,290 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,290 - INFO - Resent packet with seq_num 110600 (retransmission count: 13)
+2024-10-30 15:41:33,291 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,291 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,291 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,291 - INFO - Resent packet with seq_num 110600 (retransmission count: 14)
+2024-10-30 15:41:33,293 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,293 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,293 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,293 - INFO - Resent packet with seq_num 110600 (retransmission count: 15)
+2024-10-30 15:41:33,294 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,294 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,294 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,294 - INFO - Resent packet with seq_num 110600 (retransmission count: 16)
+2024-10-30 15:41:33,294 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,294 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,294 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,294 - INFO - Resent packet with seq_num 110600 (retransmission count: 17)
+2024-10-30 15:41:33,295 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,295 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,295 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,295 - INFO - Resent packet with seq_num 110600 (retransmission count: 18)
+2024-10-30 15:41:33,295 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,295 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,296 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,296 - INFO - Resent packet with seq_num 110600 (retransmission count: 19)
+2024-10-30 15:41:33,296 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,296 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,296 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,296 - INFO - Resent packet with seq_num 110600 (retransmission count: 20)
+2024-10-30 15:41:33,300 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,301 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,301 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,301 - INFO - Resent packet with seq_num 110600 (retransmission count: 21)
+2024-10-30 15:41:33,301 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,302 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,302 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,302 - INFO - Resent packet with seq_num 110600 (retransmission count: 22)
+2024-10-30 15:41:33,303 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,303 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,303 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,303 - INFO - Resent packet with seq_num 110600 (retransmission count: 23)
+2024-10-30 15:41:33,304 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,304 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,304 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,304 - INFO - Resent packet with seq_num 110600 (retransmission count: 24)
+2024-10-30 15:41:33,304 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,304 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,304 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,304 - INFO - Resent packet with seq_num 110600 (retransmission count: 25)
+2024-10-30 15:41:33,307 - INFO - Received ACK for seq_num 109200
+2024-10-30 15:41:33,307 - INFO - Received duplicate ACK for seq_num 109200
+2024-10-30 15:41:33,307 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,307 - INFO - Resent packet with seq_num 110600 (retransmission count: 26)
+2024-10-30 15:41:33,321 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,321 - INFO - Received new ACK for seq_num 110600
+2024-10-30 15:41:33,321 - INFO - Removed packet with seq_num 110600 from packet_map
+2024-10-30 15:41:33,322 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,322 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,322 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,322 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,323 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,323 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,323 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,323 - INFO - Resent packet with seq_num 112000 (retransmission count: 1)
+2024-10-30 15:41:33,324 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,324 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,324 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,324 - INFO - Resent packet with seq_num 112000 (retransmission count: 2)
+2024-10-30 15:41:33,326 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,326 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,327 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,327 - INFO - Resent packet with seq_num 112000 (retransmission count: 3)
+2024-10-30 15:41:33,328 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,328 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,328 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,328 - INFO - Resent packet with seq_num 112000 (retransmission count: 4)
+2024-10-30 15:41:33,329 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,329 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,329 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,329 - INFO - Resent packet with seq_num 112000 (retransmission count: 5)
+2024-10-30 15:41:33,329 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,329 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,329 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,329 - INFO - Resent packet with seq_num 112000 (retransmission count: 6)
+2024-10-30 15:41:33,330 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,330 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,330 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,330 - INFO - Resent packet with seq_num 112000 (retransmission count: 7)
+2024-10-30 15:41:33,334 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,334 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,334 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,334 - INFO - Resent packet with seq_num 112000 (retransmission count: 8)
+2024-10-30 15:41:33,335 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,335 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,335 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,335 - INFO - Resent packet with seq_num 112000 (retransmission count: 9)
+2024-10-30 15:41:33,335 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,335 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,335 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,335 - INFO - Resent packet with seq_num 112000 (retransmission count: 10)
+2024-10-30 15:41:33,336 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,336 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,336 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,336 - INFO - Resent packet with seq_num 112000 (retransmission count: 11)
+2024-10-30 15:41:33,337 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,337 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,337 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,337 - INFO - Resent packet with seq_num 112000 (retransmission count: 12)
+2024-10-30 15:41:33,341 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,341 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,341 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,342 - INFO - Resent packet with seq_num 112000 (retransmission count: 13)
+2024-10-30 15:41:33,342 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,342 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,342 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,342 - INFO - Resent packet with seq_num 112000 (retransmission count: 14)
+2024-10-30 15:41:33,344 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,344 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,344 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,344 - INFO - Resent packet with seq_num 112000 (retransmission count: 15)
+2024-10-30 15:41:33,344 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,344 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,344 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,344 - INFO - Resent packet with seq_num 112000 (retransmission count: 16)
+2024-10-30 15:41:33,345 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,345 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,345 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,345 - INFO - Resent packet with seq_num 112000 (retransmission count: 17)
+2024-10-30 15:41:33,348 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:41:33,348 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:41:33,348 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,348 - INFO - Resent packet with seq_num 112000 (retransmission count: 18)
+2024-10-30 15:41:33,364 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,364 - INFO - Received new ACK for seq_num 113400
+2024-10-30 15:41:33,364 - INFO - Removed packet with seq_num 112000 from packet_map
+2024-10-30 15:41:33,364 - INFO - Removed packet with seq_num 113400 from packet_map
+2024-10-30 15:41:33,367 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,367 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,369 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,369 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,370 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,370 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,370 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,370 - INFO - Resent packet with seq_num 114800 (retransmission count: 1)
+2024-10-30 15:41:33,370 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,370 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,371 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,371 - INFO - Resent packet with seq_num 114800 (retransmission count: 2)
+2024-10-30 15:41:33,374 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,374 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,374 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,375 - INFO - Resent packet with seq_num 114800 (retransmission count: 3)
+2024-10-30 15:41:33,375 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,375 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,375 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,375 - INFO - Resent packet with seq_num 114800 (retransmission count: 4)
+2024-10-30 15:41:33,377 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,377 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,377 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,377 - INFO - Resent packet with seq_num 114800 (retransmission count: 5)
+2024-10-30 15:41:33,377 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,377 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,377 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,378 - INFO - Resent packet with seq_num 114800 (retransmission count: 6)
+2024-10-30 15:41:33,382 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,383 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,383 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,383 - INFO - Resent packet with seq_num 114800 (retransmission count: 7)
+2024-10-30 15:41:33,383 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,383 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,383 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,383 - INFO - Resent packet with seq_num 114800 (retransmission count: 8)
+2024-10-30 15:41:33,384 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,385 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,385 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,385 - INFO - Resent packet with seq_num 114800 (retransmission count: 9)
+2024-10-30 15:41:33,385 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,385 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,385 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,386 - INFO - Resent packet with seq_num 114800 (retransmission count: 10)
+2024-10-30 15:41:33,388 - INFO - Received ACK for seq_num 113400
+2024-10-30 15:41:33,388 - INFO - Received duplicate ACK for seq_num 113400
+2024-10-30 15:41:33,388 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,388 - INFO - Resent packet with seq_num 114800 (retransmission count: 11)
+2024-10-30 15:41:33,411 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,411 - INFO - Received new ACK for seq_num 126000
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 114800 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 116200 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 117600 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 119000 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 120400 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 121800 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 123200 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 124600 from packet_map
+2024-10-30 15:41:33,411 - INFO - Removed packet with seq_num 126000 from packet_map
+2024-10-30 15:41:33,411 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,412 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,415 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,415 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,416 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,416 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,416 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,416 - INFO - Resent packet with seq_num 127400 (retransmission count: 1)
+2024-10-30 15:41:33,417 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,417 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,417 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,418 - INFO - Resent packet with seq_num 127400 (retransmission count: 2)
+2024-10-30 15:41:33,418 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,418 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,418 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,418 - INFO - Resent packet with seq_num 127400 (retransmission count: 3)
+2024-10-30 15:41:33,424 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,424 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,424 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,424 - INFO - Resent packet with seq_num 127400 (retransmission count: 4)
+2024-10-30 15:41:33,425 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,426 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,426 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,426 - INFO - Resent packet with seq_num 127400 (retransmission count: 5)
+2024-10-30 15:41:33,426 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,426 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,426 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,426 - INFO - Resent packet with seq_num 127400 (retransmission count: 6)
+2024-10-30 15:41:33,429 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:41:33,429 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:41:33,429 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,429 - INFO - Resent packet with seq_num 127400 (retransmission count: 7)
+2024-10-30 15:41:33,458 - INFO - Received ACK for seq_num 175000
+2024-10-30 15:41:33,458 - INFO - Received new ACK for seq_num 175000
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 127400 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 128800 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 130200 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 131600 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 133000 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 134400 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 135800 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 137200 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 138600 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 140000 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 141400 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 142800 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 144200 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 145600 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 147000 from packet_map
+2024-10-30 15:41:33,459 - INFO - Removed packet with seq_num 148400 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 149800 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 151200 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 152600 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 154000 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 155400 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 156800 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 158200 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 159600 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 161000 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 162400 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 163800 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 165200 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 166600 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 168000 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 169400 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 170800 from packet_map
+2024-10-30 15:41:33,460 - INFO - Removed packet with seq_num 172200 from packet_map
+2024-10-30 15:41:33,461 - INFO - Removed packet with seq_num 173600 from packet_map
+2024-10-30 15:41:33,461 - INFO - Removed packet with seq_num 175000 from packet_map
+2024-10-30 15:41:33,461 - INFO - Received ACK for seq_num 175000
+2024-10-30 15:41:33,461 - INFO - Received duplicate ACK for seq_num 175000
+2024-10-30 15:41:33,464 - INFO - Received ACK for seq_num 175000
+2024-10-30 15:41:33,464 - INFO - Received duplicate ACK for seq_num 175000
+2024-10-30 15:41:33,466 - INFO - Received ACK for seq_num 175000
+2024-10-30 15:41:33,466 - INFO - Received duplicate ACK for seq_num 175000
+2024-10-30 15:41:33,466 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,466 - INFO - Resent packet with seq_num 176400 (retransmission count: 1)
+2024-10-30 15:41:33,466 - INFO - Received ACK for seq_num 175000
+2024-10-30 15:41:33,466 - INFO - Received duplicate ACK for seq_num 175000
+2024-10-30 15:41:33,467 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,467 - INFO - Resent packet with seq_num 176400 (retransmission count: 2)
+2024-10-30 15:41:33,469 - INFO - Received ACK for seq_num 175000
+2024-10-30 15:41:33,469 - INFO - Received duplicate ACK for seq_num 175000
+2024-10-30 15:41:33,470 - INFO - Fast recovery triggered
+2024-10-30 15:41:33,470 - INFO - Resent packet with seq_num 176400 (retransmission count: 3)
+2024-10-30 15:41:33,507 - INFO - Received ACK for seq_num 177800
+2024-10-30 15:41:33,507 - INFO - Received new ACK for seq_num 177800
+2024-10-30 15:41:33,507 - INFO - Removed packet with seq_num 176400 from packet_map
+2024-10-30 15:41:33,507 - INFO - Removed packet with seq_num 177800 from packet_map
+2024-10-30 15:41:33,507 - INFO - Received ACK for seq_num 177800
+2024-10-30 15:41:33,507 - INFO - Received duplicate ACK for seq_num 177800
+2024-10-30 15:41:33,510 - INFO - Received ACK for seq_num 177800
+2024-10-30 15:41:33,510 - INFO - Received duplicate ACK for seq_num 177800
+2024-10-30 15:41:34,030 - WARNING - Timeout occurred for seq_num 179200
+2024-10-30 15:41:34,030 - INFO - Resent packet with seq_num 179200 (retransmission count: 1)
+2024-10-30 15:41:34,030 - WARNING - Timeout occurred for seq_num 180600
+2024-10-30 15:41:34,030 - INFO - Resent packet with seq_num 180600 (retransmission count: 1)
+2024-10-30 15:41:34,030 - WARNING - Timeout occurred for seq_num 182000
+2024-10-30 15:41:34,031 - INFO - Resent packet with seq_num 182000 (retransmission count: 1)
+2024-10-30 15:41:34,071 - INFO - Received ACK for seq_num 182000
+2024-10-30 15:41:34,071 - INFO - Received new ACK for seq_num 182000
+2024-10-30 15:41:34,071 - INFO - Removed packet with seq_num 179200 from packet_map
+2024-10-30 15:41:34,072 - INFO - Removed packet with seq_num 180600 from packet_map
+2024-10-30 15:41:34,072 - INFO - Removed packet with seq_num 182000 from packet_map
+2024-10-30 15:41:34,072 - INFO - Sent FIN to client.
+2024-10-30 15:41:34,113 - INFO - Received ACK for FIN from client.
+2024-10-30 15:41:34,113 - INFO - Received FIN from client.
+2024-10-30 15:41:34,113 - INFO - Connection closed successfully.

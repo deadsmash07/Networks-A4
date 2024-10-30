@@ -31,19 +31,19 @@ def receive_file(server_ip, server_port):
             continue
 
     # Wait for "PING" message from server for RTT measurement
-    while True:
-        try:
-            packet, _ = client_socket.recvfrom(1024)
-            ping_data = json.loads(packet.decode('utf-8'))
-            if ping_data.get('type') == 'PING':
-                # Send back "PONG" with same timestamp
-                pong_data = json.dumps({'type': 'PONG', 'timestamp': ping_data['timestamp']}).encode('utf-8')
-                client_socket.sendto(pong_data, server_address)
-                logger.info("RTT measurement done.")
-                break
-        except socket.timeout:
-            # If timeout occurs, continue to wait
-            continue
+
+    try:
+        packet, _ = client_socket.recvfrom(1024)
+        ping_data = json.loads(packet.decode('utf-8'))
+        if ping_data.get('type') == 'PING':
+            # Send back "PONG" with same timestamp
+            pong_data = json.dumps({'type': 'PONG', 'timestamp': ping_data['timestamp']}).encode('utf-8')
+            client_socket.sendto(pong_data, server_address)
+            logger.info("RTT measurement done.")
+            
+    except socket.timeout:
+        # If timeout occurs, continue to wait
+        print("Didn't get packet conintuing.")
 
     Last_received_seq = -1
     expected_seq_num = 0  # Initialize expected sequence number

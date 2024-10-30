@@ -1,0 +1,713 @@
+2024-10-30 15:41:54,748 - INFO - Server is ready to receive.
+2024-10-30 15:41:54,819 - INFO - Received SYN from ('10.0.0.2', 37321)
+2024-10-30 15:41:54,861 - INFO - Connection established with client.
+2024-10-30 15:41:54,862 - INFO - Sent PING for RTT measurement.
+2024-10-30 15:41:56,865 - INFO - Sent packet with seq_num 0
+2024-10-30 15:41:56,865 - INFO - Sent packet with seq_num 1400
+2024-10-30 15:41:56,866 - INFO - Sent packet with seq_num 2800
+2024-10-30 15:41:56,866 - INFO - Sent packet with seq_num 4200
+2024-10-30 15:41:56,866 - INFO - Sent packet with seq_num 5600
+2024-10-30 15:41:56,866 - INFO - Sent packet with seq_num 7000
+2024-10-30 15:41:56,867 - INFO - Sent packet with seq_num 8400
+2024-10-30 15:41:56,867 - INFO - Sent packet with seq_num 9800
+2024-10-30 15:41:56,867 - INFO - Sent packet with seq_num 11200
+2024-10-30 15:41:56,867 - INFO - Sent packet with seq_num 12600
+2024-10-30 15:41:56,906 - INFO - Received ACK for seq_num 0
+2024-10-30 15:41:56,906 - INFO - Received new ACK for seq_num 0
+2024-10-30 15:41:56,906 - INFO - Removed packet with seq_num 0 from packet_map
+2024-10-30 15:41:56,906 - INFO - Sent packet with seq_num 14000
+2024-10-30 15:41:56,907 - INFO - Received ACK for seq_num 1400
+2024-10-30 15:41:56,907 - INFO - Received new ACK for seq_num 1400
+2024-10-30 15:41:56,907 - INFO - Removed packet with seq_num 1400 from packet_map
+2024-10-30 15:41:56,907 - INFO - Sent packet with seq_num 15400
+2024-10-30 15:41:56,908 - INFO - Received ACK for seq_num 2800
+2024-10-30 15:41:56,908 - INFO - Received new ACK for seq_num 2800
+2024-10-30 15:41:56,908 - INFO - Removed packet with seq_num 2800 from packet_map
+2024-10-30 15:41:56,908 - INFO - Sent packet with seq_num 16800
+2024-10-30 15:41:56,908 - INFO - Received ACK for seq_num 4200
+2024-10-30 15:41:56,908 - INFO - Received new ACK for seq_num 4200
+2024-10-30 15:41:56,909 - INFO - Removed packet with seq_num 4200 from packet_map
+2024-10-30 15:41:56,909 - INFO - Sent packet with seq_num 18200
+2024-10-30 15:41:56,909 - INFO - Received ACK for seq_num 5600
+2024-10-30 15:41:56,909 - INFO - Received new ACK for seq_num 5600
+2024-10-30 15:41:56,910 - INFO - Removed packet with seq_num 5600 from packet_map
+2024-10-30 15:41:56,910 - INFO - Sent packet with seq_num 19600
+2024-10-30 15:41:56,910 - INFO - Received ACK for seq_num 7000
+2024-10-30 15:41:56,910 - INFO - Received new ACK for seq_num 7000
+2024-10-30 15:41:56,910 - INFO - Removed packet with seq_num 7000 from packet_map
+2024-10-30 15:41:56,910 - INFO - Sent packet with seq_num 21000
+2024-10-30 15:41:56,911 - INFO - Received ACK for seq_num 8400
+2024-10-30 15:41:56,911 - INFO - Received new ACK for seq_num 8400
+2024-10-30 15:41:56,911 - INFO - Removed packet with seq_num 8400 from packet_map
+2024-10-30 15:41:56,912 - INFO - Sent packet with seq_num 22400
+2024-10-30 15:41:56,912 - INFO - Received ACK for seq_num 9800
+2024-10-30 15:41:56,912 - INFO - Received new ACK for seq_num 9800
+2024-10-30 15:41:56,912 - INFO - Removed packet with seq_num 9800 from packet_map
+2024-10-30 15:41:56,912 - INFO - Sent packet with seq_num 23800
+2024-10-30 15:41:56,913 - INFO - Received ACK for seq_num 11200
+2024-10-30 15:41:56,913 - INFO - Received new ACK for seq_num 11200
+2024-10-30 15:41:56,913 - INFO - Removed packet with seq_num 11200 from packet_map
+2024-10-30 15:41:56,913 - INFO - Sent packet with seq_num 25200
+2024-10-30 15:41:56,914 - INFO - Received ACK for seq_num 12600
+2024-10-30 15:41:56,914 - INFO - Received new ACK for seq_num 12600
+2024-10-30 15:41:56,914 - INFO - Removed packet with seq_num 12600 from packet_map
+2024-10-30 15:41:56,914 - INFO - Sent packet with seq_num 26600
+2024-10-30 15:41:56,947 - INFO - Received ACK for seq_num 14000
+2024-10-30 15:41:56,947 - INFO - Received new ACK for seq_num 14000
+2024-10-30 15:41:56,947 - INFO - Removed packet with seq_num 14000 from packet_map
+2024-10-30 15:41:56,948 - INFO - Sent packet with seq_num 28000
+2024-10-30 15:41:56,948 - INFO - Received ACK for seq_num 15400
+2024-10-30 15:41:56,948 - INFO - Received new ACK for seq_num 15400
+2024-10-30 15:41:56,948 - INFO - Removed packet with seq_num 15400 from packet_map
+2024-10-30 15:41:56,948 - INFO - Sent packet with seq_num 29400
+2024-10-30 15:41:56,949 - INFO - Received ACK for seq_num 18200
+2024-10-30 15:41:56,950 - INFO - Received new ACK for seq_num 18200
+2024-10-30 15:41:56,950 - INFO - Removed packet with seq_num 16800 from packet_map
+2024-10-30 15:41:56,950 - INFO - Removed packet with seq_num 18200 from packet_map
+2024-10-30 15:41:56,950 - INFO - Sent packet with seq_num 30800
+2024-10-30 15:41:56,950 - INFO - Sent packet with seq_num 32200
+2024-10-30 15:41:56,951 - INFO - Received ACK for seq_num 19600
+2024-10-30 15:41:56,951 - INFO - Received new ACK for seq_num 19600
+2024-10-30 15:41:56,951 - INFO - Removed packet with seq_num 19600 from packet_map
+2024-10-30 15:41:56,951 - INFO - Sent packet with seq_num 33600
+2024-10-30 15:41:56,951 - INFO - Received ACK for seq_num 21000
+2024-10-30 15:41:56,952 - INFO - Received new ACK for seq_num 21000
+2024-10-30 15:41:56,952 - INFO - Removed packet with seq_num 21000 from packet_map
+2024-10-30 15:41:56,952 - INFO - Sent packet with seq_num 35000
+2024-10-30 15:41:56,952 - INFO - Received ACK for seq_num 22400
+2024-10-30 15:41:56,952 - INFO - Received new ACK for seq_num 22400
+2024-10-30 15:41:56,952 - INFO - Removed packet with seq_num 22400 from packet_map
+2024-10-30 15:41:56,953 - INFO - Sent packet with seq_num 36400
+2024-10-30 15:41:56,953 - INFO - Received ACK for seq_num 23800
+2024-10-30 15:41:56,953 - INFO - Received new ACK for seq_num 23800
+2024-10-30 15:41:56,953 - INFO - Removed packet with seq_num 23800 from packet_map
+2024-10-30 15:41:56,953 - INFO - Sent packet with seq_num 37800
+2024-10-30 15:41:56,954 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,954 - INFO - Received new ACK for seq_num 25200
+2024-10-30 15:41:56,954 - INFO - Removed packet with seq_num 25200 from packet_map
+2024-10-30 15:41:56,955 - INFO - Sent packet with seq_num 39200
+2024-10-30 15:41:56,988 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,988 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:56,989 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,989 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:56,991 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,991 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:56,991 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,991 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:56,992 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,992 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:56,993 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,993 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:56,994 - INFO - Received ACK for seq_num 25200
+2024-10-30 15:41:56,994 - INFO - Received duplicate ACK for seq_num 25200
+2024-10-30 15:41:57,915 - WARNING - Timeout occurred for seq_num 26600
+2024-10-30 15:41:57,916 - INFO - Resent packet with seq_num 26600 (retransmission count: 1)
+2024-10-30 15:41:57,948 - WARNING - Timeout occurred for seq_num 28000
+2024-10-30 15:41:57,948 - INFO - Resent packet with seq_num 28000 (retransmission count: 1)
+2024-10-30 15:41:57,949 - WARNING - Timeout occurred for seq_num 29400
+2024-10-30 15:41:57,949 - INFO - Resent packet with seq_num 29400 (retransmission count: 1)
+2024-10-30 15:41:57,951 - WARNING - Timeout occurred for seq_num 30800
+2024-10-30 15:41:57,951 - INFO - Resent packet with seq_num 30800 (retransmission count: 1)
+2024-10-30 15:41:57,952 - WARNING - Timeout occurred for seq_num 32200
+2024-10-30 15:41:57,952 - INFO - Resent packet with seq_num 32200 (retransmission count: 1)
+2024-10-30 15:41:57,953 - WARNING - Timeout occurred for seq_num 33600
+2024-10-30 15:41:57,953 - INFO - Resent packet with seq_num 33600 (retransmission count: 1)
+2024-10-30 15:41:57,954 - WARNING - Timeout occurred for seq_num 35000
+2024-10-30 15:41:57,954 - INFO - Resent packet with seq_num 35000 (retransmission count: 1)
+2024-10-30 15:41:57,955 - WARNING - Timeout occurred for seq_num 36400
+2024-10-30 15:41:57,955 - INFO - Resent packet with seq_num 36400 (retransmission count: 1)
+2024-10-30 15:41:57,956 - WARNING - Timeout occurred for seq_num 37800
+2024-10-30 15:41:57,956 - INFO - Resent packet with seq_num 37800 (retransmission count: 1)
+2024-10-30 15:41:57,957 - WARNING - Timeout occurred for seq_num 39200
+2024-10-30 15:41:57,957 - INFO - Resent packet with seq_num 39200 (retransmission count: 1)
+2024-10-30 15:41:57,958 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,959 - INFO - Received new ACK for seq_num 39200
+2024-10-30 15:41:57,959 - INFO - Removed packet with seq_num 26600 from packet_map
+2024-10-30 15:41:57,961 - INFO - Removed packet with seq_num 28000 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 29400 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 30800 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 32200 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 33600 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 35000 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 36400 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 37800 from packet_map
+2024-10-30 15:41:57,962 - INFO - Removed packet with seq_num 39200 from packet_map
+2024-10-30 15:41:57,963 - INFO - Sent packet with seq_num 40600
+2024-10-30 15:41:57,963 - INFO - Sent packet with seq_num 42000
+2024-10-30 15:41:57,963 - INFO - Sent packet with seq_num 43400
+2024-10-30 15:41:57,963 - INFO - Sent packet with seq_num 44800
+2024-10-30 15:41:57,964 - INFO - Sent packet with seq_num 46200
+2024-10-30 15:41:57,964 - INFO - Sent packet with seq_num 47600
+2024-10-30 15:41:57,964 - INFO - Sent packet with seq_num 49000
+2024-10-30 15:41:57,964 - INFO - Sent packet with seq_num 50400
+2024-10-30 15:41:57,965 - INFO - Sent packet with seq_num 51800
+2024-10-30 15:41:57,965 - INFO - Sent packet with seq_num 53200
+2024-10-30 15:41:57,989 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,989 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,990 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,990 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,992 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,992 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,993 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,993 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,994 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,994 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,995 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,995 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,996 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,996 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,997 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,997 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:57,998 - INFO - Received ACK for seq_num 39200
+2024-10-30 15:41:57,998 - INFO - Received duplicate ACK for seq_num 39200
+2024-10-30 15:41:58,003 - INFO - Received ACK for seq_num 40600
+2024-10-30 15:41:58,003 - INFO - Received new ACK for seq_num 40600
+2024-10-30 15:41:58,004 - INFO - Removed packet with seq_num 40600 from packet_map
+2024-10-30 15:41:58,004 - INFO - Sent packet with seq_num 54600
+2024-10-30 15:41:58,004 - INFO - Received ACK for seq_num 42000
+2024-10-30 15:41:58,004 - INFO - Received new ACK for seq_num 42000
+2024-10-30 15:41:58,004 - INFO - Removed packet with seq_num 42000 from packet_map
+2024-10-30 15:41:58,005 - INFO - Sent packet with seq_num 56000
+2024-10-30 15:41:58,005 - INFO - Received ACK for seq_num 44800
+2024-10-30 15:41:58,005 - INFO - Received new ACK for seq_num 44800
+2024-10-30 15:41:58,005 - INFO - Removed packet with seq_num 43400 from packet_map
+2024-10-30 15:41:58,005 - INFO - Removed packet with seq_num 44800 from packet_map
+2024-10-30 15:41:58,005 - INFO - Sent packet with seq_num 57400
+2024-10-30 15:41:58,006 - INFO - Sent packet with seq_num 58800
+2024-10-30 15:41:58,006 - INFO - Received ACK for seq_num 46200
+2024-10-30 15:41:58,006 - INFO - Received new ACK for seq_num 46200
+2024-10-30 15:41:58,006 - INFO - Removed packet with seq_num 46200 from packet_map
+2024-10-30 15:41:58,006 - INFO - Sent packet with seq_num 60200
+2024-10-30 15:41:58,006 - INFO - Received ACK for seq_num 47600
+2024-10-30 15:41:58,007 - INFO - Received new ACK for seq_num 47600
+2024-10-30 15:41:58,007 - INFO - Removed packet with seq_num 47600 from packet_map
+2024-10-30 15:41:58,007 - INFO - Sent packet with seq_num 61600
+2024-10-30 15:41:58,007 - INFO - Received ACK for seq_num 49000
+2024-10-30 15:41:58,007 - INFO - Received new ACK for seq_num 49000
+2024-10-30 15:41:58,007 - INFO - Removed packet with seq_num 49000 from packet_map
+2024-10-30 15:41:58,008 - INFO - Sent packet with seq_num 63000
+2024-10-30 15:41:58,008 - INFO - Received ACK for seq_num 50400
+2024-10-30 15:41:58,008 - INFO - Received new ACK for seq_num 50400
+2024-10-30 15:41:58,008 - INFO - Removed packet with seq_num 50400 from packet_map
+2024-10-30 15:41:58,008 - INFO - Sent packet with seq_num 64400
+2024-10-30 15:41:58,008 - INFO - Received ACK for seq_num 51800
+2024-10-30 15:41:58,009 - INFO - Received new ACK for seq_num 51800
+2024-10-30 15:41:58,009 - INFO - Removed packet with seq_num 51800 from packet_map
+2024-10-30 15:41:58,009 - INFO - Sent packet with seq_num 65800
+2024-10-30 15:41:58,009 - INFO - Received ACK for seq_num 53200
+2024-10-30 15:41:58,009 - INFO - Received new ACK for seq_num 53200
+2024-10-30 15:41:58,009 - INFO - Removed packet with seq_num 53200 from packet_map
+2024-10-30 15:41:58,010 - INFO - Sent packet with seq_num 67200
+2024-10-30 15:41:58,044 - INFO - Received ACK for seq_num 54600
+2024-10-30 15:41:58,044 - INFO - Received new ACK for seq_num 54600
+2024-10-30 15:41:58,045 - INFO - Removed packet with seq_num 54600 from packet_map
+2024-10-30 15:41:58,045 - INFO - Sent packet with seq_num 68600
+2024-10-30 15:41:58,045 - INFO - Received ACK for seq_num 56000
+2024-10-30 15:41:58,045 - INFO - Received new ACK for seq_num 56000
+2024-10-30 15:41:58,045 - INFO - Removed packet with seq_num 56000 from packet_map
+2024-10-30 15:41:58,046 - INFO - Sent packet with seq_num 70000
+2024-10-30 15:41:58,046 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,046 - INFO - Received new ACK for seq_num 57400
+2024-10-30 15:41:58,046 - INFO - Removed packet with seq_num 57400 from packet_map
+2024-10-30 15:41:58,046 - INFO - Sent packet with seq_num 71400
+2024-10-30 15:41:58,047 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,047 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,047 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,048 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,048 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,048 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,049 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,049 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,049 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,049 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,050 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,050 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,085 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,085 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,086 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,086 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:58,087 - INFO - Received ACK for seq_num 57400
+2024-10-30 15:41:58,087 - INFO - Received duplicate ACK for seq_num 57400
+2024-10-30 15:41:59,006 - WARNING - Timeout occurred for seq_num 58800
+2024-10-30 15:41:59,006 - INFO - Resent packet with seq_num 58800 (retransmission count: 1)
+2024-10-30 15:41:59,007 - WARNING - Timeout occurred for seq_num 60200
+2024-10-30 15:41:59,007 - INFO - Resent packet with seq_num 60200 (retransmission count: 1)
+2024-10-30 15:41:59,008 - WARNING - Timeout occurred for seq_num 61600
+2024-10-30 15:41:59,008 - INFO - Resent packet with seq_num 61600 (retransmission count: 1)
+2024-10-30 15:41:59,008 - WARNING - Timeout occurred for seq_num 63000
+2024-10-30 15:41:59,008 - INFO - Resent packet with seq_num 63000 (retransmission count: 1)
+2024-10-30 15:41:59,009 - WARNING - Timeout occurred for seq_num 64400
+2024-10-30 15:41:59,009 - INFO - Resent packet with seq_num 64400 (retransmission count: 1)
+2024-10-30 15:41:59,009 - WARNING - Timeout occurred for seq_num 65800
+2024-10-30 15:41:59,010 - INFO - Resent packet with seq_num 65800 (retransmission count: 1)
+2024-10-30 15:41:59,010 - WARNING - Timeout occurred for seq_num 67200
+2024-10-30 15:41:59,010 - INFO - Resent packet with seq_num 67200 (retransmission count: 1)
+2024-10-30 15:41:59,045 - WARNING - Timeout occurred for seq_num 68600
+2024-10-30 15:41:59,046 - INFO - Resent packet with seq_num 68600 (retransmission count: 1)
+2024-10-30 15:41:59,046 - WARNING - Timeout occurred for seq_num 70000
+2024-10-30 15:41:59,046 - INFO - Resent packet with seq_num 70000 (retransmission count: 1)
+2024-10-30 15:41:59,047 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,047 - INFO - Received new ACK for seq_num 71400
+2024-10-30 15:41:59,047 - INFO - Removed packet with seq_num 58800 from packet_map
+2024-10-30 15:41:59,047 - INFO - Removed packet with seq_num 60200 from packet_map
+2024-10-30 15:41:59,047 - INFO - Removed packet with seq_num 61600 from packet_map
+2024-10-30 15:41:59,047 - INFO - Removed packet with seq_num 63000 from packet_map
+2024-10-30 15:41:59,047 - INFO - Removed packet with seq_num 64400 from packet_map
+2024-10-30 15:41:59,047 - INFO - Removed packet with seq_num 65800 from packet_map
+2024-10-30 15:41:59,048 - INFO - Removed packet with seq_num 67200 from packet_map
+2024-10-30 15:41:59,048 - INFO - Removed packet with seq_num 68600 from packet_map
+2024-10-30 15:41:59,048 - INFO - Removed packet with seq_num 70000 from packet_map
+2024-10-30 15:41:59,048 - INFO - Removed packet with seq_num 71400 from packet_map
+2024-10-30 15:41:59,048 - INFO - Sent packet with seq_num 72800
+2024-10-30 15:41:59,048 - INFO - Sent packet with seq_num 74200
+2024-10-30 15:41:59,049 - INFO - Sent packet with seq_num 75600
+2024-10-30 15:41:59,049 - INFO - Sent packet with seq_num 77000
+2024-10-30 15:41:59,049 - INFO - Sent packet with seq_num 78400
+2024-10-30 15:41:59,049 - INFO - Sent packet with seq_num 79800
+2024-10-30 15:41:59,050 - INFO - Sent packet with seq_num 81200
+2024-10-30 15:41:59,050 - INFO - Sent packet with seq_num 82600
+2024-10-30 15:41:59,050 - INFO - Sent packet with seq_num 84000
+2024-10-30 15:41:59,050 - INFO - Sent packet with seq_num 85400
+2024-10-30 15:41:59,051 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,051 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,051 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,051 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,051 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,051 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,051 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,052 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,052 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,052 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,052 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,052 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,086 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,086 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,086 - INFO - Received ACK for seq_num 71400
+2024-10-30 15:41:59,087 - INFO - Received duplicate ACK for seq_num 71400
+2024-10-30 15:41:59,089 - INFO - Received ACK for seq_num 72800
+2024-10-30 15:41:59,089 - INFO - Received new ACK for seq_num 72800
+2024-10-30 15:41:59,089 - INFO - Removed packet with seq_num 72800 from packet_map
+2024-10-30 15:41:59,089 - INFO - Sent packet with seq_num 86800
+2024-10-30 15:41:59,090 - INFO - Received ACK for seq_num 74200
+2024-10-30 15:41:59,090 - INFO - Received new ACK for seq_num 74200
+2024-10-30 15:41:59,090 - INFO - Removed packet with seq_num 74200 from packet_map
+2024-10-30 15:41:59,090 - INFO - Sent packet with seq_num 88200
+2024-10-30 15:41:59,090 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,091 - INFO - Received new ACK for seq_num 75600
+2024-10-30 15:41:59,091 - INFO - Removed packet with seq_num 75600 from packet_map
+2024-10-30 15:41:59,091 - INFO - Sent packet with seq_num 89600
+2024-10-30 15:41:59,091 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,091 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,092 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,092 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,092 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,092 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,092 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,092 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,093 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,093 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,130 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,130 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,131 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,131 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:41:59,131 - INFO - Received ACK for seq_num 75600
+2024-10-30 15:41:59,132 - INFO - Received duplicate ACK for seq_num 75600
+2024-10-30 15:42:00,050 - WARNING - Timeout occurred for seq_num 77000
+2024-10-30 15:42:00,051 - INFO - Resent packet with seq_num 77000 (retransmission count: 1)
+2024-10-30 15:42:00,051 - WARNING - Timeout occurred for seq_num 78400
+2024-10-30 15:42:00,052 - INFO - Resent packet with seq_num 78400 (retransmission count: 1)
+2024-10-30 15:42:00,052 - WARNING - Timeout occurred for seq_num 79800
+2024-10-30 15:42:00,053 - INFO - Resent packet with seq_num 79800 (retransmission count: 1)
+2024-10-30 15:42:00,054 - WARNING - Timeout occurred for seq_num 81200
+2024-10-30 15:42:00,055 - INFO - Resent packet with seq_num 81200 (retransmission count: 1)
+2024-10-30 15:42:00,055 - WARNING - Timeout occurred for seq_num 82600
+2024-10-30 15:42:00,056 - INFO - Resent packet with seq_num 82600 (retransmission count: 1)
+2024-10-30 15:42:00,056 - WARNING - Timeout occurred for seq_num 84000
+2024-10-30 15:42:00,057 - INFO - Resent packet with seq_num 84000 (retransmission count: 1)
+2024-10-30 15:42:00,057 - WARNING - Timeout occurred for seq_num 85400
+2024-10-30 15:42:00,058 - INFO - Resent packet with seq_num 85400 (retransmission count: 1)
+2024-10-30 15:42:00,090 - WARNING - Timeout occurred for seq_num 86800
+2024-10-30 15:42:00,091 - INFO - Resent packet with seq_num 86800 (retransmission count: 1)
+2024-10-30 15:42:00,091 - WARNING - Timeout occurred for seq_num 88200
+2024-10-30 15:42:00,091 - INFO - Resent packet with seq_num 88200 (retransmission count: 1)
+2024-10-30 15:42:00,091 - WARNING - Timeout occurred for seq_num 89600
+2024-10-30 15:42:00,091 - INFO - Resent packet with seq_num 89600 (retransmission count: 1)
+2024-10-30 15:42:00,093 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:42:00,093 - INFO - Received new ACK for seq_num 79800
+2024-10-30 15:42:00,093 - INFO - Removed packet with seq_num 77000 from packet_map
+2024-10-30 15:42:00,093 - INFO - Removed packet with seq_num 78400 from packet_map
+2024-10-30 15:42:00,093 - INFO - Removed packet with seq_num 79800 from packet_map
+2024-10-30 15:42:00,094 - INFO - Sent packet with seq_num 91000
+2024-10-30 15:42:00,094 - INFO - Sent packet with seq_num 92400
+2024-10-30 15:42:00,094 - INFO - Sent packet with seq_num 93800
+2024-10-30 15:42:00,094 - INFO - Received ACK for seq_num 79800
+2024-10-30 15:42:00,094 - INFO - Received duplicate ACK for seq_num 79800
+2024-10-30 15:42:00,095 - INFO - Received ACK for seq_num 89600
+2024-10-30 15:42:00,096 - INFO - Received new ACK for seq_num 89600
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 81200 from packet_map
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 82600 from packet_map
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 84000 from packet_map
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 85400 from packet_map
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 86800 from packet_map
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 88200 from packet_map
+2024-10-30 15:42:00,096 - INFO - Removed packet with seq_num 89600 from packet_map
+2024-10-30 15:42:00,097 - INFO - Sent packet with seq_num 95200
+2024-10-30 15:42:00,097 - INFO - Sent packet with seq_num 96600
+2024-10-30 15:42:00,097 - INFO - Sent packet with seq_num 98000
+2024-10-30 15:42:00,097 - INFO - Sent packet with seq_num 99400
+2024-10-30 15:42:00,098 - INFO - Sent packet with seq_num 100800
+2024-10-30 15:42:00,098 - INFO - Sent packet with seq_num 102200
+2024-10-30 15:42:00,098 - INFO - Sent packet with seq_num 103600
+2024-10-30 15:42:00,098 - INFO - Received ACK for seq_num 89600
+2024-10-30 15:42:00,099 - INFO - Received duplicate ACK for seq_num 89600
+2024-10-30 15:42:00,131 - INFO - Received ACK for seq_num 89600
+2024-10-30 15:42:00,131 - INFO - Received duplicate ACK for seq_num 89600
+2024-10-30 15:42:00,132 - INFO - Received ACK for seq_num 89600
+2024-10-30 15:42:00,132 - INFO - Received duplicate ACK for seq_num 89600
+2024-10-30 15:42:00,132 - INFO - Received ACK for seq_num 89600
+2024-10-30 15:42:00,132 - INFO - Received duplicate ACK for seq_num 89600
+2024-10-30 15:42:00,134 - INFO - Received ACK for seq_num 91000
+2024-10-30 15:42:00,134 - INFO - Received new ACK for seq_num 91000
+2024-10-30 15:42:00,134 - INFO - Removed packet with seq_num 91000 from packet_map
+2024-10-30 15:42:00,135 - INFO - Sent packet with seq_num 105000
+2024-10-30 15:42:00,135 - INFO - Received ACK for seq_num 92400
+2024-10-30 15:42:00,135 - INFO - Received new ACK for seq_num 92400
+2024-10-30 15:42:00,135 - INFO - Removed packet with seq_num 92400 from packet_map
+2024-10-30 15:42:00,135 - INFO - Sent packet with seq_num 106400
+2024-10-30 15:42:00,135 - INFO - Received ACK for seq_num 93800
+2024-10-30 15:42:00,136 - INFO - Received new ACK for seq_num 93800
+2024-10-30 15:42:00,136 - INFO - Removed packet with seq_num 93800 from packet_map
+2024-10-30 15:42:00,136 - INFO - Sent packet with seq_num 107800
+2024-10-30 15:42:00,137 - INFO - Received ACK for seq_num 95200
+2024-10-30 15:42:00,137 - INFO - Received new ACK for seq_num 95200
+2024-10-30 15:42:00,137 - INFO - Removed packet with seq_num 95200 from packet_map
+2024-10-30 15:42:00,138 - INFO - Sent packet with seq_num 109200
+2024-10-30 15:42:00,138 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,138 - INFO - Received new ACK for seq_num 96600
+2024-10-30 15:42:00,138 - INFO - Removed packet with seq_num 96600 from packet_map
+2024-10-30 15:42:00,138 - INFO - Sent packet with seq_num 110600
+2024-10-30 15:42:00,138 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,139 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,175 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,175 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,176 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,176 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,176 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,176 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,179 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,179 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:00,179 - INFO - Received ACK for seq_num 96600
+2024-10-30 15:42:00,179 - INFO - Received duplicate ACK for seq_num 96600
+2024-10-30 15:42:01,099 - WARNING - Timeout occurred for seq_num 98000
+2024-10-30 15:42:01,100 - INFO - Resent packet with seq_num 98000 (retransmission count: 1)
+2024-10-30 15:42:01,100 - WARNING - Timeout occurred for seq_num 99400
+2024-10-30 15:42:01,100 - INFO - Resent packet with seq_num 99400 (retransmission count: 1)
+2024-10-30 15:42:01,100 - WARNING - Timeout occurred for seq_num 100800
+2024-10-30 15:42:01,100 - INFO - Resent packet with seq_num 100800 (retransmission count: 1)
+2024-10-30 15:42:01,101 - WARNING - Timeout occurred for seq_num 102200
+2024-10-30 15:42:01,101 - INFO - Resent packet with seq_num 102200 (retransmission count: 1)
+2024-10-30 15:42:01,101 - WARNING - Timeout occurred for seq_num 103600
+2024-10-30 15:42:01,101 - INFO - Resent packet with seq_num 103600 (retransmission count: 1)
+2024-10-30 15:42:01,135 - WARNING - Timeout occurred for seq_num 105000
+2024-10-30 15:42:01,135 - INFO - Resent packet with seq_num 105000 (retransmission count: 1)
+2024-10-30 15:42:01,135 - WARNING - Timeout occurred for seq_num 106400
+2024-10-30 15:42:01,136 - INFO - Resent packet with seq_num 106400 (retransmission count: 1)
+2024-10-30 15:42:01,137 - WARNING - Timeout occurred for seq_num 107800
+2024-10-30 15:42:01,137 - INFO - Resent packet with seq_num 107800 (retransmission count: 1)
+2024-10-30 15:42:01,138 - WARNING - Timeout occurred for seq_num 109200
+2024-10-30 15:42:01,139 - INFO - Resent packet with seq_num 109200 (retransmission count: 1)
+2024-10-30 15:42:01,139 - WARNING - Timeout occurred for seq_num 110600
+2024-10-30 15:42:01,139 - INFO - Resent packet with seq_num 110600 (retransmission count: 1)
+2024-10-30 15:42:01,141 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,142 - INFO - Received new ACK for seq_num 110600
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 98000 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 99400 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 100800 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 102200 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 103600 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 105000 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 106400 from packet_map
+2024-10-30 15:42:01,142 - INFO - Removed packet with seq_num 107800 from packet_map
+2024-10-30 15:42:01,143 - INFO - Removed packet with seq_num 109200 from packet_map
+2024-10-30 15:42:01,143 - INFO - Removed packet with seq_num 110600 from packet_map
+2024-10-30 15:42:01,143 - INFO - Sent packet with seq_num 112000
+2024-10-30 15:42:01,143 - INFO - Sent packet with seq_num 113400
+2024-10-30 15:42:01,143 - INFO - Sent packet with seq_num 114800
+2024-10-30 15:42:01,144 - INFO - Sent packet with seq_num 116200
+2024-10-30 15:42:01,144 - INFO - Sent packet with seq_num 117600
+2024-10-30 15:42:01,145 - INFO - Sent packet with seq_num 119000
+2024-10-30 15:42:01,145 - INFO - Sent packet with seq_num 120400
+2024-10-30 15:42:01,145 - INFO - Sent packet with seq_num 121800
+2024-10-30 15:42:01,146 - INFO - Sent packet with seq_num 123200
+2024-10-30 15:42:01,146 - INFO - Sent packet with seq_num 124600
+2024-10-30 15:42:01,146 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,146 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,147 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,147 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,147 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,147 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,176 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,176 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,176 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,176 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,178 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,178 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,179 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,179 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,180 - INFO - Received ACK for seq_num 110600
+2024-10-30 15:42:01,180 - INFO - Received duplicate ACK for seq_num 110600
+2024-10-30 15:42:01,184 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,184 - INFO - Received new ACK for seq_num 112000
+2024-10-30 15:42:01,184 - INFO - Removed packet with seq_num 112000 from packet_map
+2024-10-30 15:42:01,184 - INFO - Sent packet with seq_num 126000
+2024-10-30 15:42:01,185 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,185 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,185 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,185 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,185 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,185 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,185 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,186 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,186 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,186 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,186 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,186 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,187 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,187 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:01,225 - INFO - Received ACK for seq_num 112000
+2024-10-30 15:42:01,225 - INFO - Received duplicate ACK for seq_num 112000
+2024-10-30 15:42:02,144 - WARNING - Timeout occurred for seq_num 113400
+2024-10-30 15:42:02,144 - INFO - Resent packet with seq_num 113400 (retransmission count: 1)
+2024-10-30 15:42:02,144 - WARNING - Timeout occurred for seq_num 114800
+2024-10-30 15:42:02,145 - INFO - Resent packet with seq_num 114800 (retransmission count: 1)
+2024-10-30 15:42:02,145 - WARNING - Timeout occurred for seq_num 116200
+2024-10-30 15:42:02,145 - INFO - Resent packet with seq_num 116200 (retransmission count: 1)
+2024-10-30 15:42:02,145 - WARNING - Timeout occurred for seq_num 117600
+2024-10-30 15:42:02,145 - INFO - Resent packet with seq_num 117600 (retransmission count: 1)
+2024-10-30 15:42:02,145 - WARNING - Timeout occurred for seq_num 119000
+2024-10-30 15:42:02,145 - INFO - Resent packet with seq_num 119000 (retransmission count: 1)
+2024-10-30 15:42:02,146 - WARNING - Timeout occurred for seq_num 120400
+2024-10-30 15:42:02,146 - INFO - Resent packet with seq_num 120400 (retransmission count: 1)
+2024-10-30 15:42:02,146 - WARNING - Timeout occurred for seq_num 121800
+2024-10-30 15:42:02,146 - INFO - Resent packet with seq_num 121800 (retransmission count: 1)
+2024-10-30 15:42:02,146 - WARNING - Timeout occurred for seq_num 123200
+2024-10-30 15:42:02,146 - INFO - Resent packet with seq_num 123200 (retransmission count: 1)
+2024-10-30 15:42:02,146 - WARNING - Timeout occurred for seq_num 124600
+2024-10-30 15:42:02,146 - INFO - Resent packet with seq_num 124600 (retransmission count: 1)
+2024-10-30 15:42:02,185 - WARNING - Timeout occurred for seq_num 126000
+2024-10-30 15:42:02,185 - INFO - Resent packet with seq_num 126000 (retransmission count: 1)
+2024-10-30 15:42:02,185 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,186 - INFO - Received new ACK for seq_num 126000
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 113400 from packet_map
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 114800 from packet_map
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 116200 from packet_map
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 117600 from packet_map
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 119000 from packet_map
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 120400 from packet_map
+2024-10-30 15:42:02,186 - INFO - Removed packet with seq_num 121800 from packet_map
+2024-10-30 15:42:02,187 - INFO - Removed packet with seq_num 123200 from packet_map
+2024-10-30 15:42:02,187 - INFO - Removed packet with seq_num 124600 from packet_map
+2024-10-30 15:42:02,187 - INFO - Removed packet with seq_num 126000 from packet_map
+2024-10-30 15:42:02,187 - INFO - Sent packet with seq_num 127400
+2024-10-30 15:42:02,187 - INFO - Sent packet with seq_num 128800
+2024-10-30 15:42:02,187 - INFO - Sent packet with seq_num 130200
+2024-10-30 15:42:02,188 - INFO - Sent packet with seq_num 131600
+2024-10-30 15:42:02,188 - INFO - Sent packet with seq_num 133000
+2024-10-30 15:42:02,188 - INFO - Sent packet with seq_num 134400
+2024-10-30 15:42:02,188 - INFO - Sent packet with seq_num 135800
+2024-10-30 15:42:02,189 - INFO - Sent packet with seq_num 137200
+2024-10-30 15:42:02,189 - INFO - Sent packet with seq_num 138600
+2024-10-30 15:42:02,189 - INFO - Sent packet with seq_num 140000
+2024-10-30 15:42:02,189 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,189 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,190 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,191 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,226 - INFO - Received ACK for seq_num 126000
+2024-10-30 15:42:02,226 - INFO - Received duplicate ACK for seq_num 126000
+2024-10-30 15:42:02,227 - INFO - Received ACK for seq_num 127400
+2024-10-30 15:42:02,228 - INFO - Received new ACK for seq_num 127400
+2024-10-30 15:42:02,228 - INFO - Removed packet with seq_num 127400 from packet_map
+2024-10-30 15:42:02,228 - INFO - Sent packet with seq_num 141400
+2024-10-30 15:42:02,228 - INFO - Received ACK for seq_num 128800
+2024-10-30 15:42:02,228 - INFO - Received new ACK for seq_num 128800
+2024-10-30 15:42:02,229 - INFO - Removed packet with seq_num 128800 from packet_map
+2024-10-30 15:42:02,229 - INFO - Sent packet with seq_num 142800
+2024-10-30 15:42:02,229 - INFO - Received ACK for seq_num 130200
+2024-10-30 15:42:02,229 - INFO - Received new ACK for seq_num 130200
+2024-10-30 15:42:02,229 - INFO - Removed packet with seq_num 130200 from packet_map
+2024-10-30 15:42:02,230 - INFO - Sent packet with seq_num 144200
+2024-10-30 15:42:02,230 - INFO - Received ACK for seq_num 131600
+2024-10-30 15:42:02,230 - INFO - Received new ACK for seq_num 131600
+2024-10-30 15:42:02,230 - INFO - Removed packet with seq_num 131600 from packet_map
+2024-10-30 15:42:02,230 - INFO - Sent packet with seq_num 145600
+2024-10-30 15:42:02,231 - INFO - Received ACK for seq_num 133000
+2024-10-30 15:42:02,231 - INFO - Received new ACK for seq_num 133000
+2024-10-30 15:42:02,232 - INFO - Removed packet with seq_num 133000 from packet_map
+2024-10-30 15:42:02,232 - INFO - Sent packet with seq_num 147000
+2024-10-30 15:42:02,232 - INFO - Received ACK for seq_num 134400
+2024-10-30 15:42:02,232 - INFO - Received new ACK for seq_num 134400
+2024-10-30 15:42:02,233 - INFO - Removed packet with seq_num 134400 from packet_map
+2024-10-30 15:42:02,233 - INFO - Sent packet with seq_num 148400
+2024-10-30 15:42:02,233 - INFO - Received ACK for seq_num 135800
+2024-10-30 15:42:02,233 - INFO - Received new ACK for seq_num 135800
+2024-10-30 15:42:02,234 - INFO - Removed packet with seq_num 135800 from packet_map
+2024-10-30 15:42:02,234 - INFO - Sent packet with seq_num 149800
+2024-10-30 15:42:02,234 - INFO - Received ACK for seq_num 137200
+2024-10-30 15:42:02,234 - INFO - Received new ACK for seq_num 137200
+2024-10-30 15:42:02,234 - INFO - Removed packet with seq_num 137200 from packet_map
+2024-10-30 15:42:02,234 - INFO - Sent packet with seq_num 151200
+2024-10-30 15:42:02,235 - INFO - Received ACK for seq_num 138600
+2024-10-30 15:42:02,235 - INFO - Received new ACK for seq_num 138600
+2024-10-30 15:42:02,235 - INFO - Removed packet with seq_num 138600 from packet_map
+2024-10-30 15:42:02,235 - INFO - Sent packet with seq_num 152600
+2024-10-30 15:42:02,235 - INFO - Received ACK for seq_num 140000
+2024-10-30 15:42:02,235 - INFO - Received new ACK for seq_num 140000
+2024-10-30 15:42:02,236 - INFO - Removed packet with seq_num 140000 from packet_map
+2024-10-30 15:42:02,236 - INFO - Sent packet with seq_num 154000
+2024-10-30 15:42:02,269 - INFO - Received ACK for seq_num 141400
+2024-10-30 15:42:02,269 - INFO - Received new ACK for seq_num 141400
+2024-10-30 15:42:02,269 - INFO - Removed packet with seq_num 141400 from packet_map
+2024-10-30 15:42:02,269 - INFO - Sent packet with seq_num 155400
+2024-10-30 15:42:02,269 - INFO - Received ACK for seq_num 142800
+2024-10-30 15:42:02,270 - INFO - Received new ACK for seq_num 142800
+2024-10-30 15:42:02,270 - INFO - Removed packet with seq_num 142800 from packet_map
+2024-10-30 15:42:02,270 - INFO - Sent packet with seq_num 156800
+2024-10-30 15:42:02,270 - INFO - Received ACK for seq_num 144200
+2024-10-30 15:42:02,270 - INFO - Received new ACK for seq_num 144200
+2024-10-30 15:42:02,270 - INFO - Removed packet with seq_num 144200 from packet_map
+2024-10-30 15:42:02,271 - INFO - Sent packet with seq_num 158200
+2024-10-30 15:42:02,271 - INFO - Received ACK for seq_num 145600
+2024-10-30 15:42:02,271 - INFO - Received new ACK for seq_num 145600
+2024-10-30 15:42:02,271 - INFO - Removed packet with seq_num 145600 from packet_map
+2024-10-30 15:42:02,271 - INFO - Sent packet with seq_num 159600
+2024-10-30 15:42:02,273 - INFO - Received ACK for seq_num 148400
+2024-10-30 15:42:02,274 - INFO - Received new ACK for seq_num 148400
+2024-10-30 15:42:02,274 - INFO - Removed packet with seq_num 147000 from packet_map
+2024-10-30 15:42:02,274 - INFO - Removed packet with seq_num 148400 from packet_map
+2024-10-30 15:42:02,274 - INFO - Sent packet with seq_num 161000
+2024-10-30 15:42:02,274 - INFO - Sent packet with seq_num 162400
+2024-10-30 15:42:02,274 - INFO - Received ACK for seq_num 149800
+2024-10-30 15:42:02,275 - INFO - Received new ACK for seq_num 149800
+2024-10-30 15:42:02,275 - INFO - Removed packet with seq_num 149800 from packet_map
+2024-10-30 15:42:02,275 - INFO - Sent packet with seq_num 163800
+2024-10-30 15:42:02,275 - INFO - Received ACK for seq_num 151200
+2024-10-30 15:42:02,275 - INFO - Received new ACK for seq_num 151200
+2024-10-30 15:42:02,275 - INFO - Removed packet with seq_num 151200 from packet_map
+2024-10-30 15:42:02,276 - INFO - Sent packet with seq_num 165200
+2024-10-30 15:42:02,276 - INFO - Received ACK for seq_num 152600
+2024-10-30 15:42:02,276 - INFO - Received new ACK for seq_num 152600
+2024-10-30 15:42:02,276 - INFO - Removed packet with seq_num 152600 from packet_map
+2024-10-30 15:42:02,276 - INFO - Sent packet with seq_num 166600
+2024-10-30 15:42:02,276 - INFO - Received ACK for seq_num 154000
+2024-10-30 15:42:02,277 - INFO - Received new ACK for seq_num 154000
+2024-10-30 15:42:02,277 - INFO - Removed packet with seq_num 154000 from packet_map
+2024-10-30 15:42:02,277 - INFO - Sent packet with seq_num 168000
+2024-10-30 15:42:02,310 - INFO - Received ACK for seq_num 155400
+2024-10-30 15:42:02,310 - INFO - Received new ACK for seq_num 155400
+2024-10-30 15:42:02,310 - INFO - Removed packet with seq_num 155400 from packet_map
+2024-10-30 15:42:02,310 - INFO - Sent packet with seq_num 169400
+2024-10-30 15:42:02,311 - INFO - Received ACK for seq_num 156800
+2024-10-30 15:42:02,311 - INFO - Received new ACK for seq_num 156800
+2024-10-30 15:42:02,311 - INFO - Removed packet with seq_num 156800 from packet_map
+2024-10-30 15:42:02,311 - INFO - Sent packet with seq_num 170800
+2024-10-30 15:42:02,311 - INFO - Received ACK for seq_num 158200
+2024-10-30 15:42:02,312 - INFO - Received new ACK for seq_num 158200
+2024-10-30 15:42:02,312 - INFO - Removed packet with seq_num 158200 from packet_map
+2024-10-30 15:42:02,313 - INFO - Sent packet with seq_num 172200
+2024-10-30 15:42:02,313 - INFO - Received ACK for seq_num 159600
+2024-10-30 15:42:02,313 - INFO - Received new ACK for seq_num 159600
+2024-10-30 15:42:02,313 - INFO - Removed packet with seq_num 159600 from packet_map
+2024-10-30 15:42:02,313 - INFO - Sent packet with seq_num 173600
+2024-10-30 15:42:02,314 - INFO - Received ACK for seq_num 161000
+2024-10-30 15:42:02,315 - INFO - Received new ACK for seq_num 161000
+2024-10-30 15:42:02,315 - INFO - Removed packet with seq_num 161000 from packet_map
+2024-10-30 15:42:02,315 - INFO - Sent packet with seq_num 175000
+2024-10-30 15:42:02,315 - INFO - Received ACK for seq_num 163800
+2024-10-30 15:42:02,315 - INFO - Received new ACK for seq_num 163800
+2024-10-30 15:42:02,316 - INFO - Removed packet with seq_num 162400 from packet_map
+2024-10-30 15:42:02,316 - INFO - Removed packet with seq_num 163800 from packet_map
+2024-10-30 15:42:02,316 - INFO - Sent packet with seq_num 176400
+2024-10-30 15:42:02,316 - INFO - Sent packet with seq_num 177800
+2024-10-30 15:42:02,316 - INFO - Received ACK for seq_num 165200
+2024-10-30 15:42:02,316 - INFO - Received new ACK for seq_num 165200
+2024-10-30 15:42:02,317 - INFO - Removed packet with seq_num 165200 from packet_map
+2024-10-30 15:42:02,317 - INFO - Sent packet with seq_num 179200
+2024-10-30 15:42:02,317 - INFO - Received ACK for seq_num 168000
+2024-10-30 15:42:02,318 - INFO - Received new ACK for seq_num 168000
+2024-10-30 15:42:02,318 - INFO - Removed packet with seq_num 166600 from packet_map
+2024-10-30 15:42:02,318 - INFO - Removed packet with seq_num 168000 from packet_map
+2024-10-30 15:42:02,318 - INFO - Sent packet with seq_num 180600
+2024-10-30 15:42:02,318 - INFO - Sent packet with seq_num 182000
+2024-10-30 15:42:02,318 - INFO - File Read complete.
+2024-10-30 15:42:02,351 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,351 - INFO - Received new ACK for seq_num 169400
+2024-10-30 15:42:02,351 - INFO - Removed packet with seq_num 169400 from packet_map
+2024-10-30 15:42:02,353 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,353 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:02,355 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,356 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:02,356 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,356 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:02,357 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,357 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:02,357 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,357 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:02,358 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,359 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:02,359 - INFO - Received ACK for seq_num 169400
+2024-10-30 15:42:02,359 - INFO - Received duplicate ACK for seq_num 169400
+2024-10-30 15:42:03,312 - WARNING - Timeout occurred for seq_num 170800
+2024-10-30 15:42:03,313 - INFO - Resent packet with seq_num 170800 (retransmission count: 1)
+2024-10-30 15:42:03,314 - WARNING - Timeout occurred for seq_num 172200
+2024-10-30 15:42:03,314 - INFO - Resent packet with seq_num 172200 (retransmission count: 1)
+2024-10-30 15:42:03,315 - WARNING - Timeout occurred for seq_num 173600
+2024-10-30 15:42:03,315 - INFO - Resent packet with seq_num 173600 (retransmission count: 1)
+2024-10-30 15:42:03,316 - WARNING - Timeout occurred for seq_num 175000
+2024-10-30 15:42:03,316 - INFO - Resent packet with seq_num 175000 (retransmission count: 1)
+2024-10-30 15:42:03,317 - WARNING - Timeout occurred for seq_num 176400
+2024-10-30 15:42:03,317 - INFO - Resent packet with seq_num 176400 (retransmission count: 1)
+2024-10-30 15:42:03,318 - WARNING - Timeout occurred for seq_num 177800
+2024-10-30 15:42:03,318 - INFO - Resent packet with seq_num 177800 (retransmission count: 1)
+2024-10-30 15:42:03,319 - WARNING - Timeout occurred for seq_num 179200
+2024-10-30 15:42:03,319 - INFO - Resent packet with seq_num 179200 (retransmission count: 1)
+2024-10-30 15:42:03,319 - WARNING - Timeout occurred for seq_num 180600
+2024-10-30 15:42:03,320 - INFO - Resent packet with seq_num 180600 (retransmission count: 1)
+2024-10-30 15:42:03,320 - WARNING - Timeout occurred for seq_num 182000
+2024-10-30 15:42:03,321 - INFO - Resent packet with seq_num 182000 (retransmission count: 1)
+2024-10-30 15:42:03,354 - INFO - Received ACK for seq_num 172200
+2024-10-30 15:42:03,354 - INFO - Received new ACK for seq_num 172200
+2024-10-30 15:42:03,354 - INFO - Removed packet with seq_num 170800 from packet_map
+2024-10-30 15:42:03,354 - INFO - Removed packet with seq_num 172200 from packet_map
+2024-10-30 15:42:03,355 - INFO - Received ACK for seq_num 172200
+2024-10-30 15:42:03,355 - INFO - Received duplicate ACK for seq_num 172200
+2024-10-30 15:42:03,356 - INFO - Received ACK for seq_num 182000
+2024-10-30 15:42:03,356 - INFO - Received new ACK for seq_num 182000
+2024-10-30 15:42:03,356 - INFO - Removed packet with seq_num 173600 from packet_map
+2024-10-30 15:42:03,356 - INFO - Removed packet with seq_num 175000 from packet_map
+2024-10-30 15:42:03,356 - INFO - Removed packet with seq_num 176400 from packet_map
+2024-10-30 15:42:03,356 - INFO - Removed packet with seq_num 177800 from packet_map
+2024-10-30 15:42:03,356 - INFO - Removed packet with seq_num 179200 from packet_map
+2024-10-30 15:42:03,357 - INFO - Removed packet with seq_num 180600 from packet_map
+2024-10-30 15:42:03,357 - INFO - Removed packet with seq_num 182000 from packet_map
+2024-10-30 15:42:03,357 - INFO - Sent FIN to client.
+2024-10-30 15:42:03,397 - INFO - Received ACK for FIN from client.
+2024-10-30 15:42:03,398 - INFO - Received FIN from client.
+2024-10-30 15:42:03,398 - INFO - Connection closed successfully.

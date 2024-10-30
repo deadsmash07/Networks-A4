@@ -1,0 +1,1025 @@
+2024-10-30 15:41:32,901 - INFO - Connection established with server.
+2024-10-30 15:41:32,942 - INFO - RTT measurement done.
+2024-10-30 15:41:32,984 - INFO - Received and acknowledged packet with seq_num 0
+2024-10-30 15:41:32,984 - INFO - Received out-of-order packet with seq_num 2800, expected 1400
+2024-10-30 15:41:32,984 - INFO - Sent ACK for last received packet with seq_num 0
+2024-10-30 15:41:32,984 - INFO - Received and acknowledged packet with seq_num 2800
+2024-10-30 15:41:32,985 - INFO - Received and acknowledged packet with seq_num 4200
+2024-10-30 15:41:32,985 - INFO - Received and acknowledged packet with seq_num 5600
+2024-10-30 15:41:32,985 - INFO - Received and acknowledged packet with seq_num 7000
+2024-10-30 15:41:32,986 - INFO - Received and acknowledged packet with seq_num 8400
+2024-10-30 15:41:32,986 - INFO - Received and acknowledged packet with seq_num 9800
+2024-10-30 15:41:32,986 - INFO - Received and acknowledged packet with seq_num 11200
+2024-10-30 15:41:32,986 - INFO - Received and acknowledged packet with seq_num 12600
+2024-10-30 15:41:32,987 - INFO - Received and acknowledged packet with seq_num 14000
+2024-10-30 15:41:32,987 - INFO - Received and acknowledged packet with seq_num 15400
+2024-10-30 15:41:32,987 - INFO - Received and acknowledged packet with seq_num 16800
+2024-10-30 15:41:32,988 - INFO - Received and acknowledged packet with seq_num 18200
+2024-10-30 15:41:32,988 - INFO - Received and acknowledged packet with seq_num 19600
+2024-10-30 15:41:32,988 - INFO - Received and acknowledged packet with seq_num 21000
+2024-10-30 15:41:32,988 - INFO - Received and acknowledged packet with seq_num 22400
+2024-10-30 15:41:32,989 - INFO - Received out-of-order packet with seq_num 25200, expected 23800
+2024-10-30 15:41:32,989 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,989 - INFO - Received out-of-order packet with seq_num 26600, expected 23800
+2024-10-30 15:41:32,989 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,989 - INFO - Received out-of-order packet with seq_num 28000, expected 23800
+2024-10-30 15:41:32,990 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,990 - INFO - Received out-of-order packet with seq_num 29400, expected 23800
+2024-10-30 15:41:32,990 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,990 - INFO - Received out-of-order packet with seq_num 30800, expected 23800
+2024-10-30 15:41:32,990 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,990 - INFO - Received out-of-order packet with seq_num 33600, expected 23800
+2024-10-30 15:41:32,991 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,991 - INFO - Received out-of-order packet with seq_num 35000, expected 23800
+2024-10-30 15:41:32,991 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,991 - INFO - Received out-of-order packet with seq_num 36400, expected 23800
+2024-10-30 15:41:32,991 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,992 - INFO - Received out-of-order packet with seq_num 37800, expected 23800
+2024-10-30 15:41:32,992 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,992 - INFO - Received out-of-order packet with seq_num 39200, expected 23800
+2024-10-30 15:41:32,992 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,992 - INFO - Received out-of-order packet with seq_num 40600, expected 23800
+2024-10-30 15:41:32,992 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,993 - INFO - Received out-of-order packet with seq_num 42000, expected 23800
+2024-10-30 15:41:32,993 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,993 - INFO - Received out-of-order packet with seq_num 43400, expected 23800
+2024-10-30 15:41:32,993 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,993 - INFO - Received out-of-order packet with seq_num 44800, expected 23800
+2024-10-30 15:41:32,993 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,994 - INFO - Received out-of-order packet with seq_num 46200, expected 23800
+2024-10-30 15:41:32,994 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,994 - INFO - Received out-of-order packet with seq_num 47600, expected 23800
+2024-10-30 15:41:32,994 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,994 - INFO - Received out-of-order packet with seq_num 49000, expected 23800
+2024-10-30 15:41:32,994 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,995 - INFO - Received out-of-order packet with seq_num 50400, expected 23800
+2024-10-30 15:41:32,995 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,995 - INFO - Received out-of-order packet with seq_num 51800, expected 23800
+2024-10-30 15:41:32,995 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,995 - INFO - Received out-of-order packet with seq_num 53200, expected 23800
+2024-10-30 15:41:32,996 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,996 - INFO - Received out-of-order packet with seq_num 54600, expected 23800
+2024-10-30 15:41:32,996 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,996 - INFO - Received out-of-order packet with seq_num 56000, expected 23800
+2024-10-30 15:41:32,996 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,996 - INFO - Received out-of-order packet with seq_num 57400, expected 23800
+2024-10-30 15:41:32,997 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,997 - INFO - Received out-of-order packet with seq_num 58800, expected 23800
+2024-10-30 15:41:32,997 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,997 - INFO - Received out-of-order packet with seq_num 60200, expected 23800
+2024-10-30 15:41:32,997 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,998 - INFO - Received out-of-order packet with seq_num 61600, expected 23800
+2024-10-30 15:41:32,998 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,998 - INFO - Received out-of-order packet with seq_num 63000, expected 23800
+2024-10-30 15:41:32,998 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,998 - INFO - Received out-of-order packet with seq_num 64400, expected 23800
+2024-10-30 15:41:32,998 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,999 - INFO - Received out-of-order packet with seq_num 65800, expected 23800
+2024-10-30 15:41:32,999 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,999 - INFO - Received out-of-order packet with seq_num 67200, expected 23800
+2024-10-30 15:41:32,999 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:32,999 - INFO - Received out-of-order packet with seq_num 68600, expected 23800
+2024-10-30 15:41:32,999 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,000 - INFO - Received out-of-order packet with seq_num 70000, expected 23800
+2024-10-30 15:41:33,000 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,000 - INFO - Received out-of-order packet with seq_num 71400, expected 23800
+2024-10-30 15:41:33,000 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,000 - INFO - Received out-of-order packet with seq_num 74200, expected 23800
+2024-10-30 15:41:33,001 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,001 - INFO - Received out-of-order packet with seq_num 75600, expected 23800
+2024-10-30 15:41:33,001 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,001 - INFO - Received out-of-order packet with seq_num 77000, expected 23800
+2024-10-30 15:41:33,001 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,002 - INFO - Received out-of-order packet with seq_num 78400, expected 23800
+2024-10-30 15:41:33,002 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,002 - INFO - Received out-of-order packet with seq_num 79800, expected 23800
+2024-10-30 15:41:33,002 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,002 - INFO - Received out-of-order packet with seq_num 82600, expected 23800
+2024-10-30 15:41:33,002 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,003 - INFO - Received out-of-order packet with seq_num 85400, expected 23800
+2024-10-30 15:41:33,003 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,003 - INFO - Received out-of-order packet with seq_num 86800, expected 23800
+2024-10-30 15:41:33,003 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,003 - INFO - Received out-of-order packet with seq_num 88200, expected 23800
+2024-10-30 15:41:33,003 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,004 - INFO - Received out-of-order packet with seq_num 89600, expected 23800
+2024-10-30 15:41:33,004 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,004 - INFO - Received out-of-order packet with seq_num 91000, expected 23800
+2024-10-30 15:41:33,004 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,004 - INFO - Received out-of-order packet with seq_num 92400, expected 23800
+2024-10-30 15:41:33,005 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,005 - INFO - Received out-of-order packet with seq_num 93800, expected 23800
+2024-10-30 15:41:33,005 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,005 - INFO - Received out-of-order packet with seq_num 95200, expected 23800
+2024-10-30 15:41:33,005 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,006 - INFO - Received out-of-order packet with seq_num 96600, expected 23800
+2024-10-30 15:41:33,006 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,006 - INFO - Received out-of-order packet with seq_num 98000, expected 23800
+2024-10-30 15:41:33,006 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,007 - INFO - Received out-of-order packet with seq_num 99400, expected 23800
+2024-10-30 15:41:33,007 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,007 - INFO - Received out-of-order packet with seq_num 102200, expected 23800
+2024-10-30 15:41:33,007 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,007 - INFO - Received out-of-order packet with seq_num 103600, expected 23800
+2024-10-30 15:41:33,008 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,008 - INFO - Received out-of-order packet with seq_num 105000, expected 23800
+2024-10-30 15:41:33,008 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,008 - INFO - Received out-of-order packet with seq_num 106400, expected 23800
+2024-10-30 15:41:33,009 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,009 - INFO - Received out-of-order packet with seq_num 107800, expected 23800
+2024-10-30 15:41:33,009 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,009 - INFO - Received out-of-order packet with seq_num 109200, expected 23800
+2024-10-30 15:41:33,009 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,010 - INFO - Received out-of-order packet with seq_num 113400, expected 23800
+2024-10-30 15:41:33,010 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,010 - INFO - Received out-of-order packet with seq_num 116200, expected 23800
+2024-10-30 15:41:33,010 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,011 - INFO - Received out-of-order packet with seq_num 117600, expected 23800
+2024-10-30 15:41:33,011 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,011 - INFO - Received out-of-order packet with seq_num 119000, expected 23800
+2024-10-30 15:41:33,011 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,011 - INFO - Received out-of-order packet with seq_num 120400, expected 23800
+2024-10-30 15:41:33,012 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,012 - INFO - Received out-of-order packet with seq_num 121800, expected 23800
+2024-10-30 15:41:33,012 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,012 - INFO - Received out-of-order packet with seq_num 123200, expected 23800
+2024-10-30 15:41:33,013 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,013 - INFO - Received out-of-order packet with seq_num 124600, expected 23800
+2024-10-30 15:41:33,013 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,013 - INFO - Received out-of-order packet with seq_num 126000, expected 23800
+2024-10-30 15:41:33,013 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,014 - INFO - Received out-of-order packet with seq_num 128800, expected 23800
+2024-10-30 15:41:33,014 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,014 - INFO - Received out-of-order packet with seq_num 130200, expected 23800
+2024-10-30 15:41:33,014 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,015 - INFO - Received out-of-order packet with seq_num 131600, expected 23800
+2024-10-30 15:41:33,015 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,015 - INFO - Received out-of-order packet with seq_num 133000, expected 23800
+2024-10-30 15:41:33,015 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,016 - INFO - Received out-of-order packet with seq_num 134400, expected 23800
+2024-10-30 15:41:33,016 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,016 - INFO - Received out-of-order packet with seq_num 135800, expected 23800
+2024-10-30 15:41:33,016 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,017 - INFO - Received out-of-order packet with seq_num 137200, expected 23800
+2024-10-30 15:41:33,017 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,017 - INFO - Received out-of-order packet with seq_num 138600, expected 23800
+2024-10-30 15:41:33,017 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,018 - INFO - Received out-of-order packet with seq_num 140000, expected 23800
+2024-10-30 15:41:33,018 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,018 - INFO - Received out-of-order packet with seq_num 141400, expected 23800
+2024-10-30 15:41:33,018 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,018 - INFO - Received out-of-order packet with seq_num 142800, expected 23800
+2024-10-30 15:41:33,018 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,019 - INFO - Received out-of-order packet with seq_num 144200, expected 23800
+2024-10-30 15:41:33,019 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,019 - INFO - Received out-of-order packet with seq_num 145600, expected 23800
+2024-10-30 15:41:33,019 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,020 - INFO - Received out-of-order packet with seq_num 147000, expected 23800
+2024-10-30 15:41:33,020 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,020 - INFO - Received out-of-order packet with seq_num 148400, expected 23800
+2024-10-30 15:41:33,020 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,021 - INFO - Received out-of-order packet with seq_num 149800, expected 23800
+2024-10-30 15:41:33,021 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,021 - INFO - Received out-of-order packet with seq_num 151200, expected 23800
+2024-10-30 15:41:33,021 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,022 - INFO - Received out-of-order packet with seq_num 152600, expected 23800
+2024-10-30 15:41:33,022 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,022 - INFO - Received out-of-order packet with seq_num 154000, expected 23800
+2024-10-30 15:41:33,022 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,022 - INFO - Received out-of-order packet with seq_num 155400, expected 23800
+2024-10-30 15:41:33,023 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,023 - INFO - Received out-of-order packet with seq_num 156800, expected 23800
+2024-10-30 15:41:33,023 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,023 - INFO - Received out-of-order packet with seq_num 158200, expected 23800
+2024-10-30 15:41:33,024 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,024 - INFO - Received out-of-order packet with seq_num 159600, expected 23800
+2024-10-30 15:41:33,024 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,024 - INFO - Received out-of-order packet with seq_num 161000, expected 23800
+2024-10-30 15:41:33,024 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Received out-of-order packet with seq_num 162400, expected 23800
+2024-10-30 15:41:33,025 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Received out-of-order packet with seq_num 163800, expected 23800
+2024-10-30 15:41:33,025 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,025 - INFO - Received out-of-order packet with seq_num 165200, expected 23800
+2024-10-30 15:41:33,026 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,026 - INFO - Received out-of-order packet with seq_num 166600, expected 23800
+2024-10-30 15:41:33,026 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,026 - INFO - Received out-of-order packet with seq_num 168000, expected 23800
+2024-10-30 15:41:33,026 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Received out-of-order packet with seq_num 169400, expected 23800
+2024-10-30 15:41:33,027 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Received out-of-order packet with seq_num 170800, expected 23800
+2024-10-30 15:41:33,027 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,027 - INFO - Received out-of-order packet with seq_num 172200, expected 23800
+2024-10-30 15:41:33,028 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,028 - INFO - Received out-of-order packet with seq_num 173600, expected 23800
+2024-10-30 15:41:33,028 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Received out-of-order packet with seq_num 175000, expected 23800
+2024-10-30 15:41:33,029 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Received out-of-order packet with seq_num 177800, expected 23800
+2024-10-30 15:41:33,029 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,029 - INFO - Received out-of-order packet with seq_num 180600, expected 23800
+2024-10-30 15:41:33,029 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,030 - INFO - Received out-of-order packet with seq_num 182000, expected 23800
+2024-10-30 15:41:33,030 - INFO - Sent ACK for last received packet with seq_num 22400
+2024-10-30 15:41:33,037 - INFO - Received and acknowledged packet with seq_num 30800
+2024-10-30 15:41:33,038 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,038 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,038 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,038 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,039 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,039 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,039 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,040 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,040 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,040 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,041 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,041 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,041 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,041 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,042 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,042 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,042 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,042 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,043 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,043 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,044 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,044 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,044 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,044 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,045 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,045 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,045 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,045 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,046 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,046 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,047 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,047 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,047 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,047 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,048 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,048 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,048 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,048 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,049 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,049 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,049 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,049 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,050 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,050 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,050 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,050 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,051 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,051 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,052 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,052 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,052 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,053 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,053 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,053 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,053 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,053 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,054 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,054 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,054 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,054 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,055 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,055 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,055 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,055 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,056 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,056 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,056 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,056 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,057 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,057 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,058 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,058 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,059 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,059 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,060 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,060 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,060 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,060 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,061 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,061 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,061 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,062 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,062 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,062 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,062 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,062 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,063 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,063 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,063 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,063 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,064 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,064 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,064 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,065 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,065 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,065 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,066 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,066 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,066 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,066 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,067 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,067 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,067 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,068 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,068 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,068 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,068 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,069 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,069 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,069 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,069 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,070 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,070 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,070 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,070 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,071 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,071 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,071 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,071 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,072 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,072 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,072 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,073 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,073 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,073 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,074 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,074 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,074 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,074 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,075 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,075 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,075 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,076 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,076 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,076 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,077 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,077 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,077 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,078 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,078 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,078 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,078 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,079 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,079 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,079 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,079 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,079 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,079 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,079 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,080 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,080 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,080 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,080 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,081 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,081 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,082 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,082 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,082 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,083 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,083 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,083 - INFO - Received duplicate packet with seq_num 23800
+2024-10-30 15:41:33,084 - INFO - Sent ACK for last received packet with seq_num 30800
+2024-10-30 15:41:33,085 - INFO - Received and acknowledged packet with seq_num 71400
+2024-10-30 15:41:33,086 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,086 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,086 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,086 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,086 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,087 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,087 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,087 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,087 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,087 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,088 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,088 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,089 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,089 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,089 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,089 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,090 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,090 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,090 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,090 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,091 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,091 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,091 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,091 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,091 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,092 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,092 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,092 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,092 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,092 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,093 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,093 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,093 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,093 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,094 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,094 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,094 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,094 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,095 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,095 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,095 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,095 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,095 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,095 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,096 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,096 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,096 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,096 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,097 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,097 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,098 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,098 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,099 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,099 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,099 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,099 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,100 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,100 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,101 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,101 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,101 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,101 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,102 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,102 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,103 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,103 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,103 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,103 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,104 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,104 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,105 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,105 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,105 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,105 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,106 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,106 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,106 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,106 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,107 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,107 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,107 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,107 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,108 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,108 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,108 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,109 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,109 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,109 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,110 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,110 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,110 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,110 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,111 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,111 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,111 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,111 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,112 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,112 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,112 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,112 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,113 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,113 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,113 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,113 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,113 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,114 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,114 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,114 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,114 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,115 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,115 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,115 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,115 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,116 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,116 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,116 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,117 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,117 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,117 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,117 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,118 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,118 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,118 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,118 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,119 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,119 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,119 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,119 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,120 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,120 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,121 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,121 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,121 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,122 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,122 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,123 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,123 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,123 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,123 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,123 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,124 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,124 - INFO - Received duplicate packet with seq_num 32200
+2024-10-30 15:41:33,124 - INFO - Sent ACK for last received packet with seq_num 71400
+2024-10-30 15:41:33,128 - INFO - Received and acknowledged packet with seq_num 79800
+2024-10-30 15:41:33,129 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,129 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,129 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,129 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,129 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,129 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,129 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,130 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,130 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,130 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,130 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,130 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,131 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,131 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,131 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,131 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,132 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,132 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,132 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,132 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,132 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,132 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,133 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,133 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,134 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,134 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,134 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,134 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,135 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,135 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,135 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,135 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,135 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,135 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,136 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,136 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,136 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,136 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,137 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,137 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,137 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,137 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,138 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,138 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,139 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,139 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,140 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,140 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,141 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,141 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,141 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,141 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,142 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,142 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,143 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,143 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,144 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,144 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,145 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,145 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,145 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,145 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,146 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,146 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,146 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,146 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,147 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,147 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,147 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,147 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,148 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,148 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,148 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,148 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,149 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,149 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,151 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,151 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,152 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,152 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,152 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,153 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,153 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,153 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,153 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,153 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,154 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,154 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,155 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,155 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,155 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,155 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,156 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,156 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,156 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,157 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,157 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,158 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,158 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,158 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,158 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,159 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,159 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,159 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,159 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,160 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,160 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,160 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,160 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,162 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,162 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,162 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,162 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,163 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,163 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,163 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,164 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,164 - INFO - Received duplicate packet with seq_num 72800
+2024-10-30 15:41:33,164 - INFO - Sent ACK for last received packet with seq_num 79800
+2024-10-30 15:41:33,170 - INFO - Received and acknowledged packet with seq_num 82600
+2024-10-30 15:41:33,170 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,170 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,170 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,171 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,171 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,171 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,172 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,172 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,172 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,172 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,172 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,172 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,173 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,173 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,174 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,174 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,175 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,175 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,175 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,176 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,176 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,176 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,177 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,177 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,177 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,177 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,178 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,178 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,179 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,179 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,180 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,180 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,180 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,180 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,182 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,182 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,183 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,183 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,184 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,184 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,185 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,185 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,186 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,186 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,186 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,186 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,187 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,187 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,187 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,187 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,189 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,189 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,190 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,190 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,192 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,192 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,192 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,192 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,193 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,193 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,193 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,193 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,193 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,193 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,194 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,194 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,195 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,195 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,199 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,199 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,199 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,200 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,200 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,200 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,200 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,200 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,201 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,201 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,201 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,201 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,201 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,202 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,202 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,203 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,203 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,204 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,204 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,204 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,204 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,204 - INFO - Received duplicate packet with seq_num 81200
+2024-10-30 15:41:33,205 - INFO - Sent ACK for last received packet with seq_num 82600
+2024-10-30 15:41:33,212 - INFO - Received and acknowledged packet with seq_num 99400
+2024-10-30 15:41:33,212 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,212 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,213 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,213 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,213 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,213 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,215 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,215 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,216 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,216 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,219 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,220 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,220 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,220 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,220 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,220 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,221 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,221 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,221 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,221 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,221 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,221 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,222 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,222 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,222 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,222 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,223 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,223 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,225 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,225 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,226 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,226 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,227 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,227 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,227 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,227 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,228 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,228 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,229 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,229 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,230 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,230 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,232 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,232 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,233 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,233 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,233 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,233 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,233 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,234 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,234 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,234 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,234 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,234 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,236 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,236 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,240 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,240 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,240 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,240 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,241 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,241 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,241 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,241 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,242 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,242 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,242 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,242 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,243 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,243 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,244 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,244 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,245 - INFO - Received duplicate packet with seq_num 84000
+2024-10-30 15:41:33,245 - INFO - Sent ACK for last received packet with seq_num 99400
+2024-10-30 15:41:33,255 - INFO - Received and acknowledged packet with seq_num 109200
+2024-10-30 15:41:33,256 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,256 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,260 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,260 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,260 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,261 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,261 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,261 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,261 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,261 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,262 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,262 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,262 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,263 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,263 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,263 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,264 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,264 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,265 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,265 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,267 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,267 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,267 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,267 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,268 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,268 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,268 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,268 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,270 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,270 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,270 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,271 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,273 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,273 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,273 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,273 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,274 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,274 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,274 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,274 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,275 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,275 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,275 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,275 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,276 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,277 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,280 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,280 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,281 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,282 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,283 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,283 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,283 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,283 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,284 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,284 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,285 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,285 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,287 - INFO - Received duplicate packet with seq_num 100800
+2024-10-30 15:41:33,287 - INFO - Sent ACK for last received packet with seq_num 109200
+2024-10-30 15:41:33,301 - INFO - Received and acknowledged packet with seq_num 110600
+2024-10-30 15:41:33,302 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,302 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,302 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,302 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,303 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,303 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,303 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,304 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,306 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,306 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,308 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,308 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,309 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,309 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,309 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,309 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,310 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,310 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,310 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,310 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,311 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,311 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,314 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,314 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,314 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,314 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,315 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,315 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,316 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,316 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,317 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,317 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,321 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,321 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,322 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,322 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,324 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,324 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,324 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,324 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,325 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,325 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,327 - INFO - Received duplicate packet with seq_num 110600
+2024-10-30 15:41:33,328 - INFO - Sent ACK for last received packet with seq_num 110600
+2024-10-30 15:41:33,344 - INFO - Received and acknowledged packet with seq_num 113400
+2024-10-30 15:41:33,347 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,347 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,349 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,349 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,350 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,350 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,350 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,350 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,354 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,354 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,355 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,355 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,357 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,357 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,357 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,357 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,362 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,363 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,363 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,363 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,364 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,364 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,365 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,365 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,368 - INFO - Received duplicate packet with seq_num 112000
+2024-10-30 15:41:33,368 - INFO - Sent ACK for last received packet with seq_num 113400
+2024-10-30 15:41:33,390 - INFO - Received and acknowledged packet with seq_num 126000
+2024-10-30 15:41:33,391 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,391 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,395 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,395 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,396 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,396 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,397 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,397 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,398 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,398 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,403 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,404 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,405 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,405 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,406 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,406 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,409 - INFO - Received duplicate packet with seq_num 114800
+2024-10-30 15:41:33,409 - INFO - Sent ACK for last received packet with seq_num 126000
+2024-10-30 15:41:33,438 - INFO - Received and acknowledged packet with seq_num 175000
+2024-10-30 15:41:33,439 - INFO - Received duplicate packet with seq_num 127400
+2024-10-30 15:41:33,439 - INFO - Sent ACK for last received packet with seq_num 175000
+2024-10-30 15:41:33,444 - INFO - Received duplicate packet with seq_num 127400
+2024-10-30 15:41:33,444 - INFO - Sent ACK for last received packet with seq_num 175000
+2024-10-30 15:41:33,446 - INFO - Received duplicate packet with seq_num 127400
+2024-10-30 15:41:33,446 - INFO - Sent ACK for last received packet with seq_num 175000
+2024-10-30 15:41:33,446 - INFO - Received duplicate packet with seq_num 127400
+2024-10-30 15:41:33,446 - INFO - Sent ACK for last received packet with seq_num 175000
+2024-10-30 15:41:33,449 - INFO - Received duplicate packet with seq_num 127400
+2024-10-30 15:41:33,449 - INFO - Sent ACK for last received packet with seq_num 175000
+2024-10-30 15:41:33,487 - INFO - Received and acknowledged packet with seq_num 177800
+2024-10-30 15:41:33,487 - INFO - Received duplicate packet with seq_num 176400
+2024-10-30 15:41:33,487 - INFO - Sent ACK for last received packet with seq_num 177800
+2024-10-30 15:41:33,490 - INFO - Received duplicate packet with seq_num 176400
+2024-10-30 15:41:33,490 - INFO - Sent ACK for last received packet with seq_num 177800
+2024-10-30 15:41:34,051 - INFO - Received and acknowledged packet with seq_num 182000
+2024-10-30 15:41:34,051 - INFO - Received duplicate packet with seq_num 180600
+2024-10-30 15:41:34,051 - INFO - Sent ACK for last received packet with seq_num 182000
+2024-10-30 15:41:34,052 - INFO - Received duplicate packet with seq_num 182000
+2024-10-30 15:41:34,052 - INFO - Sent ACK for last received packet with seq_num 182000
+2024-10-30 15:41:34,092 - INFO - Received FIN from server.
+2024-10-30 15:41:34,134 - INFO - Connection closed successfully.
+2024-10-30 15:41:34,134 - INFO - File received successfully.
