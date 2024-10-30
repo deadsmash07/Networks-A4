@@ -155,8 +155,8 @@ class ReliableServer:
                 if ack_num is not None:
                     if ack_num in list(self.packet_map):
                         sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
-                        self.calculate_timeout(sample_rtt)
-                        
+                        if self.packet_map[ack_num]["retransmission_count"] == 0:
+                            self.calculate_timeout(sample_rtt)
                     self.handle_ack(ack_num, client_address)
 
                 for seq in list(self.packet_map):
