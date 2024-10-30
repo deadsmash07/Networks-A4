@@ -207,7 +207,7 @@ if __name__ == "__main__":
                 if data == b"ACK":
                     logger.info("Connection established with client.")
                     server.perform_rtt_measurement(client_address)
-                    server.run("Sample.txt", client_address)
+                    server.run("example.txt", client_address)
                     break
             except socket.timeout:
                 continue
