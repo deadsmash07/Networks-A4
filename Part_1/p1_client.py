@@ -25,7 +25,7 @@ def receive_file(server_ip, server_port):
             response, _ = client_socket.recvfrom(1024)
             if response == b"SYN-ACK":
                 # Send "ACK" back to server
-                time.sleep(0.5)
+                # time.sleep(0.001)
                 client_socket.sendto(b"ACK", server_address)
                 logger.info("Connection established with server.")
                 break
@@ -99,7 +99,7 @@ def receive_file(server_ip, server_port):
                             expected_seq_num += len(buffered_data)
                         # Send ACK for the last received packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
-                        time.sleep(0.01)  
+                        # time.sleep(0.01)  
                         client_socket.sendto(ack_packet, server_address)
                         logger.info(f"Received and acknowledged packet with seq_num {Last_received_seq}")
                     elif seq_num > expected_seq_num:
@@ -107,14 +107,14 @@ def receive_file(server_ip, server_port):
                         buffer[seq_num] = data
                         # Send ACK for the last in-order packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
-                        time.sleep(0.01)
+                        # time.sleep(0.01)
                         client_socket.sendto(ack_packet, server_address)
                         logger.info(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
                         logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
                     else:
                         # Duplicate or old packet received, resend ACK
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
-                        time.sleep(0.01)
+                        # time.sleep(0.01)
                         client_socket.sendto(ack_packet, server_address)
                         logger.info(f"Received duplicate packet with seq_num {seq_num}")
                         logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")

@@ -144,7 +144,7 @@ class ReliableServer:
                             self.file_done = True
                             logger.info("File Read complete.")
                             break
-                        time.sleep(0.001)
+                        # time.sleep(0.001)
                         self.send_packet(seq_num, chunk, client_address)
                         seq_num += len(chunk)
                     else:
@@ -153,15 +153,16 @@ class ReliableServer:
                 self.server_socket.settimeout(0.001)
                 ack_num = self.receive_ack()
                 if ack_num is not None:
-                    sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
-                    # if self.packet_map[ack_num]["retransmission_count"] == 0:
-                    self.calculate_timeout(sample_rtt)
+                    if ack_num in list(self.packet_map):
+                        sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
+                        self.calculate_timeout(sample_rtt)
+                        
                     self.handle_ack(ack_num, client_address)
 
                 for seq in list(self.packet_map):
                     if time.time() - self.packet_map[seq]["sent_time"] > self.timeout_interval:
                         logger.warning(f"Timeout occurred for seq_num {seq}")
-                        time.sleep(0.001)
+                        # time.sleep(0.001)
                         self.resend_packet(seq, client_address)
                 
                 if self.file_done and not self.packet_map:
