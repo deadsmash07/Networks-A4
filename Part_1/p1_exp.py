@@ -59,7 +59,7 @@ def run(expname):
     OUTFILE = 'received_file.txt'
     delay_list, loss_list = [], []
     if expname == "loss":
-        loss_list = [x*0.5 for x in range (9, 11)]
+        loss_list = [x*0.5 for x in range (1, 11)]
         delay_list = [20]
     elif expname == "delay":
         delay_list = [x for x in range(0, 201, 20)]
