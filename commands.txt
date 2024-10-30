@@ -8,4 +8,7 @@ Part 2
 
 ryu run ryu.app.simple_switch
 
+ryu-manager ryu.app.simple_switch_13 --ofp-tcp-listen-port 6653
+
+
 sudo python3 p2_exp_fairness_2.py 
