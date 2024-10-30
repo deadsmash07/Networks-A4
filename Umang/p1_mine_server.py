@@ -145,14 +145,14 @@ class ReliableServer:
                         chunk = file.read(MSS)
                         if not chunk:
                             self.file_done = True
+                            print("File Read")
                             break
                         self.send_packet(seq_num, chunk, client_address)
                     seq_num += MSS
                 
                 
-
                 # Check for ACKs
-                self.server_socket.settimeout(self.timeout_interval)
+                self.server_socket.settimeout(0.001)
                 ack_num = self.receive_ack()
                 if ack_num:
                     sample_rtt = time.time() - self.packet_map[ack_num]["sent_time"]
