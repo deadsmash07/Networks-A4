@@ -109,19 +109,21 @@ class ReliableServer:
         ping_message = json.dumps({'type': 'PING', 'timestamp': timestamp}).encode('utf-8')
         self.server_socket.sendto(ping_message, client_address)
         logger.info("Sent PING for RTT measurement.")
-        self.server_socket.settimeout(1.0)
-        while True:
-            try:
-                data, _ = self.server_socket.recvfrom(1024)
-                pong_data = json.loads(data.decode('utf-8'))
-                if pong_data.get('type') == 'PONG' and pong_data.get('timestamp') == timestamp:
-                    rtt = time.time() - timestamp
-                    logger.info(f"RTT measured: {rtt} seconds")
-                    self.set_window_size(rtt)
-                    break
-            except socket.timeout:
-                self.server_socket.sendto(ping_message, client_address)
-                continue
+        self.server_socket.settimeout(2.0)
+        i = 0
+        
+        try:
+            data, _ = self.server_socket.recvfrom(1024)
+            pong_data = json.loads(data.decode('utf-8'))
+            if pong_data.get('type') == 'PONG' and pong_data.get('timestamp') == timestamp:
+                rtt = time.time() - timestamp
+                logger.info(f"RTT measured: {rtt} seconds")
+                self.set_window_size(rtt)
+                break
+        except socket.timeout:
+            # self.server_socket.sendto(ping_message, client_address)
+            # continue
+            self.window_size = 10
 
     def set_window_size(self, rtt):
         link_speed_bps = 50 * 1024 * 1024  # 50 Mbps in bits per second
