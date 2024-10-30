@@ -16,7 +16,7 @@ class CustomTopo(Topo):
         h2 = self.addHost('h2')
 
         # Add a single switch
-        s1 = self.addSwitch('s1')
+        s1 = self.addSwitch('s1', protocols='OpenFlow13')
 
         # Add links
         # Link between h1 and s1 with the specified packet loss
@@ -58,7 +58,7 @@ def run(expname):
     OUTFILE = 'received_file.txt'
     delay_list, loss_list = [], []
     if expname == "loss":
-        loss_list = [x*0.5 for x in range (0, 4)]
+        loss_list = [x*0.5 for x in range(0, 4)]
         delay_list = [20]
     elif expname == "delay":
         delay_list = [x for x in range(0, 201, 20)]
@@ -74,7 +74,6 @@ def run(expname):
     for LOSS in loss_list:
         for DELAY in delay_list:
             for FAST_RECOVERY in [1]:
-                #SERVER_PORT += 4
                 for i in range(0, NUM_ITERATIONS):
                     print(f"\n--- Running topology with {LOSS}% packet loss, {DELAY}ms delay and fast recovery {FAST_RECOVERY}")
 
@@ -119,12 +118,11 @@ def run(expname):
                     else:
                         ttc_values_fast_recovery_1.append(665022/ttc)
 
-                    # Record loss or delay value only once since it's the same for both recovery modes
-                    if len(ttc_values_fast_recovery_0) == len(ttc_values_fast_recovery_1):
-                        if expname == "loss":
-                            loss_or_delay_values.append(LOSS)
-                        else:
-                            loss_or_delay_values.append(DELAY)
+                    # Record loss or delay value without condition
+                    if expname == "loss":
+                        loss_or_delay_values.append(LOSS)
+                    else:
+                        loss_or_delay_values.append(DELAY)
 
                     # Write the result to a file
                     f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{(8*0.665022)/ttc},{h1_output}\n")
@@ -138,22 +136,29 @@ def run(expname):
     # Close the output file
     f_out.close()
 
-    # # Plotting the results (TTC vs Loss/Delay) for both fast recovery modes
-    # plt.figure(figsize=(10, 6))
-    # if expname == "loss":
-    #     plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
-    #     plt.title('Throughput vs Loss')
-    #     plt.xlabel('Packet Loss (%)')
-    # elif expname == "delay":
-    #     plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
-    #     plt.title('Time to Completion (TTC) vs THroughput')
-    #     plt.xlabel('Network Delay (ms)')
+    # Debugging prints to check lengths
+    print("ttc_values_fast_recovery_1:", ttc_values_fast_recovery_1)
+    print("loss_or_delay_values:", loss_or_delay_values)
+    print("Lengths of lists for plotting:", len(ttc_values_fast_recovery_1), len(loss_or_delay_values))
 
-    # plt.ylabel('Throughput (s)')
-    # plt.legend()
-    # plt.grid(True)
-    # plt.savefig(f'ttc_vs_{expname}_{expname}.png')  # Save the plot as a PNG image
-    # plt.show()  # Display the plot
+    # Ensure lists have same length before plotting
+    if len(loss_or_delay_values) == len(ttc_values_fast_recovery_1):
+        # Plotting the results (TTC vs Loss/Delay) for both fast recovery modes
+        plt.figure(figsize=(10, 6))
+        if expname == "loss":
+            plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
+            plt.title('Throughput vs Loss')
+            plt.xlabel('Packet Loss (%)')
+        elif expname == "delay":
+            plt.plot(loss_or_delay_values, ttc_values_fast_recovery_1, marker='o', label="Fast Recovery")
+            plt.title('Time to Completion (TTC) vs Throughput')
+            plt.xlabel('Network Delay (ms)')
+
+        plt.ylabel('Throughput (s)')
+        plt.legend()
+        plt.grid(True)
+        plt.savefig(f'ttc_vs_{expname}_{expname}.png')  # Save the plot as a PNG image
+        plt.show()  # Display the plot
 
     print("\n--- Completed all tests and plotted the results ---")
 

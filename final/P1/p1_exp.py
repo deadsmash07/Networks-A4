@@ -7,6 +7,7 @@ from mininet.log import setLogLevel
 import time, re, os
 import sys
 import hashlib
+import matplotlib.pyplot as plt  # Add this for plotting
 
 class CustomTopo(Topo):
     def build(self, loss, delay):
