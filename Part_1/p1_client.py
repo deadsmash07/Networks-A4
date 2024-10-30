@@ -1,6 +1,11 @@
 import socket
 import json
 import argparse
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 def receive_file(server_ip, server_port):
     # Create a UDP socket
@@ -19,7 +24,7 @@ def receive_file(server_ip, server_port):
             if response == b"SYN-ACK":
                 # Send "ACK" back to server
                 client_socket.sendto(b"ACK", server_address)
-                print("Connection established with server.")
+                logger.info("Connection established with server.")
                 break
         except socket.timeout:
             # If timeout occurs, resend "SYN"
@@ -34,7 +39,7 @@ def receive_file(server_ip, server_port):
                 # Send back "PONG" with same timestamp
                 pong_data = json.dumps({'type': 'PONG', 'timestamp': ping_data['timestamp']}).encode('utf-8')
                 client_socket.sendto(pong_data, server_address)
-                print("RTT measurement done.")
+                logger.info("RTT measurement done.")
                 break
         except socket.timeout:
             # If timeout occurs, continue to wait
@@ -52,7 +57,7 @@ def receive_file(server_ip, server_port):
                 packet, _ = client_socket.recvfrom(65535)  # Max UDP packet size
                 if packet == b"FIN":
                     file_done = True
-                    print("Received FIN from server.")
+                    logger.info("Received FIN from server.")
                     # Send ACK to server
                     client_socket.sendto(b"ACK", server_address)
                     # Send FIN to server
@@ -62,7 +67,7 @@ def receive_file(server_ip, server_port):
                         try:
                             response, _ = client_socket.recvfrom(1024)
                             if response == b"ACK":
-                                print("Connection closed successfully.")
+                                logger.info("Connection closed successfully.")
                                 break
                         except socket.timeout:
                             # If timeout occurs, resend FIN
@@ -91,26 +96,26 @@ def receive_file(server_ip, server_port):
                         # Send ACK for the last received packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        print(f"Received and acknowledged packet with seq_num {Last_received_seq}")
+                        logger.info(f"Received and acknowledged packet with seq_num {Last_received_seq}")
                     elif seq_num > expected_seq_num:
                         # Out-of-order packet received, buffer it
                         buffer[seq_num] = data
                         # Send ACK for the last in-order packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        print(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
-                        print(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
+                        logger.info(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
+                        logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
                     else:
                         # Duplicate or old packet received, resend ACK
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        print(f"Received duplicate packet with seq_num {seq_num}")
-                        print(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
+                        logger.info(f"Received duplicate packet with seq_num {seq_num}")
+                        logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
             except socket.timeout:
                 # If timeout occurs, continue to the next iteration
                 continue
 
-    print("File received successfully.")
+    logger.info("File received successfully.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
