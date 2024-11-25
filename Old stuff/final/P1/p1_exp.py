@@ -59,7 +59,7 @@ def run(expname):
     OUTFILE = 'received_file.txt'
     delay_list, loss_list = [], []
     if expname == "loss":
-        loss_list = [x*0.5 for x in range (1, 11)]
+        loss_list = [x*0.5 for x in range (1, 2)]
         delay_list = [20]
     elif expname == "delay":
         delay_list = [x for x in range(0, 201, 20)]
@@ -106,6 +106,7 @@ def run(expname):
                     
                     # Write the result to the output CSV file
                     f_out.write(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
+                    print(f"{LOSS},{DELAY},{FAST_RECOVERY},{md5_hash},{ttc}\n")
 
                     # Stop the network
                     net.stop()
