@@ -1,0 +1,84 @@
+import socket
+import json
+import argparse
+import logging
+import os 
+import time
+
+# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# logger = logging.getLogger(__name__)
+
+def receive_file(server_ip, server_port):
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    client_socket.settimeout(2.0)  # Set a timeout for socket operations
+
+    server_address = (server_ip, server_port)
+
+    while True:
+        client_socket.sendto(b"START", server_address)
+        try:
+            # Try to receive data packet from server
+            packet, _ = client_socket.recvfrom(65535)
+            if packet:
+                # We have started receiving data
+                # logger.info("Connection established with server.")
+                # Process the packet
+                break
+        except socket.timeout:
+            continue
+
+    Last_received_seq = -1
+    expected_seq_num = 0  # Initialize expected sequence number
+    buffer = {}  # Buffer to store out-of-order packets
+    file_done = False  # Flag to indicate file transfer completion
+
+    with open("received_file.txt", 'wb') as file:
+        while not file_done:
+            try:
+                if packet == b"END":
+                    file_done = True
+                    # logger.info("Received END from server.")
+                    break
+                else:
+                    packet_data = json.loads(packet.decode('utf-8'))
+                    seq_num = packet_data['seq_num']
+                    data_len = packet_data['data_len']
+                    data = packet_data['data'].encode('latin1')  
+
+                    if seq_num == expected_seq_num:
+                        file.write(data)
+                        Last_received_seq = expected_seq_num
+                        expected_seq_num += data_len
+
+                        while expected_seq_num in buffer:
+                            buffered_data = buffer.pop(expected_seq_num)
+                            file.write(buffered_data)
+                            Last_received_seq = expected_seq_num
+                            expected_seq_num += len(buffered_data)
+                        ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
+                        client_socket.sendto(ack_packet, server_address)
+                        # logger.info(f"Received and acknowledged packet with seq_num {Last_received_seq}")
+                    elif seq_num > expected_seq_num:
+                        buffer[seq_num] = data
+                        ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
+                        client_socket.sendto(ack_packet, server_address)
+                        # logger.info(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
+                        # logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
+                    else:
+                        ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
+                        client_socket.sendto(ack_packet, server_address)
+                        # logger.info(f"Received duplicate packet with seq_num {seq_num}")
+                        # logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
+                packet, _ = client_socket.recvfrom(65535)  
+            except socket.timeout:
+                continue
+
+    # logger.info("File received successfully.")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
+    parser.add_argument('server_ip', help='IP address of the server')
+    parser.add_argument('server_port', type=int, help='Port number of the server')
+    args = parser.parse_args()
+
+    receive_file(args.server_ip, args.server_port)
