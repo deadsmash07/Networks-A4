@@ -5,12 +5,11 @@ import argparse
 import logging
 import time
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# logger = logging.getLogger(__name__)
 
-MSS = 1400  # Maximum Segment Size
-INITIAL_TIMEOUT = 1.0  # Initial timeout in seconds
+MSS = 1400  
+INITIAL_TIMEOUT = 1.0  
 DUP_ACK_THRESHOLD = 3
 
 # RTT calculation parameters
@@ -37,7 +36,7 @@ class ReliableServer:
         self.file_done = False
         
         # Sliding window
-        self.window_size = 10  # Initially set window size to 10
+        self.window_size = 10  
         self.window_base = 0
         self.first_ack = True
 
@@ -63,11 +62,11 @@ class ReliableServer:
             "retransmission_count": 0,
             "packet": packet
         }
-        logger.info(f"Sent packet with seq_num {seq_num}")
+        # logger.info(f"Sent packet with seq_num {seq_num}")
 
     def resend_packet(self, seq_num, client_address):
         if seq_num not in self.packet_map:
-            logger.warning(f"Packet with seq_num {seq_num} not found in packet_map. Cannot resend.")
+            # logger.warning(f"Packet with seq_num {seq_num} not found in packet_map. Cannot resend.")
             return
         
         packet_info = self.packet_map[seq_num]
@@ -75,23 +74,23 @@ class ReliableServer:
         packet_info["sent_time"] = time.time()
         packet_info["retransmission_count"] += 1
         self.packet_map[seq_num] = packet_info
-        logger.info(f"Resent packet with seq_num {seq_num} (retransmission count: {packet_info['retransmission_count']})")
+        # logger.info(f"Resent packet with seq_num {seq_num} (retransmission count: {packet_info['retransmission_count']})")
 
     def receive_ack(self):
         try:
             ack_data, _ = self.server_socket.recvfrom(2*MSS)
             ack_info = json.loads(ack_data.decode('utf-8'))
-            logger.info(f"Received ACK for seq_num {ack_info['ack_num']}")
+            # logger.info(f"Received ACK for seq_num {ack_info['ack_num']}")
             return ack_info["ack_num"]
         except socket.timeout:
             return None
 
     def handle_ack(self, ack_num, client_address):
         if ack_num > self.last_ack:
-            logger.info(f"Received new ACK for seq_num {ack_num}")
+            # logger.info(f"Received new ACK for seq_num {ack_num}")
             self.last_ack = ack_num
             self.dup_ack_count = 0
-            self.window_base = ack_num + MSS  # Adjust as per requirements
+            self.window_base = ack_num + MSS  
 
             for seq in list(self.packet_map):
                 if seq <= ack_num:
@@ -100,16 +99,15 @@ class ReliableServer:
                         sample_rtt = self.packet_map[seq]["ack_time"] - self.packet_map[seq]["sent_time"]
                         if self.packet_map[seq]["retransmission_count"] == 0 and seq == ack_num:
                             self.calculate_timeout(sample_rtt)
-                            # Set window size based on RTT and link speed
                             self.set_window_size(self.estimated_rtt)
                     del self.packet_map[seq]
-                    logger.info(f"Removed packet with seq_num {seq} from packet_map")
+                    # logger.info(f"Removed packet with seq_num {seq} from packet_map")
         else:
             # Handle duplicate ACKs
             self.dup_ack_count += 1
-            logger.info(f"Received duplicate ACK for seq_num {ack_num}")
+            # logger.info(f"Received duplicate ACK for seq_num {ack_num}")
             if self.enable_fast_recovery and self.dup_ack_count >= DUP_ACK_THRESHOLD:
-                logger.info("Fast recovery triggered")
+                # logger.info("Fast recovery triggered")
                 self.resend_packet(ack_num + MSS, client_address)
 
     def set_window_size(self, rtt):
@@ -119,7 +117,7 @@ class ReliableServer:
             link_speed_Bps = link_speed_bps / 8
             window_size_in_bytes = int(rtt * link_speed_Bps)
             self.window_size = max(1, window_size_in_bytes // MSS)
-            logger.info(f"Window size set to {self.window_size} segments.")
+            # logger.info(f"Window size set to {self.window_size} segments.")
             self.first_ack = False
 
     def run(self, file_path, client_address):
@@ -131,7 +129,7 @@ class ReliableServer:
                         chunk = file.read(MSS)
                         if not chunk:
                             self.file_done = True
-                            logger.info("File read complete.")
+                            # logger.info("File read complete.")
                             break
                         self.send_packet(seq_num, chunk, client_address)
                         seq_num += len(chunk)
@@ -145,19 +143,18 @@ class ReliableServer:
 
                 for seq in list(self.packet_map):
                     if time.time() - self.packet_map[seq]["sent_time"] > self.timeout_interval:
-                        logger.warning(f"Timeout occurred for seq_num {seq}")
+                        # logger.warning(f"Timeout occurred for seq_num {seq}")
                         self.resend_packet(seq, client_address)
                 
                 if self.file_done and not self.packet_map:
                     break
 
-        # Send multiple END messages at intervals
         for _ in range(5):
             self.server_socket.sendto(b"END", client_address)
-            logger.info("Sent END to client.")
+            # logger.info("Sent END to client.")
             time.sleep(0.1)
 
-        logger.info("File transfer complete. Closing connection.")
+        # logger.info("File transfer complete. Closing connection.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -167,12 +164,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     server = ReliableServer(args.server_ip, args.server_port, args.enable_fast_recovery)
-    logger.info("Server is ready to receive.")
+    # logger.info("Server is ready to receive.")
 
     while True:
         data, client_address = server.server_socket.recvfrom(1024)
         if data == b"START":
-            logger.info(f"Received START from {client_address}")
+            # logger.info(f"Received START from {client_address}")
             server.server_socket.settimeout(1.0)
             server.run("example.txt", client_address)
             break

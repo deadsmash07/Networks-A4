@@ -5,31 +5,26 @@ import logging
 import os 
 import time
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# logger = logging.getLogger(__name__)
 
 def receive_file(server_ip, server_port):
-    # Create a UDP socket
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     client_socket.settimeout(2.0)  # Set a timeout for socket operations
 
     server_address = (server_ip, server_port)
 
-    # Initialize connection
     while True:
-        # Send "START" message to initiate the connection
         client_socket.sendto(b"START", server_address)
         try:
             # Try to receive data packet from server
             packet, _ = client_socket.recvfrom(65535)
             if packet:
                 # We have started receiving data
-                logger.info("Connection established with server.")
+                # logger.info("Connection established with server.")
                 # Process the packet
                 break
         except socket.timeout:
-            # If timeout occurs, resend "START"
             continue
 
     Last_received_seq = -1
@@ -40,55 +35,45 @@ def receive_file(server_ip, server_port):
     with open("received_file.txt", 'wb') as file:
         while not file_done:
             try:
-                # Process the received packet
                 if packet == b"END":
                     file_done = True
-                    logger.info("Received END from server.")
+                    # logger.info("Received END from server.")
                     break
                 else:
-                    # Decode the JSON packet
                     packet_data = json.loads(packet.decode('utf-8'))
                     seq_num = packet_data['seq_num']
                     data_len = packet_data['data_len']
-                    data = packet_data['data'].encode('latin1')  # Re-encode data to bytes
+                    data = packet_data['data'].encode('latin1')  
 
                     if seq_num == expected_seq_num:
-                        # Write data to file
                         file.write(data)
                         Last_received_seq = expected_seq_num
                         expected_seq_num += data_len
 
-                        # Check for any buffered packets that can now be written
                         while expected_seq_num in buffer:
                             buffered_data = buffer.pop(expected_seq_num)
                             file.write(buffered_data)
                             Last_received_seq = expected_seq_num
                             expected_seq_num += len(buffered_data)
-                        # Send ACK for the last received packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        logger.info(f"Received and acknowledged packet with seq_num {Last_received_seq}")
+                        # logger.info(f"Received and acknowledged packet with seq_num {Last_received_seq}")
                     elif seq_num > expected_seq_num:
-                        # Out-of-order packet received, buffer it
                         buffer[seq_num] = data
-                        # Send ACK for the last in-order packet
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        logger.info(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
-                        logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
+                        # logger.info(f"Received out-of-order packet with seq_num {seq_num}, expected {expected_seq_num}")
+                        # logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
                     else:
-                        # Duplicate or old packet received, resend ACK
                         ack_packet = json.dumps({'ack_num': Last_received_seq}).encode('utf-8')
                         client_socket.sendto(ack_packet, server_address)
-                        logger.info(f"Received duplicate packet with seq_num {seq_num}")
-                        logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
-                # Receive next packet
-                packet, _ = client_socket.recvfrom(65535)  # Max UDP packet size
+                        # logger.info(f"Received duplicate packet with seq_num {seq_num}")
+                        # logger.info(f"Sent ACK for last received packet with seq_num {Last_received_seq}")
+                packet, _ = client_socket.recvfrom(65535)  
             except socket.timeout:
-                # If timeout occurs, continue to the next iteration
                 continue
 
-    logger.info("File received successfully.")
+    # logger.info("File received successfully.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Reliable file receiver over UDP.')
